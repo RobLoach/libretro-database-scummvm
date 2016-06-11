@@ -18,27 +18,15 @@ game (
 )
 
 game (
-	name "Aesop's Fables The Tortoise and the Hare"
-	description "Aesop's Fables The Tortoise and the Hare"
-	rom ( name "Aesop's Fables The Tortoise and the Hare.scummvm" size 8 crc 67f73ed2 )
+	name Access
+	description "Access"
+	rom ( name Access.scummvm size 6 crc 01c52e62 )
 )
 
 game (
 	name "Amazon Guardians of Eden"
 	description "Amazon Guardians of Eden"
-	rom ( name "Amazon Guardians of Eden.scummvm" size 6 crc 06692b54 )
-)
-
-game (
-	name "Arthur's Birthday"
-	description "Arthur's Birthday"
-	rom ( name "Arthur's Birthday.scummvm" size 10 crc c08a9154 )
-)
-
-game (
-	name "Arthur's Teacher Trouble"
-	description "Arthur's Teacher Trouble"
-	rom ( name "Arthur's Teacher Trouble.scummvm" size 6 crc bfa2fe03 )
+	rom ( name "Amazon Guardians of Eden.scummvm" size 6 crc 815b8877 )
 )
 
 game (
@@ -56,7 +44,13 @@ game (
 game (
 	name "Backyard Baseball 2003"
 	description "Backyard Baseball 2003"
-	rom ( name "Backyard Baseball 2003.scummvm" size 12 crc a748b0d5 )
+	rom ( name "Backyard Baseball 2003.scummvm" size 12 crc bf796b2d )
+)
+
+game (
+	name "Backyard Basketball"
+	description "Backyard Basketball"
+	rom ( name "Backyard Basketball.scummvm" size 10 crc d7f3e811 )
 )
 
 game (
@@ -72,9 +66,21 @@ game (
 )
 
 game (
-	name "Bargon Attack"
-	description "Bargon Attack"
-	rom ( name "Bargon Attack.scummvm" size 6 crc 946ddf8a )
+	name "Backyard Soccer"
+	description "Backyard Soccer"
+	rom ( name "Backyard Soccer.scummvm" size 6 crc e2959c36 )
+)
+
+game (
+	name "Backyard Soccer 2004"
+	description "Backyard Soccer 2004"
+	rom ( name "Backyard Soccer 2004.scummvm" size 10 crc 8dd9d0d2 )
+)
+
+game (
+	name "Backyard Soccer MLS Edition"
+	description "Backyard Soccer MLS Edition"
+	rom ( name "Backyard Soccer MLS Edition.scummvm" size 9 crc d62b7e78 )
 )
 
 game (
@@ -105,12 +111,6 @@ game (
 	name "Big Thinkers Kindergarten"
 	description "Big Thinkers Kindergarten"
 	rom ( name "Big Thinkers Kindergarten.scummvm" size 8 crc 99ca0f52 )
-)
-
-game (
-	name "Blue Force"
-	description "Blue Force"
-	rom ( name "Blue Force.scummvm" size 9 crc a4fb1d28 )
 )
 
 game (
@@ -150,9 +150,9 @@ game (
 )
 
 game (
-	name "Broken Sword 2.5 The Return of the Templars"
-	description "Broken Sword 2.5 The Return of the Templars"
-	rom ( name "Broken Sword 2.5 The Return of the Templars.scummvm" size 7 crc 78825394 )
+	name "Broken Sword 2.5"
+	description "Broken Sword 2.5"
+	rom ( name "Broken Sword 2.5.scummvm" size 7 crc 78825394 )
 )
 
 game (
@@ -162,9 +162,63 @@ game (
 )
 
 game (
+	name "Broken Sword II The Smoking Mirror (alt)"
+	description "Broken Sword II The Smoking Mirror (alt)"
+	rom ( name "Broken Sword II The Smoking Mirror (alt).scummvm" size 9 crc 530332cf )
+)
+
+game (
+	name "Broken Sword II The Smoking Mirror (Demo)"
+	description "Broken Sword II The Smoking Mirror (Demo)"
+	rom ( name "Broken Sword II The Smoking Mirror (Demo).scummvm" size 10 crc a7882df2 )
+)
+
+game (
+	name "Broken Sword II The Smoking Mirror (PlayStation - Demo)"
+	description "Broken Sword II The Smoking Mirror (PlayStation - Demo)"
+	rom ( name "Broken Sword II The Smoking Mirror (PlayStation - Demo).scummvm" size 13 crc f01589b6 )
+)
+
+game (
+	name "Broken Sword II The Smoking Mirror (PlayStation)"
+	description "Broken Sword II The Smoking Mirror (PlayStation)"
+	rom ( name "Broken Sword II The Smoking Mirror (PlayStation).scummvm" size 9 crc 8a0bb93d )
+)
+
+game (
 	name "Broken Sword The Shadow of the Templars"
 	description "Broken Sword The Shadow of the Templars"
 	rom ( name "Broken Sword The Shadow of the Templars.scummvm" size 6 crc 13f917e1 )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars (Demo)"
+	description "Broken Sword The Shadow of the Templars (Demo)"
+	rom ( name "Broken Sword The Shadow of the Templars (Demo).scummvm" size 10 crc e0285722 )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars (Mac demo)"
+	description "Broken Sword The Shadow of the Templars (Mac demo)"
+	rom ( name "Broken Sword The Shadow of the Templars (Mac demo).scummvm" size 13 crc 21bd7658 )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars (Mac)"
+	description "Broken Sword The Shadow of the Templars (Mac)"
+	rom ( name "Broken Sword The Shadow of the Templars (Mac).scummvm" size 9 crc 7ed19fcf )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars (PlayStation demo)"
+	description "Broken Sword The Shadow of the Templars (PlayStation demo)"
+	rom ( name "Broken Sword The Shadow of the Templars (PlayStation demo).scummvm" size 13 crc 7e9a8e55 )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars (PlayStation)"
+	description "Broken Sword The Shadow of the Templars (PlayStation)"
+	rom ( name "Broken Sword The Shadow of the Templars (PlayStation).scummvm" size 9 crc 98be16d3 )
 )
 
 game (
@@ -174,45 +228,21 @@ game (
 )
 
 game (
-	name "Castle of Dr. Brain (EGA and VGA)"
-	description "Castle of Dr. Brain (EGA and VGA)"
-	rom ( name "Castle of Dr. Brain (EGA and VGA).scummvm" size 11 crc 1c6b8705 )
+	name "Cinematique evo.1 engine game"
+	description "Cinematique evo.1 engine game"
+	rom ( name "Cinematique evo.1 engine game.scummvm" size 4 crc 8977a4a0 )
 )
 
 game (
-	name "Chivalry is Not Dead"
-	description "Chivalry is Not Dead"
-	rom ( name "Chivalry is Not Dead.scummvm" size 8 crc 2cf14180 )
+	name "Cinematique evo.2 engine game"
+	description "Cinematique evo.2 engine game"
+	rom ( name "Cinematique evo.2 engine game.scummvm" size 6 crc 9e9d701b )
 )
 
 game (
-	name "Codename ICEMAN"
-	description "Codename ICEMAN"
-	rom ( name "Codename ICEMAN.scummvm" size 6 crc dab0bb57 )
-)
-
-game (
-	name "Conquests of Camelot"
-	description "Conquests of Camelot"
-	rom ( name "Conquests of Camelot.scummvm" size 7 crc 7d00113d )
-)
-
-game (
-	name "Conquests of the Longbow (EGA and VGA)"
-	description "Conquests of the Longbow (EGA and VGA)"
-	rom ( name "Conquests of the Longbow (EGA and VGA).scummvm" size 7 crc cf7cce4f )
-)
-
-game (
-	name "Cruise for a Corpse"
-	description "Cruise for a Corpse"
-	rom ( name "Cruise for a Corpse.scummvm" size 6 crc 9e9d701b )
-)
-
-game (
-	name "Darby the Dragon"
-	description "Darby the Dragon"
-	rom ( name "Darby the Dragon.scummvm" size 5 crc 006dca75 )
+	name "Composer Game"
+	description "Composer Game"
+	rom ( name "Composer Game.scummvm" size 8 crc 987306d8 )
 )
 
 game (
@@ -222,27 +252,21 @@ game (
 )
 
 game (
-	name Discworld
-	description "Discworld"
-	rom ( name Discworld.scummvm size 2 crc 8e2958c3 )
+	name "Demon in my Pocket"
+	description "Demon in my Pocket"
+	rom ( name "Demon in my Pocket.scummvm" size 4 crc 52502b31 )
 )
 
 game (
-	name "Discworld II - Missing presumed...!"
-	description "Discworld II - Missing presumed...!"
-	rom ( name "Discworld II - Missing presumed...!.scummvm" size 3 crc 1836045f )
+	name "Draci Historie"
+	description "Draci Historie"
+	rom ( name "Draci Historie.scummvm" size 5 crc 580d0e08 )
 )
 
 game (
-	name "Dr. Seuss's ABC"
-	description "Dr. Seuss's ABC"
-	rom ( name "Dr. Seuss's ABC.scummvm" size 8 crc c801bb97 )
-)
-
-game (
-	name "Dragon History"
-	description "Dragon History"
-	rom ( name "Dragon History.scummvm" size 5 crc 580d0e08 )
+	name Dragonsphere
+	description "Dragonsphere"
+	rom ( name Dragonsphere.scummvm size 12 crc c691bb82 )
 )
 
 game (
@@ -255,18 +279,6 @@ game (
 	name DreamWeb
 	description "DreamWeb"
 	rom ( name DreamWeb.scummvm size 8 crc 95dbbea3 )
-)
-
-game (
-	name "EcoQuest 2 Lost Secret of the Rainforest"
-	description "EcoQuest 2 Lost Secret of the Rainforest"
-	rom ( name "EcoQuest 2 Lost Secret of the Rainforest.scummvm" size 9 crc fbe0c680 )
-)
-
-game (
-	name "EcoQuest The Search for Cetus"
-	description "EcoQuest The Search for Cetus"
-	rom ( name "EcoQuest The Search for Cetus.scummvm" size 8 crc 3be0954b )
 )
 
 game (
@@ -291,18 +303,6 @@ game (
 	name "Eye of the Beholder II The Legend of Darkmoon"
 	description "Eye of the Beholder II The Legend of Darkmoon"
 	rom ( name "Eye of the Beholder II The Legend of Darkmoon.scummvm" size 4 crc f12b0c95 )
-)
-
-game (
-	name "Fanmade Games"
-	description "Fanmade Games"
-	rom ( name "Fanmade Games.scummvm" size 11 crc ea897ed4 )
-)
-
-game (
-	name Fascination
-	description "Fascination"
-	rom ( name Fascination.scummvm size 11 crc 193f1f23 )
 )
 
 game (
@@ -366,9 +366,9 @@ game (
 )
 
 game (
-	name "Freddy Pharkas Frontier Pharmacist"
-	description "Freddy Pharkas Frontier Pharmacist"
-	rom ( name "Freddy Pharkas Frontier Pharmacist.scummvm" size 13 crc becfad5e )
+	name "Freddi Fish's One-Stop Fun Shop"
+	description "Freddi Fish's One-Stop Fun Shop"
+	rom ( name "Freddi Fish's One-Stop Fun Shop.scummvm" size 14 crc 9faddef6 )
 )
 
 game (
@@ -378,57 +378,15 @@ game (
 )
 
 game (
-	name "Future Wars"
-	description "Future Wars"
-	rom ( name "Future Wars.scummvm" size 2 crc bc1f3a41 )
+	name "Gob engine game"
+	description "Gob engine game"
+	rom ( name "Gob engine game.scummvm" size 3 crc f30073ab )
 )
 
 game (
-	name Geisha
-	description "Geisha"
-	rom ( name Geisha.scummvm size 6 crc 72e9b89d )
-)
-
-game (
-	name Gobliiins
-	description "Gobliiins"
-	rom ( name Gobliiins.scummvm size 4 crc c22b95a4 )
-)
-
-game (
-	name "Gobliins 2"
-	description "Gobliins 2"
-	rom ( name "Gobliins 2.scummvm" size 4 crc 5b22c41e )
-)
-
-game (
-	name "Goblins 3"
-	description "Goblins 3"
-	rom ( name "Goblins 3.scummvm" size 4 crc 2c25f488 )
-)
-
-game (
-	name "Gold Rush!"
-	description "Gold Rush!"
-	rom ( name "Gold Rush!.scummvm" size 8 crc 05015598 )
-)
-
-game (
-	name "Green Eggs and Ham"
-	description "Green Eggs and Ham"
-	rom ( name "Green Eggs and Ham.scummvm" size 9 crc 351b5ddb )
-)
-
-game (
-	name "Gregory and the Hot Air Balloon"
-	description "Gregory and the Hot Air Balloon"
-	rom ( name "Gregory and the Hot Air Balloon.scummvm" size 7 crc 15ef68a9 )
-)
-
-game (
-	name "Harry and the Haunted House"
-	description "Harry and the Haunted House"
-	rom ( name "Harry and the Haunted House.scummvm" size 7 crc 11d481a1 )
+	name "Groovie engine game"
+	description "Groovie engine game"
+	rom ( name "Groovie engine game.scummvm" size 7 crc 342b57cd )
 )
 
 game (
@@ -438,27 +396,9 @@ game (
 )
 
 game (
-	name "Hoyle Classic Card Games"
-	description "Hoyle Classic Card Games"
-	rom ( name "Hoyle Classic Card Games.scummvm" size 6 crc 20c37a0d )
-)
-
-game (
-	name "Hoyle's Book of Games 1"
-	description "Hoyle's Book of Games 1"
-	rom ( name "Hoyle's Book of Games 1.scummvm" size 6 crc 50a98e82 )
-)
-
-game (
-	name "Hoyle's Book of Games 2"
-	description "Hoyle's Book of Games 2"
-	rom ( name "Hoyle's Book of Games 2.scummvm" size 6 crc c9a0df38 )
-)
-
-game (
-	name "Hoyle's Book of Games 3 (EGA and VGA)"
-	description "Hoyle's Book of Games 3 (EGA and VGA)"
-	rom ( name "Hoyle's Book of Games 3 (EGA and VGA).scummvm" size 6 crc bea7efae )
+	name "Hugo 1 Hugo's House of Horrors"
+	description "Hugo 1 Hugo's House of Horrors"
+	rom ( name "Hugo 1 Hugo's House of Horrors.scummvm" size 5 crc cda231c8 )
 )
 
 game (
@@ -474,15 +414,9 @@ game (
 )
 
 game (
-	name "Hugo's House of Horrors"
-	description "Hugo's House of Horrors"
-	rom ( name "Hugo's House of Horrors.scummvm" size 5 crc cda231c8 )
-)
-
-game (
-	name "I Have No Mouth, and I Must Scream"
-	description "I Have No Mouth, and I Must Scream"
-	rom ( name "I Have No Mouth, and I Must Scream.scummvm" size 4 crc e9d3a6c1 )
+	name "Humongous Interactive Catalog"
+	description "Humongous Interactive Catalog"
+	rom ( name "Humongous Interactive Catalog.scummvm" size 7 crc 1b2c3247 )
 )
 
 game (
@@ -498,129 +432,33 @@ game (
 )
 
 game (
-	name "Inherit the Earth Quest for the Orb"
-	description "Inherit the Earth Quest for the Orb"
-	rom ( name "Inherit the Earth Quest for the Orb.scummvm" size 3 crc cecc0098 )
+	name "Indiana Jones and the Last Crusade & Loom"
+	description "Indiana Jones and the Last Crusade & Loom"
+	rom ( name "Indiana Jones and the Last Crusade & Loom.scummvm" size 8 crc f5b53298 )
 )
 
 game (
-	name "Jones in the Fast Lane"
-	description "Jones in the Fast Lane"
-	rom ( name "Jones in the Fast Lane.scummvm" size 5 crc e52a26ea )
+	name "Indiana Jones and the Last Crusade & Zak McKracken"
+	description "Indiana Jones and the Last Crusade & Zak McKracken"
+	rom ( name "Indiana Jones and the Last Crusade & Zak McKracken.scummvm" size 7 crc 34d98949 )
 )
 
 game (
-	name "Just Grandma and Me"
-	description "Just Grandma and Me"
-	rom ( name "Just Grandma and Me.scummvm" size 7 crc 4f04f8ca )
+	name Jumble
+	description "Jumble"
+	rom ( name Jumble.scummvm size 6 crc 5f1063cc )
 )
 
 game (
-	name "King's Quest I"
-	description "King's Quest I"
-	rom ( name "King's Quest I.scummvm" size 3 crc dc39b55e )
-)
-
-game (
-	name "King's Quest I (SCI remake)"
-	description "King's Quest I (SCI remake)"
-	rom ( name "King's Quest I (SCI remake).scummvm" size 6 crc 73dd3f10 )
-)
-
-game (
-	name "King's Quest II"
-	description "King's Quest II"
-	rom ( name "King's Quest II.scummvm" size 3 crc 4530e4e4 )
-)
-
-game (
-	name "King's Quest III"
-	description "King's Quest III"
-	rom ( name "King's Quest III.scummvm" size 3 crc 3237d472 )
-)
-
-game (
-	name "King's Quest IV"
-	description "King's Quest IV"
-	rom ( name "King's Quest IV.scummvm" size 3 crc ac5341d1 )
-)
-
-game (
-	name "King's Quest IV (SCI version)"
-	description "King's Quest IV (SCI version)"
-	rom ( name "King's Quest IV (SCI version).scummvm" size 6 crc 4403cf22 )
-)
-
-game (
-	name "King's Quest V (EGA and VGA)"
-	description "King's Quest V (EGA and VGA)"
-	rom ( name "King's Quest V (EGA and VGA).scummvm" size 3 crc db547147 )
-)
-
-game (
-	name "King's Quest VI (low and hi res)"
-	description "King's Quest VI (low and hi res)"
-	rom ( name "King's Quest VI (low and hi res).scummvm" size 3 crc 425d20fd )
+	name "Labyrinth of Time"
+	description "Labyrinth of Time"
+	rom ( name "Labyrinth of Time.scummvm" size 3 crc 61d6b1c4 )
 )
 
 game (
 	name "Lands of Lore The Throne of Chaos"
 	description "Lands of Lore The Throne of Chaos"
 	rom ( name "Lands of Lore The Throne of Chaos.scummvm" size 3 crc 18edb14d )
-)
-
-game (
-	name "Laura Bow 2 The Dagger of Amon Ra"
-	description "Laura Bow 2 The Dagger of Amon Ra"
-	rom ( name "Laura Bow 2 The Dagger of Amon Ra.scummvm" size 9 crc 66fac6a4 )
-)
-
-game (
-	name "Laura Bow The Colonel's Bequest"
-	description "Laura Bow The Colonel's Bequest"
-	rom ( name "Laura Bow The Colonel's Bequest.scummvm" size 8 crc f3971ece )
-)
-
-game (
-	name "Leather Goddesses of Phobos 2"
-	description "Leather Goddesses of Phobos 2"
-	rom ( name "Leather Goddesses of Phobos 2.scummvm" size 5 crc 98720680 )
-)
-
-game (
-	name "Leisure Suit Larry 1 (SCI remake) (EGA and VGA)"
-	description "Leisure Suit Larry 1 (SCI remake) (EGA and VGA)"
-	rom ( name "Leisure Suit Larry 1 (SCI remake) (EGA and VGA).scummvm" size 7 crc 6490b499 )
-)
-
-game (
-	name "Leisure Suit Larry 2"
-	description "Leisure Suit Larry 2"
-	rom ( name "Leisure Suit Larry 2.scummvm" size 4 crc 079c3485 )
-)
-
-game (
-	name "Leisure Suit Larry 3"
-	description "Leisure Suit Larry 3"
-	rom ( name "Leisure Suit Larry 3.scummvm" size 4 crc 709b0413 )
-)
-
-game (
-	name "Leisure Suit Larry 5 (EGA and VGA)"
-	description "Leisure Suit Larry 5 (EGA and VGA)"
-	rom ( name "Leisure Suit Larry 5 (EGA and VGA).scummvm" size 4 crc 99f8a126 )
-)
-
-game (
-	name "Leisure Suit Larry 6 (low res)"
-	description "Leisure Suit Larry 6 (low res)"
-	rom ( name "Leisure Suit Larry 6 (low res).scummvm" size 4 crc 00f1f09c )
-)
-
-game (
-	name "Leisure Suit Larry in the Land of the Lounge Lizards"
-	description "Leisure Suit Larry in the Land of the Lounge Lizards"
-	rom ( name "Leisure Suit Larry in the Land of the Lounge Lizards.scummvm" size 4 crc 9e95653f )
 )
 
 game (
@@ -642,21 +480,9 @@ game (
 )
 
 game (
-	name "Little Monster at School"
-	description "Little Monster at School"
-	rom ( name "Little Monster at School.scummvm" size 10 crc e6e71709 )
-)
-
-game (
 	name Loom
 	description "Loom"
 	rom ( name Loom.scummvm size 4 crc c2597137 )
-)
-
-game (
-	name "Lost in Time"
-	description "Lost in Time"
-	rom ( name "Lost in Time.scummvm" size 10 crc d65a7051 )
 )
 
 game (
@@ -666,21 +492,15 @@ game (
 )
 
 game (
-	name "Magic Tales Liam Finds a Story"
-	description "Magic Tales Liam Finds a Story"
-	rom ( name "Magic Tales Liam Finds a Story.scummvm" size 4 crc 5857200b )
+	name "MADE engine game"
+	description "MADE engine game"
+	rom ( name "MADE engine game.scummvm" size 4 crc 9d546aa1 )
 )
 
 game (
-	name "Manhunter 1 New York"
-	description "Manhunter 1 New York"
-	rom ( name "Manhunter 1 New York.scummvm" size 3 crc 43b460f4 )
-)
-
-game (
-	name "Manhunter 2 San Francisco"
-	description "Manhunter 2 San Francisco"
-	rom ( name "Manhunter 2 San Francisco.scummvm" size 3 crc dabd314e )
+	name MADS
+	description "MADS"
+	rom ( name MADS.scummvm size 4 crc 5f153244 )
 )
 
 game (
@@ -690,33 +510,27 @@ game (
 )
 
 game (
-	name "Mickey's Space Adventure"
-	description "Mickey's Space Adventure"
-	rom ( name "Mickey's Space Adventure.scummvm" size 6 crc cdc8824d )
+	name "Martian Memorandum"
+	description "Martian Memorandum"
+	rom ( name "Martian Memorandum.scummvm" size 7 crc 42004cd6 )
 )
 
 game (
-	name "Mixed-up Fairy Tales"
-	description "Mixed-up Fairy Tales"
-	rom ( name "Mixed-up Fairy Tales.scummvm" size 10 crc f396f474 )
-)
-
-game (
-	name "Mixed-up Mother Goose"
-	description "Mixed-up Mother Goose"
-	rom ( name "Mixed-up Mother Goose.scummvm" size 11 crc d318ac86 )
-)
-
-game (
-	name "Mixed-Up Mother Goose (AGI)"
-	description "Mixed-Up Mother Goose (AGI)"
-	rom ( name "Mixed-Up Mother Goose (AGI).scummvm" size 7 crc d03f9f85 )
+	name "Mohawk Game"
+	description "Mohawk Game"
+	rom ( name "Mohawk Game.scummvm" size 6 crc 135374a1 )
 )
 
 game (
 	name "Monkey Island 2 LeChuck's Revenge"
 	description "Monkey Island 2 LeChuck's Revenge"
 	rom ( name "Monkey Island 2 LeChuck's Revenge.scummvm" size 7 crc 3cbc6c0e )
+)
+
+game (
+	name "Moonbase Commander"
+	description "Moonbase Commander"
+	rom ( name "Moonbase Commander.scummvm" size 8 crc 6d6203d1 )
 )
 
 game (
@@ -732,9 +546,9 @@ game (
 )
 
 game (
-	name "Once Upon A Time Little Red Riding Hood"
-	description "Once Upon A Time Little Red Riding Hood"
-	rom ( name "Once Upon A Time Little Red Riding Hood.scummvm" size 9 crc 4e747d81 )
+	name NoPatience
+	description "NoPatience"
+	rom ( name NoPatience.scummvm size 6 crc 22a6dfdf )
 )
 
 game (
@@ -768,9 +582,21 @@ game (
 )
 
 game (
+	name "Pajama Sam's One-Stop Fun Shop"
+	description "Pajama Sam's One-Stop Fun Shop"
+	rom ( name "Pajama Sam's One-Stop Fun Shop.scummvm" size 11 crc 4c27bc9a )
+)
+
+game (
 	name "Pajama Sam's Sock Works"
 	description "Pajama Sam's Sock Works"
 	rom ( name "Pajama Sam's Sock Works.scummvm" size 5 crc 1e816dc4 )
+)
+
+game (
+	name "Parallaction engine game"
+	description "Parallaction engine game"
+	rom ( name "Parallaction engine game.scummvm" size 12 crc 4a3d7075 )
 )
 
 game (
@@ -780,45 +606,9 @@ game (
 )
 
 game (
-	name "Pepper's Adventures in Time"
-	description "Pepper's Adventures in Time"
-	rom ( name "Pepper's Adventures in Time.scummvm" size 6 crc 727d1361 )
-)
-
-game (
 	name "Personal Nightmare"
 	description "Personal Nightmare"
 	rom ( name "Personal Nightmare.scummvm" size 2 crc c4ec2756 )
-)
-
-game (
-	name "Playtoons Bambou le Sauveur de la Jungle"
-	description "Playtoons Bambou le Sauveur de la Jungle"
-	rom ( name "Playtoons Bambou le Sauveur de la Jungle.scummvm" size 6 crc 10b99344 )
-)
-
-game (
-	name "Police Quest 1 (SCI remake)"
-	description "Police Quest 1 (SCI remake)"
-	rom ( name "Police Quest 1 (SCI remake).scummvm" size 6 crc 1acccd48 )
-)
-
-game (
-	name "Police Quest 2"
-	description "Police Quest 2"
-	rom ( name "Police Quest 2.scummvm" size 3 crc 5543a875 )
-)
-
-game (
-	name "Police Quest 3 (EGA and VGA)"
-	description "Police Quest 3 (EGA and VGA)"
-	rom ( name "Police Quest 3 (EGA and VGA).scummvm" size 3 crc 224498e3 )
-)
-
-game (
-	name "Police Quest I In Pursuit of the Death Angel"
-	description "Police Quest I In Pursuit of the Death Angel"
-	rom ( name "Police Quest I In Pursuit of the Death Angel.scummvm" size 3 crc cc4af9cf )
 )
 
 game (
@@ -882,39 +672,15 @@ game (
 )
 
 game (
-	name "Quest for Glory 1 - Hero's Quest"
-	description "Quest for Glory 1 - Hero's Quest"
-	rom ( name "Quest for Glory 1 - Hero's Quest.scummvm" size 4 crc c5ff522d )
+	name "Putt-Putt's One-Stop Fun Shop"
+	description "Putt-Putt's One-Stop Fun Shop"
+	rom ( name "Putt-Putt's One-Stop Fun Shop.scummvm" size 12 crc cfc36a07 )
 )
 
 game (
-	name "Quest for Glory 1 VGA remake"
-	description "Quest for Glory 1 VGA remake"
-	rom ( name "Quest for Glory 1 VGA remake.scummvm" size 7 crc 2a2e6473 )
-)
-
-game (
-	name "Quest for Glory 2"
-	description "Quest for Glory 2"
-	rom ( name "Quest for Glory 2.scummvm" size 4 crc 5cf60397 )
-)
-
-game (
-	name "Quest for Glory 3"
-	description "Quest for Glory 3"
-	rom ( name "Quest for Glory 3.scummvm" size 4 crc 2bf13301 )
-)
-
-game (
-	name "Return to Ringworld"
-	description "Return to Ringworld"
-	rom ( name "Return to Ringworld.scummvm" size 10 crc 2e7eb25b )
-)
-
-game (
-	name "Return to Zork"
-	description "Return to Zork"
-	rom ( name "Return to Zork.scummvm" size 3 crc 53b741fc )
+	name "Return of the Phantom"
+	description "Return of the Phantom"
+	rom ( name "Return of the Phantom.scummvm" size 7 crc 6896f6ae )
 )
 
 game (
@@ -924,21 +690,9 @@ game (
 )
 
 game (
-	name "Ringworld Revenge Of The Patriarch"
-	description "Ringworld Revenge Of The Patriarch"
-	rom ( name "Ringworld Revenge Of The Patriarch.scummvm" size 9 crc c5d5aa69 )
-)
-
-game (
-	name "Rodney's Funscreen"
-	description "Rodney's Funscreen"
-	rom ( name "Rodney's Funscreen.scummvm" size 6 crc 2b143df1 )
-)
-
-game (
-	name "Ruff's Bone"
-	description "Ruff's Bone"
-	rom ( name "Ruff's Bone.scummvm" size 4 crc 253e15fc )
+	name "SAGA Engine game"
+	description "SAGA Engine game"
+	rom ( name "SAGA Engine game.scummvm" size 4 crc 01d2ddd7 )
 )
 
 game (
@@ -954,9 +708,15 @@ game (
 )
 
 game (
-	name "Sheila Rae, the Brave"
-	description "Sheila Rae, the Brave"
-	rom ( name "Sheila Rae, the Brave.scummvm" size 6 crc 2d3560bb )
+	name "Sierra AGI game"
+	description "Sierra AGI game"
+	rom ( name "Sierra AGI game.scummvm" size 3 crc a8865c99 )
+)
+
+game (
+	name "Sierra SCI Game"
+	description "Sierra SCI Game"
+	rom ( name "Sierra SCI Game.scummvm" size 3 crc d348ee83 )
 )
 
 game (
@@ -972,81 +732,9 @@ game (
 )
 
 game (
-	name "Simon the Sorcerer's Puzzle Pack - D.I.M.P."
-	description "Simon the Sorcerer's Puzzle Pack - D.I.M.P."
-	rom ( name "Simon the Sorcerer's Puzzle Pack - D.I.M.P..scummvm" size 4 crc 52502b31 )
-)
-
-game (
-	name "Simon the Sorcerer's Puzzle Pack - Jumble"
-	description "Simon the Sorcerer's Puzzle Pack - Jumble"
-	rom ( name "Simon the Sorcerer's Puzzle Pack - Jumble.scummvm" size 6 crc 5f1063cc )
-)
-
-game (
-	name "Simon the Sorcerer's Puzzle Pack - NoPatience"
-	description "Simon the Sorcerer's Puzzle Pack - NoPatience"
-	rom ( name "Simon the Sorcerer's Puzzle Pack - NoPatience.scummvm" size 6 crc 22a6dfdf )
-)
-
-game (
-	name "Simon the Sorcerer's Puzzle Pack - Swampy Adventures"
-	description "Simon the Sorcerer's Puzzle Pack - Swampy Adventures"
-	rom ( name "Simon the Sorcerer's Puzzle Pack - Swampy Adventures.scummvm" size 6 crc b2f59a68 )
-)
-
-game (
-	name "Slater & Charlie Go Camping"
-	description "Slater & Charlie Go Camping"
-	rom ( name "Slater & Charlie Go Camping.scummvm" size 6 crc 16559b98 )
-)
-
-game (
-	name "Sleeping Cub's Test of Courage"
-	description "Sleeping Cub's Test of Courage"
-	rom ( name "Sleeping Cub's Test of Courage.scummvm" size 11 crc b1667b45 )
-)
-
-game (
 	name Soltys
 	description "Soltys"
 	rom ( name Soltys.scummvm size 6 crc 32ef545e )
-)
-
-game (
-	name "Space Quest I (SCI remake) (EGA and VGA)"
-	description "Space Quest I (SCI remake) (EGA and VGA)"
-	rom ( name "Space Quest I (SCI remake) (EGA and VGA).scummvm" size 6 crc 9c58bfe6 )
-)
-
-game (
-	name "Space Quest I The Sarien Encounter"
-	description "Space Quest I The Sarien Encounter"
-	rom ( name "Space Quest I The Sarien Encounter.scummvm" size 3 crc ce0c4796 )
-)
-
-game (
-	name "Space Quest II Vohaul's Revenge"
-	description "Space Quest II Vohaul's Revenge"
-	rom ( name "Space Quest II Vohaul's Revenge.scummvm" size 3 crc 5705162c )
-)
-
-game (
-	name "Space Quest III"
-	description "Space Quest III"
-	rom ( name "Space Quest III.scummvm" size 3 crc 200226ba )
-)
-
-game (
-	name "Space Quest IV (EGA and VGA)"
-	description "Space Quest IV (EGA and VGA)"
-	rom ( name "Space Quest IV (EGA and VGA).scummvm" size 3 crc be66b319 )
-)
-
-game (
-	name "Space Quest V"
-	description "Space Quest V"
-	rom ( name "Space Quest V.scummvm" size 3 crc c961838f )
 )
 
 game (
@@ -1080,45 +768,33 @@ game (
 )
 
 game (
-	name Stellaluna
-	description "Stellaluna"
-	rom ( name Stellaluna.scummvm size 10 crc bec32841 )
+	name "Swampy Adventures"
+	description "Swampy Adventures"
+	rom ( name "Swampy Adventures.scummvm" size 6 crc b2f59a68 )
 )
 
 game (
-	name TeenAgent
-	description "TeenAgent"
-	rom ( name TeenAgent.scummvm size 9 crc d8944e40 )
+	name "Teen Agent"
+	description "Teen Agent"
+	rom ( name "Teen Agent.scummvm" size 9 crc d8944e40 )
 )
 
 game (
-	name "The 7th Guest"
-	description "The 7th Guest"
-	rom ( name "The 7th Guest.scummvm" size 3 crc ef684d51 )
+	name "The Big Red Adventure"
+	description "The Big Red Adventure"
+	rom ( name "The Big Red Adventure.scummvm" size 3 crc 93ae8ce6 )
 )
 
 game (
-	name "The Berenstain Bears Get in a Fight"
-	description "The Berenstain Bears Get in a Fight"
-	rom ( name "The Berenstain Bears Get in a Fight.scummvm" size 9 crc 80344b83 )
+	name "The Case of the Rose Tattoo"
+	description "The Case of the Rose Tattoo"
+	rom ( name "The Case of the Rose Tattoo.scummvm" size 10 crc d5916b5b )
 )
 
 game (
-	name "The Berenstain Bears in the Dark"
-	description "The Berenstain Bears in the Dark"
-	rom ( name "The Berenstain Bears in the Dark.scummvm" size 8 crc 54e0165a )
-)
-
-game (
-	name "The Bizarre Adventures of Woodruff and the Schnibble"
-	description "The Bizarre Adventures of Woodruff and the Schnibble"
-	rom ( name "The Bizarre Adventures of Woodruff and the Schnibble.scummvm" size 8 crc 2f23dd0e )
-)
-
-game (
-	name "The Black Cauldron"
-	description "The Black Cauldron"
-	rom ( name "The Black Cauldron.scummvm" size 2 crc c2a92b38 )
+	name "The Case of the Serrated Scalpel"
+	description "The Case of the Serrated Scalpel"
+	rom ( name "The Case of the Serrated Scalpel.scummvm" size 7 crc 1351a4bb )
 )
 
 game (
@@ -1140,21 +816,9 @@ game (
 )
 
 game (
-	name "The Island of Dr. Brain"
-	description "The Island of Dr. Brain"
-	rom ( name "The Island of Dr. Brain.scummvm" size 11 crc c67efe37 )
-)
-
-game (
 	name "The Journeyman Project Pegasus Prime"
 	description "The Journeyman Project Pegasus Prime"
 	rom ( name "The Journeyman Project Pegasus Prime.scummvm" size 7 crc 4c46d1bb )
-)
-
-game (
-	name "The Labyrinth of Time"
-	description "The Labyrinth of Time"
-	rom ( name "The Labyrinth of Time.scummvm" size 3 crc 61d6b1c4 )
 )
 
 game (
@@ -1164,57 +828,33 @@ game (
 )
 
 game (
-	name "The Legend of Kyrandia Book Three Malcolm's Revenge"
-	description "The Legend of Kyrandia Book Three Malcolm's Revenge"
-	rom ( name "The Legend of Kyrandia Book Three Malcolm's Revenge.scummvm" size 5 crc aab4d999 )
+	name "The Legend of Kyrandia Malcolm's Revenge"
+	description "The Legend of Kyrandia Malcolm's Revenge"
+	rom ( name "The Legend of Kyrandia Malcolm's Revenge.scummvm" size 5 crc aab4d999 )
 )
 
 game (
-	name "The Legend of Kyrandia Book Two Hand of Fate"
-	description "The Legend of Kyrandia Book Two Hand of Fate"
-	rom ( name "The Legend of Kyrandia Book Two Hand of Fate.scummvm" size 5 crc ddb3e90f )
+	name "The Legend of Kyrandia The Hand of Fate"
+	description "The Legend of Kyrandia The Hand of Fate"
+	rom ( name "The Legend of Kyrandia The Hand of Fate.scummvm" size 5 crc ddb3e90f )
 )
 
 game (
-	name "The Lost Files of Sherlock Holmes The Case of the Rose Tattoo"
-	description "The Lost Files of Sherlock Holmes The Case of the Rose Tattoo"
-	rom ( name "The Lost Files of Sherlock Holmes The Case of the Rose Tattoo.scummvm" size 10 crc d5916b5b )
-)
-
-game (
-	name "The Lost Files of Sherlock Holmes The Case of the Serrated Scalpel"
-	description "The Lost Files of Sherlock Holmes The Case of the Serrated Scalpel"
-	rom ( name "The Lost Files of Sherlock Holmes The Case of the Serrated Scalpel.scummvm" size 7 crc 1351a4bb )
-)
-
-game (
-	name "The Manhole"
-	description "The Manhole"
-	rom ( name "The Manhole.scummvm" size 7 crc db2e0505 )
-)
-
-game (
-	name "The Neverhood"
-	description "The Neverhood"
-	rom ( name "The Neverhood.scummvm" size 9 crc ab93a9c8 )
-)
-
-game (
-	name "The New Kid on the Block"
-	description "The New Kid on the Block"
-	rom ( name "The New Kid on the Block.scummvm" size 6 crc 9e64feff )
-)
-
-game (
-	name "The Princess and the Crab"
-	description "The Princess and the Crab"
-	rom ( name "The Princess and the Crab.scummvm" size 8 crc 11ed43d0 )
+	name "The Neverhood Chronicles"
+	description "The Neverhood Chronicles"
+	rom ( name "The Neverhood Chronicles.scummvm" size 9 crc ab93a9c8 )
 )
 
 game (
 	name "The Secret of Monkey Island"
 	description "The Secret of Monkey Island"
 	rom ( name "The Secret of Monkey Island.scummvm" size 6 crc b0e2af30 )
+)
+
+game (
+	name "Tinsel engine game"
+	description "Tinsel engine game"
+	rom ( name "Tinsel engine game.scummvm" size 6 crc 64931fe0 )
 )
 
 game (
@@ -1236,15 +876,9 @@ game (
 )
 
 game (
-	name "Troll's Tale"
-	description "Troll's Tale"
-	rom ( name "Troll's Tale.scummvm" size 5 crc c5815cc0 )
-)
-
-game (
-	name "Urban Runner"
-	description "Urban Runner"
-	rom ( name "Urban Runner.scummvm" size 5 crc ab99f942 )
+	name "Tsunami TsAGE-based Game"
+	description "Tsunami TsAGE-based Game"
+	rom ( name "Tsunami TsAGE-based Game.scummvm" size 5 crc ed8b77c0 )
 )
 
 game (
@@ -1260,32 +894,26 @@ game (
 )
 
 game (
-	name "Ween The Prophecy"
-	description "Ween The Prophecy"
-	rom ( name "Ween The Prophecy.scummvm" size 4 crc 2b309d4f )
+	name "Wintermute engine game"
+	description "Wintermute engine game"
+	rom ( name "Wintermute engine game.scummvm" size 10 crc ec4f06df )
 )
 
 game (
-	name "Winnie the Pooh in the Hundred Acre Wood"
-	description "Winnie the Pooh in the Hundred Acre Wood"
-	rom ( name "Winnie the Pooh in the Hundred Acre Wood.scummvm" size 6 crc 2390aac5 )
+	name "Z-Vision Game"
+	description "Z-Vision Game"
+	rom ( name "Z-Vision Game.scummvm" size 7 crc eace6f11 )
+)
+
+game (
+	name "Zak McKracken & Loom"
+	description "Zak McKracken & Loom"
+	rom ( name "Zak McKracken & Loom.scummvm" size 7 crc 1b236493 )
 )
 
 game (
 	name "Zak McKracken and the Alien Mindbenders"
 	description "Zak McKracken and the Alien Mindbenders"
 	rom ( name "Zak McKracken and the Alien Mindbenders.scummvm" size 3 crc 00a1d6a2 )
-)
-
-game (
-	name "Zork Grand Inquisitor"
-	description "Zork Grand Inquisitor"
-	rom ( name "Zork Grand Inquisitor.scummvm" size 3 crc b8f51008 )
-)
-
-game (
-	name "Zork Nemesis The Forbidden Lands"
-	description "Zork Nemesis The Forbidden Lands"
-	rom ( name "Zork Nemesis The Forbidden Lands.scummvm" size 8 crc 9ddc69cc )
 )
 

@@ -1,21 +1,34 @@
-const readline = require('readline');
 const fs = require('fs');
+const exec = require('child_process').execSync
 
+// Clear the "games" directory.
 try {
-	fs.mkdirSync('games')
+	fs.readdirSync('games').forEach(function (file) {
+		fs.unlinkSync('games/' + file);
+	})
+	fs.rmdirSync('games')
 }
 catch (e) {
-	throw '"games" directory already exists. Delete it first.'
+	// Nothing
 }
 
-const rl = readline.createInterface({
-  input: fs.createReadStream('scummvm.txt')
-});
+// Create the games directory.
+fs.mkdirSync('games')
 
-rl.on('line', function (line) {
-  var parts = line.split('|')
-  var title = parts[0].replace('/', ' - ').replace('?', '').replace(new RegExp(':', 'g'), '')
-  var slug = parts[1]
-  fs.writeFileSync('games/' + title + '.scummvm', slug);
-});
-
+// Build the .scummvm files.
+exec('scummvm --list-games')
+	// Port the Buffer to a string.
+	.toString()
+	// Split it into an array.
+	.split('\n')
+	// Remove the first two elements (header and line devision)
+	.splice(2)
+	// Loop through each one an make the .scummvm file
+	.forEach(function (line) {
+		var name = line.substring(0, 20).trim()
+		var title = line.substring(20).replace('/', ' - ').replace('?', '').replace(new RegExp(':', 'g'), '').trim()
+		if (name.length > 0) {
+			console.log(title + ': ' + name)
+  			fs.writeFileSync('games/' + title + '.scummvm', name);
+  		}
+	})

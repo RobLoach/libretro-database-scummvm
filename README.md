@@ -16,11 +16,9 @@ A DAT file containing game files to run [ScummVM](http://scummvm.org) games in [
   - [Dir2Dat](http://mamedev.emulab.it/clrmamepro/docs/htm/about.htm)
     - Part of [clrmamepro](http://mamedev.emulab.it/clrmamepro/), runs well through [Wine](https://www.winehq.org/)
 
-2. Visit [the ScummVM compatibility list](http://scummvm.org/compatibility/1.8.1/) and create [`scummvm.txt`](scummvm.txt) out of it. Each entry should be `Game Name|shortname`.
+2. Run `node libretro-scummvm.js` to build the `games` directory
 
-3. Run `node libretro-scummvm.js` to build the `games` directory
-
-4. Use Dir2Dat to build [`ScummVM.dat`](ScummVM.dat) using `libretro-scummvm.d2d` settings on the `out` directory:
+3. Use Dir2Dat to build [`ScummVM.dat`](ScummVM.dat) using `libretro-scummvm.d2d` settings on the `out` directory:
   - Single File Sets
   - Remove Extension
   - Add MD5
