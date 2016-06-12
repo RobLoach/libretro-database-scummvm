@@ -1,0 +1,27 @@
+{
+  "name": "libretro-scummvm.dat",
+  "title": "ScummVM",
+  "version": "1.8.1",
+  "date": "2016-06-11",
+  "description": "DAT file containing game files to launch ScummVM games from RetroArch.",
+  "main": "libretro-scummvm.js",
+  "private": true,
+  "scripts": {
+    "test": "node libretro-scummvm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobLoach/libretro-scummvm.dat.git"
+  },
+  "author": "Rob Loach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobLoach/libretro-scummvm.dat/issues"
+  },
+  "authorUrl": "https://github.com/libretro/scummvm",
+  "homepage": "https://github.com/RobLoach/libretro-scummvm.dat#readme",
+  "dependencies": {
+    "crc": "^3.4.0",
+    "rimraf": "^2.5.2"
+  }
+}
