@@ -13,8 +13,8 @@ A DAT file containing game files to run [ScummVM](http://scummvm.org) games in [
 
 1. Install [Node.js](https://nodejs.org/en/) >= 4
 
-2. Install [ScummVM](http://scummvm.org)
+1. Install [ScummVM](http://scummvm.org)
 
-2. Run `npm install` to install dependendencies
+1. Run `npm install` to install dependendencies
 
-3. Run `npm test` to build the `games` directory and [`ScummVM.dat`](ScummVM.dat)
+1. Run `npm test` to build the `games` directory and [`ScummVM.dat`](ScummVM.dat)
