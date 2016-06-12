@@ -9,7 +9,8 @@ rimraf.sync('games')
 fs.mkdirSync('games')
 
 function crc32(input) {
-	return crc.crc32(input).toString(16)
+	var contents = fs.readFileSync(`games/${input}.scummvm`, 'utf8')
+	return crc.crc32(contents).toString(16)
 }
 
 var output = `clrmamepro (
@@ -39,7 +40,7 @@ exec('scummvm --list-games')
 		var name = line.substring(0, 20).trim()
 		var title = line.substring(20).replace('/', ' - ').replace('?', '').replace(new RegExp(':', 'g'), '').trim()
 		if (name.length > 0) {
-			console.log(title + ': ' + name)
+			console.log(title, '-', name)
   			fs.writeFileSync(`games/${title}.scummvm`, name);
 
   			// Write the ROM entry
@@ -47,7 +48,7 @@ exec('scummvm --list-games')
 game (
 	name "${title}"
 	description "${title}"
-	rom ( name "${title}.scummvm" size ${name.length} crc ${crc32(name)} )
+	rom ( name "${title}.scummvm" size ${name.length} crc ${crc32(title)} )
 )
 `
   		}
