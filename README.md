@@ -11,15 +11,10 @@ A DAT file containing game files to run [ScummVM](http://scummvm.org) games in [
 
 ## Build
 
-1. Install dependencies
-  - [Node.js](https://nodejs.org/en/) >= 4
-  - [Dir2Dat](http://mamedev.emulab.it/clrmamepro/docs/htm/about.htm)
-    - Part of [clrmamepro](http://mamedev.emulab.it/clrmamepro/), runs well through [Wine](https://www.winehq.org/)
+1. Install [Node.js](https://nodejs.org/en/) >= 4
 
-2. Run `node libretro-scummvm.js` to build the `games` directory
+2. Install [ScummVM](http://scummvm.org)
 
-3. Use Dir2Dat to build [`ScummVM.dat`](ScummVM.dat) using `libretro-scummvm.d2d` settings on the `out` directory:
-  - Single File Sets
-  - Remove Extension
-  - Add MD5
-  - Add SHA1
+2. Run `npm install` to install dependendencies
+
+3. Run `npm test` to build the `games` directory and [`ScummVM.dat`](ScummVM.dat)

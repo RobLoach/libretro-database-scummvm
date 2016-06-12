@@ -1,116 +1,24 @@
 clrmamepro (
-	name ScummVM
-	description "Files to allow loading ScummVM games through libretro."
-	category ScummVM
+	name "ScummVM"
+	description "ScummVM"
+	comment "DAT file containing game files to launch ScummVM games from RetroArch."
 	version 1.8.1
-	date 2016-06-08
-	author "libretro Team"
-	email scummvm-dat@libretro.com
+	date "2016-06-11"
+	author "Rob Loach"
 	homepage https://github.com/libretro/scummvm
-	url http://github.com/robloach/libretro-scummvm.dat
-	comment "Visit libretro-scummvm.dat project to build the DAT file."
+	url https://github.com/RobLoach/libretro-scummvm.dat#readme
 )
 
 game (
-	name "3 Skulls of the Toltecs"
-	description "3 Skulls of the Toltecs"
-	rom ( name "3 Skulls of the Toltecs.scummvm" size 7 crc 0db62a67 )
-)
-
-game (
-	name Access
+	name "Access"
 	description "Access"
-	rom ( name Access.scummvm size 6 crc 01c52e62 )
-)
-
-game (
-	name "Amazon Guardians of Eden"
-	description "Amazon Guardians of Eden"
-	rom ( name "Amazon Guardians of Eden.scummvm" size 6 crc 815b8877 )
-)
-
-game (
-	name "Backyard Baseball"
-	description "Backyard Baseball"
-	rom ( name "Backyard Baseball.scummvm" size 8 crc 533f2feb )
-)
-
-game (
-	name "Backyard Baseball 2001"
-	description "Backyard Baseball 2001"
-	rom ( name "Backyard Baseball 2001.scummvm" size 12 crc 4946d1f9 )
+	rom ( name "Access.scummvm" size 6 crc 1c52e62 )
 )
 
 game (
 	name "Backyard Baseball 2003"
 	description "Backyard Baseball 2003"
 	rom ( name "Backyard Baseball 2003.scummvm" size 12 crc bf796b2d )
-)
-
-game (
-	name "Backyard Basketball"
-	description "Backyard Basketball"
-	rom ( name "Backyard Basketball.scummvm" size 10 crc d7f3e811 )
-)
-
-game (
-	name "Backyard Football"
-	description "Backyard Football"
-	rom ( name "Backyard Football.scummvm" size 8 crc aede269e )
-)
-
-game (
-	name "Backyard Football 2002"
-	description "Backyard Football 2002"
-	rom ( name "Backyard Football 2002.scummvm" size 12 crc 0716a76e )
-)
-
-game (
-	name "Backyard Soccer"
-	description "Backyard Soccer"
-	rom ( name "Backyard Soccer.scummvm" size 6 crc e2959c36 )
-)
-
-game (
-	name "Backyard Soccer 2004"
-	description "Backyard Soccer 2004"
-	rom ( name "Backyard Soccer 2004.scummvm" size 10 crc 8dd9d0d2 )
-)
-
-game (
-	name "Backyard Soccer MLS Edition"
-	description "Backyard Soccer MLS Edition"
-	rom ( name "Backyard Soccer MLS Edition.scummvm" size 9 crc d62b7e78 )
-)
-
-game (
-	name "Bear Stormin'"
-	description "Bear Stormin'"
-	rom ( name "Bear Stormin'.scummvm" size 7 crc f0010920 )
-)
-
-game (
-	name "Beavis and Butt-head in Virtual Stupidity"
-	description "Beavis and Butt-head in Virtual Stupidity"
-	rom ( name "Beavis and Butt-head in Virtual Stupidity.scummvm" size 4 crc 4b51012c )
-)
-
-game (
-	name "Beneath a Steel Sky"
-	description "Beneath a Steel Sky"
-	rom ( name "Beneath a Steel Sky.scummvm" size 3 crc 062674ef )
-)
-
-game (
-	name "Big Thinkers First Grade"
-	description "Big Thinkers First Grade"
-	rom ( name "Big Thinkers First Grade.scummvm" size 8 crc 1274b7b8 )
-)
-
-game (
-	name "Big Thinkers Kindergarten"
-	description "Big Thinkers Kindergarten"
-	rom ( name "Big Thinkers Kindergarten.scummvm" size 8 crc 99ca0f52 )
 )
 
 game (
@@ -126,21 +34,9 @@ game (
 )
 
 game (
-	name "Blue's Art Time Activities"
-	description "Blue's Art Time Activities"
-	rom ( name "Blue's Art Time Activities.scummvm" size 7 crc b4c535b3 )
-)
-
-game (
 	name "Blue's Birthday Adventure"
 	description "Blue's Birthday Adventure"
 	rom ( name "Blue's Birthday Adventure.scummvm" size 13 crc 55358473 )
-)
-
-game (
-	name "Blue's Reading Time Activities"
-	description "Blue's Reading Time Activities"
-	rom ( name "Blue's Reading Time Activities.scummvm" size 8 crc b31360ed )
 )
 
 game (
@@ -150,81 +46,129 @@ game (
 )
 
 game (
-	name "Broken Sword 2.5"
-	description "Broken Sword 2.5"
-	rom ( name "Broken Sword 2.5.scummvm" size 7 crc 78825394 )
+	name "Freddi Fish's One-Stop Fun Shop"
+	description "Freddi Fish's One-Stop Fun Shop"
+	rom ( name "Freddi Fish's One-Stop Fun Shop.scummvm" size 14 crc 9faddef6 )
 )
 
 game (
-	name "Broken Sword II The Smoking Mirror"
-	description "Broken Sword II The Smoking Mirror"
-	rom ( name "Broken Sword II The Smoking Mirror.scummvm" size 6 crc 8af0465b )
+	name "MADS"
+	description "MADS"
+	rom ( name "MADS.scummvm" size 4 crc 5f153244 )
 )
 
 game (
-	name "Broken Sword II The Smoking Mirror (alt)"
-	description "Broken Sword II The Smoking Mirror (alt)"
-	rom ( name "Broken Sword II The Smoking Mirror (alt).scummvm" size 9 crc 530332cf )
+	name "Putt-Putt's One-Stop Fun Shop"
+	description "Putt-Putt's One-Stop Fun Shop"
+	rom ( name "Putt-Putt's One-Stop Fun Shop.scummvm" size 12 crc cfc36a07 )
 )
 
 game (
-	name "Broken Sword II The Smoking Mirror (Demo)"
-	description "Broken Sword II The Smoking Mirror (Demo)"
-	rom ( name "Broken Sword II The Smoking Mirror (Demo).scummvm" size 10 crc a7882df2 )
+	name "Pajama Sam's One-Stop Fun Shop"
+	description "Pajama Sam's One-Stop Fun Shop"
+	rom ( name "Pajama Sam's One-Stop Fun Shop.scummvm" size 11 crc 4c27bc9a )
 )
 
 game (
-	name "Broken Sword II The Smoking Mirror (PlayStation - Demo)"
-	description "Broken Sword II The Smoking Mirror (PlayStation - Demo)"
-	rom ( name "Broken Sword II The Smoking Mirror (PlayStation - Demo).scummvm" size 13 crc f01589b6 )
+	name "Backyard Soccer 2004"
+	description "Backyard Soccer 2004"
+	rom ( name "Backyard Soccer 2004.scummvm" size 10 crc 8dd9d0d2 )
 )
 
 game (
-	name "Broken Sword II The Smoking Mirror (PlayStation)"
-	description "Broken Sword II The Smoking Mirror (PlayStation)"
-	rom ( name "Broken Sword II The Smoking Mirror (PlayStation).scummvm" size 9 crc 8a0bb93d )
+	name "Backyard Soccer MLS Edition"
+	description "Backyard Soccer MLS Edition"
+	rom ( name "Backyard Soccer MLS Edition.scummvm" size 9 crc d62b7e78 )
 )
 
 game (
-	name "Broken Sword The Shadow of the Templars"
-	description "Broken Sword The Shadow of the Templars"
-	rom ( name "Broken Sword The Shadow of the Templars.scummvm" size 6 crc 13f917e1 )
+	name "Putt-Putt & Fatty Bear's Activity Pack"
+	description "Putt-Putt & Fatty Bear's Activity Pack"
+	rom ( name "Putt-Putt & Fatty Bear's Activity Pack.scummvm" size 8 crc ac74095a )
 )
 
 game (
-	name "Broken Sword The Shadow of the Templars (Demo)"
-	description "Broken Sword The Shadow of the Templars (Demo)"
-	rom ( name "Broken Sword The Shadow of the Templars (Demo).scummvm" size 10 crc e0285722 )
+	name "Sierra AGI game"
+	description "Sierra AGI game"
+	rom ( name "Sierra AGI game.scummvm" size 3 crc a8865c99 )
 )
 
 game (
-	name "Broken Sword The Shadow of the Templars (Mac demo)"
-	description "Broken Sword The Shadow of the Templars (Mac demo)"
-	rom ( name "Broken Sword The Shadow of the Templars (Mac demo).scummvm" size 13 crc 21bd7658 )
+	name "Let's Explore the Airport with Buzzy"
+	description "Let's Explore the Airport with Buzzy"
+	rom ( name "Let's Explore the Airport with Buzzy.scummvm" size 7 crc 7e91f7c2 )
 )
 
 game (
-	name "Broken Sword The Shadow of the Templars (Mac)"
-	description "Broken Sword The Shadow of the Templars (Mac)"
-	rom ( name "Broken Sword The Shadow of the Templars (Mac).scummvm" size 9 crc 7ed19fcf )
+	name "Amazon Guardians of Eden"
+	description "Amazon Guardians of Eden"
+	rom ( name "Amazon Guardians of Eden.scummvm" size 6 crc 815b8877 )
 )
 
 game (
-	name "Broken Sword The Shadow of the Templars (PlayStation demo)"
-	description "Broken Sword The Shadow of the Templars (PlayStation demo)"
-	rom ( name "Broken Sword The Shadow of the Templars (PlayStation demo).scummvm" size 13 crc 7e9a8e55 )
+	name "Blue's Art Time Activities"
+	description "Blue's Art Time Activities"
+	rom ( name "Blue's Art Time Activities.scummvm" size 7 crc b4c535b3 )
 )
 
 game (
-	name "Broken Sword The Shadow of the Templars (PlayStation)"
-	description "Broken Sword The Shadow of the Templars (PlayStation)"
-	rom ( name "Broken Sword The Shadow of the Templars (PlayStation).scummvm" size 9 crc 98be16d3 )
+	name "Indiana Jones and the Fate of Atlantis"
+	description "Indiana Jones and the Fate of Atlantis"
+	rom ( name "Indiana Jones and the Fate of Atlantis.scummvm" size 8 crc 4f12aa7c )
 )
 
 game (
-	name "Bud Tucker in Double Trouble"
-	description "Bud Tucker in Double Trouble"
-	rom ( name "Bud Tucker in Double Trouble.scummvm" size 6 crc dbd37215 )
+	name "Putt-Putt and Pep's Balloon-O-Rama"
+	description "Putt-Putt and Pep's Balloon-O-Rama"
+	rom ( name "Putt-Putt and Pep's Balloon-O-Rama.scummvm" size 7 crc 643b3b90 )
+)
+
+game (
+	name "Backyard Baseball"
+	description "Backyard Baseball"
+	rom ( name "Backyard Baseball.scummvm" size 8 crc 533f2feb )
+)
+
+game (
+	name "Backyard Baseball 2001"
+	description "Backyard Baseball 2001"
+	rom ( name "Backyard Baseball 2001.scummvm" size 12 crc 4946d1f9 )
+)
+
+game (
+	name "Backyard Basketball"
+	description "Backyard Basketball"
+	rom ( name "Backyard Basketball.scummvm" size 10 crc d7f3e811 )
+)
+
+game (
+	name "Beavis and Butt-head in Virtual Stupidity"
+	description "Beavis and Butt-head in Virtual Stupidity"
+	rom ( name "Beavis and Butt-head in Virtual Stupidity.scummvm" size 4 crc 4b51012c )
+)
+
+game (
+	name "The Big Red Adventure"
+	description "The Big Red Adventure"
+	rom ( name "The Big Red Adventure.scummvm" size 3 crc 93ae8ce6 )
+)
+
+game (
+	name "Bear Stormin'"
+	description "Bear Stormin'"
+	rom ( name "Bear Stormin'.scummvm" size 7 crc f0010920 )
+)
+
+game (
+	name "Humongous Interactive Catalog"
+	description "Humongous Interactive Catalog"
+	rom ( name "Humongous Interactive Catalog.scummvm" size 7 crc 1b2c3247 )
+)
+
+game (
+	name "SPY Fox in Cheese Chase"
+	description "SPY Fox in Cheese Chase"
+	rom ( name "SPY Fox in Cheese Chase.scummvm" size 5 crc 96fd3b99 )
 )
 
 game (
@@ -234,9 +178,9 @@ game (
 )
 
 game (
-	name "Cinematique evo.2 engine game"
-	description "Cinematique evo.2 engine game"
-	rom ( name "Cinematique evo.2 engine game.scummvm" size 6 crc 9e9d701b )
+	name "The Curse of Monkey Island"
+	description "The Curse of Monkey Island"
+	rom ( name "The Curse of Monkey Island.scummvm" size 4 crc af61c7fa )
 )
 
 game (
@@ -246,9 +190,15 @@ game (
 )
 
 game (
-	name "Day of the Tentacle"
-	description "Day of the Tentacle"
-	rom ( name "Day of the Tentacle.scummvm" size 8 crc 97815f07 )
+	name "Cinematique evo.2 engine game"
+	description "Cinematique evo.2 engine game"
+	rom ( name "Cinematique evo.2 engine game.scummvm" size 6 crc 9e9d701b )
+)
+
+game (
+	name "The Dig"
+	description "The Dig"
+	rom ( name "The Dig.scummvm" size 3 crc d7769efb )
 )
 
 game (
@@ -258,15 +208,21 @@ game (
 )
 
 game (
+	name "Putt-Putt and Pep's Dog on a Stick"
+	description "Putt-Putt and Pep's Dog on a Stick"
+	rom ( name "Putt-Putt and Pep's Dog on a Stick.scummvm" size 3 crc 812c397d )
+)
+
+game (
 	name "Draci Historie"
 	description "Draci Historie"
 	rom ( name "Draci Historie.scummvm" size 5 crc 580d0e08 )
 )
 
 game (
-	name Dragonsphere
+	name "Dragonsphere"
 	description "Dragonsphere"
-	rom ( name Dragonsphere.scummvm size 12 crc c691bb82 )
+	rom ( name "Dragonsphere.scummvm" size 12 crc c691bb82 )
 )
 
 game (
@@ -276,9 +232,9 @@ game (
 )
 
 game (
-	name DreamWeb
+	name "DreamWeb"
 	description "DreamWeb"
-	rom ( name DreamWeb.scummvm size 8 crc 95dbbea3 )
+	rom ( name "DreamWeb.scummvm" size 8 crc 95dbbea3 )
 )
 
 game (
@@ -306,6 +262,12 @@ game (
 )
 
 game (
+	name "Let's Explore the Farm with Buzzy"
+	description "Let's Explore the Farm with Buzzy"
+	rom ( name "Let's Explore the Farm with Buzzy.scummvm" size 4 crc 5816d045 )
+)
+
+game (
 	name "Fatty Bear's Birthday Surprise"
 	description "Fatty Bear's Birthday Surprise"
 	rom ( name "Fatty Bear's Birthday Surprise.scummvm" size 5 crc cd8e0945 )
@@ -318,9 +280,21 @@ game (
 )
 
 game (
-	name "Flight of the Amazon Queen"
-	description "Flight of the Amazon Queen"
-	rom ( name "Flight of the Amazon Queen.scummvm" size 5 crc a2edb4ba )
+	name "The Feeble Files"
+	description "The Feeble Files"
+	rom ( name "The Feeble Files.scummvm" size 6 crc 8d861cda )
+)
+
+game (
+	name "Backyard Football"
+	description "Backyard Football"
+	rom ( name "Backyard Football.scummvm" size 8 crc aede269e )
+)
+
+game (
+	name "Backyard Football 2002"
+	description "Backyard Football 2002"
+	rom ( name "Backyard Football 2002.scummvm" size 12 crc 716a76e )
 )
 
 game (
@@ -344,7 +318,7 @@ game (
 game (
 	name "Freddi Fish 4 The Case of the Hogfish Rustlers of Briny Gulch"
 	description "Freddi Fish 4 The Case of the Hogfish Rustlers of Briny Gulch"
-	rom ( name "Freddi Fish 4 The Case of the Hogfish Rustlers of Briny Gulch.scummvm" size 7 crc 0c23d5a5 )
+	rom ( name "Freddi Fish 4 The Case of the Hogfish Rustlers of Briny Gulch.scummvm" size 7 crc c23d5a5 )
 )
 
 game (
@@ -354,27 +328,15 @@ game (
 )
 
 game (
-	name "Freddi Fish and Luther's Maze Madness"
-	description "Freddi Fish and Luther's Maze Madness"
-	rom ( name "Freddi Fish and Luther's Maze Madness.scummvm" size 4 crc 4915557e )
-)
-
-game (
-	name "Freddi Fish and Luther's Water Worries"
-	description "Freddi Fish and Luther's Water Worries"
-	rom ( name "Freddi Fish and Luther's Water Worries.scummvm" size 5 crc fb3314da )
-)
-
-game (
-	name "Freddi Fish's One-Stop Fun Shop"
-	description "Freddi Fish's One-Stop Fun Shop"
-	rom ( name "Freddi Fish's One-Stop Fun Shop.scummvm" size 14 crc 9faddef6 )
-)
-
-game (
 	name "Full Throttle"
 	description "Full Throttle"
 	rom ( name "Full Throttle.scummvm" size 2 crc 25166bfb )
+)
+
+game (
+	name "Putt-Putt's Fun Pack"
+	description "Putt-Putt's Fun Pack"
+	rom ( name "Putt-Putt's Fun Pack.scummvm" size 7 crc be7d72c0 )
 )
 
 game (
@@ -414,18 +376,6 @@ game (
 )
 
 game (
-	name "Humongous Interactive Catalog"
-	description "Humongous Interactive Catalog"
-	rom ( name "Humongous Interactive Catalog.scummvm" size 7 crc 1b2c3247 )
-)
-
-game (
-	name "Indiana Jones and the Fate of Atlantis"
-	description "Indiana Jones and the Fate of Atlantis"
-	rom ( name "Indiana Jones and the Fate of Atlantis.scummvm" size 8 crc 4f12aa7c )
-)
-
-game (
 	name "Indiana Jones and the Last Crusade"
 	description "Indiana Jones and the Last Crusade"
 	rom ( name "Indiana Jones and the Last Crusade.scummvm" size 5 crc 870aa244 )
@@ -444,9 +394,33 @@ game (
 )
 
 game (
-	name Jumble
+	name "Jumble"
 	description "Jumble"
-	rom ( name Jumble.scummvm size 6 crc 5f1063cc )
+	rom ( name "Jumble.scummvm" size 6 crc 5f1063cc )
+)
+
+game (
+	name "Let's Explore the Jungle with Buzzy"
+	description "Let's Explore the Jungle with Buzzy"
+	rom ( name "Let's Explore the Jungle with Buzzy.scummvm" size 6 crc 4b6e0ec9 )
+)
+
+game (
+	name "The Legend of Kyrandia"
+	description "The Legend of Kyrandia"
+	rom ( name "The Legend of Kyrandia.scummvm" size 5 crc 44bab8b5 )
+)
+
+game (
+	name "The Legend of Kyrandia The Hand of Fate"
+	description "The Legend of Kyrandia The Hand of Fate"
+	rom ( name "The Legend of Kyrandia The Hand of Fate.scummvm" size 5 crc ddb3e90f )
+)
+
+game (
+	name "The Legend of Kyrandia Malcolm's Revenge"
+	description "The Legend of Kyrandia Malcolm's Revenge"
+	rom ( name "The Legend of Kyrandia Malcolm's Revenge.scummvm" size 5 crc aab4d999 )
 )
 
 game (
@@ -462,27 +436,15 @@ game (
 )
 
 game (
-	name "Let's Explore the Airport with Buzzy"
-	description "Let's Explore the Airport with Buzzy"
-	rom ( name "Let's Explore the Airport with Buzzy.scummvm" size 7 crc 7e91f7c2 )
-)
-
-game (
-	name "Let's Explore the Farm with Buzzy"
-	description "Let's Explore the Farm with Buzzy"
-	rom ( name "Let's Explore the Farm with Buzzy.scummvm" size 4 crc 5816d045 )
-)
-
-game (
-	name "Let's Explore the Jungle with Buzzy"
-	description "Let's Explore the Jungle with Buzzy"
-	rom ( name "Let's Explore the Jungle with Buzzy.scummvm" size 6 crc 4b6e0ec9 )
-)
-
-game (
-	name Loom
+	name "Loom"
 	description "Loom"
-	rom ( name Loom.scummvm size 4 crc c2597137 )
+	rom ( name "Loom.scummvm" size 4 crc c2597137 )
+)
+
+game (
+	name "Pajama Sam's Lost & Found"
+	description "Pajama Sam's Lost & Found"
+	rom ( name "Pajama Sam's Lost & Found.scummvm" size 4 crc 404584aa )
 )
 
 game (
@@ -498,12 +460,6 @@ game (
 )
 
 game (
-	name MADS
-	description "MADS"
-	rom ( name MADS.scummvm size 4 crc 5f153244 )
-)
-
-game (
 	name "Maniac Mansion"
 	description "Maniac Mansion"
 	rom ( name "Maniac Mansion.scummvm" size 6 crc 9558f941 )
@@ -516,9 +472,21 @@ game (
 )
 
 game (
+	name "Freddi Fish and Luther's Maze Madness"
+	description "Freddi Fish and Luther's Maze Madness"
+	rom ( name "Freddi Fish and Luther's Maze Madness.scummvm" size 4 crc 4915557e )
+)
+
+game (
 	name "Mohawk Game"
 	description "Mohawk Game"
 	rom ( name "Mohawk Game.scummvm" size 6 crc 135374a1 )
+)
+
+game (
+	name "The Secret of Monkey Island"
+	description "The Secret of Monkey Island"
+	rom ( name "The Secret of Monkey Island.scummvm" size 6 crc b0e2af30 )
 )
 
 game (
@@ -536,19 +504,31 @@ game (
 game (
 	name "Mortville Manor"
 	description "Mortville Manor"
-	rom ( name "Mortville Manor.scummvm" size 11 crc 0f165dbc )
+	rom ( name "Mortville Manor.scummvm" size 11 crc f165dbc )
+)
+
+game (
+	name "SPY Fox in Hold the Mustard"
+	description "SPY Fox in Hold the Mustard"
+	rom ( name "SPY Fox in Hold the Mustard.scummvm" size 7 crc 680edcdf )
+)
+
+game (
+	name "Rex Nebular and the Cosmic Gender Bender"
+	description "Rex Nebular and the Cosmic Gender Bender"
+	rom ( name "Rex Nebular and the Cosmic Gender Bender.scummvm" size 7 crc 22ef7a1e )
+)
+
+game (
+	name "The Neverhood Chronicles"
+	description "The Neverhood Chronicles"
+	rom ( name "The Neverhood Chronicles.scummvm" size 9 crc ab93a9c8 )
 )
 
 game (
 	name "Nippon Safes Inc."
 	description "Nippon Safes Inc."
 	rom ( name "Nippon Safes Inc..scummvm" size 6 crc 60bf294e )
-)
-
-game (
-	name NoPatience
-	description "NoPatience"
-	rom ( name NoPatience.scummvm size 6 crc 22a6dfdf )
 )
 
 game (
@@ -570,30 +550,6 @@ game (
 )
 
 game (
-	name "Pajama Sam Games to Play on Any Day"
-	description "Pajama Sam Games to Play on Any Day"
-	rom ( name "Pajama Sam Games to Play on Any Day.scummvm" size 7 crc e16aff45 )
-)
-
-game (
-	name "Pajama Sam's Lost & Found"
-	description "Pajama Sam's Lost & Found"
-	rom ( name "Pajama Sam's Lost & Found.scummvm" size 4 crc 404584aa )
-)
-
-game (
-	name "Pajama Sam's One-Stop Fun Shop"
-	description "Pajama Sam's One-Stop Fun Shop"
-	rom ( name "Pajama Sam's One-Stop Fun Shop.scummvm" size 11 crc 4c27bc9a )
-)
-
-game (
-	name "Pajama Sam's Sock Works"
-	description "Pajama Sam's Sock Works"
-	rom ( name "Pajama Sam's Sock Works.scummvm" size 5 crc 1e816dc4 )
-)
-
-game (
 	name "Parallaction engine game"
 	description "Parallaction engine game"
 	rom ( name "Parallaction engine game.scummvm" size 12 crc 4a3d7075 )
@@ -606,75 +562,9 @@ game (
 )
 
 game (
-	name "Personal Nightmare"
-	description "Personal Nightmare"
-	rom ( name "Personal Nightmare.scummvm" size 2 crc c4ec2756 )
-)
-
-game (
-	name "Putt-Putt & Fatty Bear's Activity Pack"
-	description "Putt-Putt & Fatty Bear's Activity Pack"
-	rom ( name "Putt-Putt & Fatty Bear's Activity Pack.scummvm" size 8 crc ac74095a )
-)
-
-game (
-	name "Putt-Putt and Pep's Balloon-O-Rama"
-	description "Putt-Putt and Pep's Balloon-O-Rama"
-	rom ( name "Putt-Putt and Pep's Balloon-O-Rama.scummvm" size 7 crc 643b3b90 )
-)
-
-game (
-	name "Putt-Putt and Pep's Dog on a Stick"
-	description "Putt-Putt and Pep's Dog on a Stick"
-	rom ( name "Putt-Putt and Pep's Dog on a Stick.scummvm" size 3 crc 812c397d )
-)
-
-game (
-	name "Putt-Putt Enters the Race"
-	description "Putt-Putt Enters the Race"
-	rom ( name "Putt-Putt Enters the Race.scummvm" size 8 crc 10e8dc1e )
-)
-
-game (
-	name "Putt-Putt Goes to the Moon"
-	description "Putt-Putt Goes to the Moon"
-	rom ( name "Putt-Putt Goes to the Moon.scummvm" size 8 crc 296b2059 )
-)
-
-game (
-	name "Putt-Putt Joins the Circus"
-	description "Putt-Putt Joins the Circus"
-	rom ( name "Putt-Putt Joins the Circus.scummvm" size 10 crc 956bd8b5 )
-)
-
-game (
-	name "Putt-Putt Joins the Parade"
-	description "Putt-Putt Joins the Parade"
-	rom ( name "Putt-Putt Joins the Parade.scummvm" size 8 crc cefdbb5d )
-)
-
-game (
-	name "Putt-Putt Saves the Zoo"
-	description "Putt-Putt Saves the Zoo"
-	rom ( name "Putt-Putt Saves the Zoo.scummvm" size 7 crc a4ea04c4 )
-)
-
-game (
-	name "Putt-Putt Travels Through Time"
-	description "Putt-Putt Travels Through Time"
-	rom ( name "Putt-Putt Travels Through Time.scummvm" size 8 crc a513fff4 )
-)
-
-game (
-	name "Putt-Putt's Fun Pack"
-	description "Putt-Putt's Fun Pack"
-	rom ( name "Putt-Putt's Fun Pack.scummvm" size 7 crc be7d72c0 )
-)
-
-game (
-	name "Putt-Putt's One-Stop Fun Shop"
-	description "Putt-Putt's One-Stop Fun Shop"
-	rom ( name "Putt-Putt's One-Stop Fun Shop.scummvm" size 12 crc cfc36a07 )
+	name "The Journeyman Project Pegasus Prime"
+	description "The Journeyman Project Pegasus Prime"
+	rom ( name "The Journeyman Project Pegasus Prime.scummvm" size 7 crc 4c46d1bb )
 )
 
 game (
@@ -684,15 +574,81 @@ game (
 )
 
 game (
-	name "Rex Nebular and the Cosmic Gender Bender"
-	description "Rex Nebular and the Cosmic Gender Bender"
-	rom ( name "Rex Nebular and the Cosmic Gender Bender.scummvm" size 7 crc 22ef7a1e )
+	name "Pajama Sam Games to Play on Any Day"
+	description "Pajama Sam Games to Play on Any Day"
+	rom ( name "Pajama Sam Games to Play on Any Day.scummvm" size 7 crc e16aff45 )
+)
+
+game (
+	name "Personal Nightmare"
+	description "Personal Nightmare"
+	rom ( name "Personal Nightmare.scummvm" size 2 crc c4ec2756 )
+)
+
+game (
+	name "Putt-Putt Joins the Circus"
+	description "Putt-Putt Joins the Circus"
+	rom ( name "Putt-Putt Joins the Circus.scummvm" size 10 crc 956bd8b5 )
+)
+
+game (
+	name "Putt-Putt Goes to the Moon"
+	description "Putt-Putt Goes to the Moon"
+	rom ( name "Putt-Putt Goes to the Moon.scummvm" size 8 crc 296b2059 )
+)
+
+game (
+	name "Putt-Putt Joins the Parade"
+	description "Putt-Putt Joins the Parade"
+	rom ( name "Putt-Putt Joins the Parade.scummvm" size 8 crc cefdbb5d )
+)
+
+game (
+	name "Putt-Putt Enters the Race"
+	description "Putt-Putt Enters the Race"
+	rom ( name "Putt-Putt Enters the Race.scummvm" size 8 crc 10e8dc1e )
+)
+
+game (
+	name "Putt-Putt Travels Through Time"
+	description "Putt-Putt Travels Through Time"
+	rom ( name "Putt-Putt Travels Through Time.scummvm" size 8 crc a513fff4 )
+)
+
+game (
+	name "Putt-Putt Saves the Zoo"
+	description "Putt-Putt Saves the Zoo"
+	rom ( name "Putt-Putt Saves the Zoo.scummvm" size 7 crc a4ea04c4 )
+)
+
+game (
+	name "NoPatience"
+	description "NoPatience"
+	rom ( name "NoPatience.scummvm" size 6 crc 22a6dfdf )
+)
+
+game (
+	name "Flight of the Amazon Queen"
+	description "Flight of the Amazon Queen"
+	rom ( name "Flight of the Amazon Queen.scummvm" size 5 crc a2edb4ba )
+)
+
+game (
+	name "Blue's Reading Time Activities"
+	description "Blue's Reading Time Activities"
+	rom ( name "Blue's Reading Time Activities.scummvm" size 8 crc b31360ed )
+)
+
+game (
+	name "The Case of the Rose Tattoo"
+	description "The Case of the Rose Tattoo"
+	rom ( name "The Case of the Rose Tattoo.scummvm" size 10 crc d5916b5b )
 )
 
 game (
 	name "SAGA Engine game"
 	description "SAGA Engine game"
-	rom ( name "SAGA Engine game.scummvm" size 4 crc 01d2ddd7 )
+	rom ( name "SAGA Engine game.scummvm" size 4 crc 1d2ddd7 )
 )
 
 game (
@@ -702,21 +658,21 @@ game (
 )
 
 game (
-	name Sfinx
-	description "Sfinx"
-	rom ( name Sfinx.scummvm size 5 crc 84bb8a55 )
-)
-
-game (
-	name "Sierra AGI game"
-	description "Sierra AGI game"
-	rom ( name "Sierra AGI game.scummvm" size 3 crc a8865c99 )
+	name "The Case of the Serrated Scalpel"
+	description "The Case of the Serrated Scalpel"
+	rom ( name "The Case of the Serrated Scalpel.scummvm" size 7 crc 1351a4bb )
 )
 
 game (
 	name "Sierra SCI Game"
 	description "Sierra SCI Game"
 	rom ( name "Sierra SCI Game.scummvm" size 3 crc d348ee83 )
+)
+
+game (
+	name "Sfinx"
+	description "Sfinx"
+	rom ( name "Sfinx.scummvm" size 5 crc 84bb8a55 )
 )
 
 game (
@@ -732,9 +688,27 @@ game (
 )
 
 game (
-	name Soltys
+	name "Beneath a Steel Sky"
+	description "Beneath a Steel Sky"
+	rom ( name "Beneath a Steel Sky.scummvm" size 3 crc 62674ef )
+)
+
+game (
+	name "Backyard Soccer"
+	description "Backyard Soccer"
+	rom ( name "Backyard Soccer.scummvm" size 6 crc e2959c36 )
+)
+
+game (
+	name "Pajama Sam's Sock Works"
+	description "Pajama Sam's Sock Works"
+	rom ( name "Pajama Sam's Sock Works.scummvm" size 5 crc 1e816dc4 )
+)
+
+game (
+	name "Soltys"
 	description "Soltys"
-	rom ( name Soltys.scummvm size 6 crc 32ef545e )
+	rom ( name "Soltys.scummvm" size 6 crc 32ef545e )
 )
 
 game (
@@ -756,21 +730,81 @@ game (
 )
 
 game (
-	name "SPY Fox in Cheese Chase"
-	description "SPY Fox in Cheese Chase"
-	rom ( name "SPY Fox in Cheese Chase.scummvm" size 5 crc 96fd3b99 )
-)
-
-game (
-	name "SPY Fox in Hold the Mustard"
-	description "SPY Fox in Hold the Mustard"
-	rom ( name "SPY Fox in Hold the Mustard.scummvm" size 7 crc 680edcdf )
-)
-
-game (
 	name "Swampy Adventures"
 	description "Swampy Adventures"
 	rom ( name "Swampy Adventures.scummvm" size 6 crc b2f59a68 )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars"
+	description "Broken Sword The Shadow of the Templars"
+	rom ( name "Broken Sword The Shadow of the Templars.scummvm" size 6 crc 13f917e1 )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars (Demo)"
+	description "Broken Sword The Shadow of the Templars (Demo)"
+	rom ( name "Broken Sword The Shadow of the Templars (Demo).scummvm" size 10 crc e0285722 )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars (Mac)"
+	description "Broken Sword The Shadow of the Templars (Mac)"
+	rom ( name "Broken Sword The Shadow of the Templars (Mac).scummvm" size 9 crc 7ed19fcf )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars (Mac demo)"
+	description "Broken Sword The Shadow of the Templars (Mac demo)"
+	rom ( name "Broken Sword The Shadow of the Templars (Mac demo).scummvm" size 13 crc 21bd7658 )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars (PlayStation)"
+	description "Broken Sword The Shadow of the Templars (PlayStation)"
+	rom ( name "Broken Sword The Shadow of the Templars (PlayStation).scummvm" size 9 crc 98be16d3 )
+)
+
+game (
+	name "Broken Sword The Shadow of the Templars (PlayStation demo)"
+	description "Broken Sword The Shadow of the Templars (PlayStation demo)"
+	rom ( name "Broken Sword The Shadow of the Templars (PlayStation demo).scummvm" size 13 crc 7e9a8e55 )
+)
+
+game (
+	name "Broken Sword II The Smoking Mirror"
+	description "Broken Sword II The Smoking Mirror"
+	rom ( name "Broken Sword II The Smoking Mirror.scummvm" size 6 crc 8af0465b )
+)
+
+game (
+	name "Broken Sword 2.5"
+	description "Broken Sword 2.5"
+	rom ( name "Broken Sword 2.5.scummvm" size 7 crc 78825394 )
+)
+
+game (
+	name "Broken Sword II The Smoking Mirror (alt)"
+	description "Broken Sword II The Smoking Mirror (alt)"
+	rom ( name "Broken Sword II The Smoking Mirror (alt).scummvm" size 9 crc 530332cf )
+)
+
+game (
+	name "Broken Sword II The Smoking Mirror (Demo)"
+	description "Broken Sword II The Smoking Mirror (Demo)"
+	rom ( name "Broken Sword II The Smoking Mirror (Demo).scummvm" size 10 crc a7882df2 )
+)
+
+game (
+	name "Broken Sword II The Smoking Mirror (PlayStation)"
+	description "Broken Sword II The Smoking Mirror (PlayStation)"
+	rom ( name "Broken Sword II The Smoking Mirror (PlayStation).scummvm" size 9 crc 8a0bb93d )
+)
+
+game (
+	name "Broken Sword II The Smoking Mirror (PlayStation - Demo)"
+	description "Broken Sword II The Smoking Mirror (PlayStation - Demo)"
+	rom ( name "Broken Sword II The Smoking Mirror (PlayStation - Demo).scummvm" size 13 crc f01589b6 )
 )
 
 game (
@@ -780,75 +814,21 @@ game (
 )
 
 game (
-	name "The Big Red Adventure"
-	description "The Big Red Adventure"
-	rom ( name "The Big Red Adventure.scummvm" size 3 crc 93ae8ce6 )
+	name "Day of the Tentacle"
+	description "Day of the Tentacle"
+	rom ( name "Day of the Tentacle.scummvm" size 8 crc 97815f07 )
 )
 
 game (
-	name "The Case of the Rose Tattoo"
-	description "The Case of the Rose Tattoo"
-	rom ( name "The Case of the Rose Tattoo.scummvm" size 10 crc d5916b5b )
+	name "Big Thinkers First Grade"
+	description "Big Thinkers First Grade"
+	rom ( name "Big Thinkers First Grade.scummvm" size 8 crc 1274b7b8 )
 )
 
 game (
-	name "The Case of the Serrated Scalpel"
-	description "The Case of the Serrated Scalpel"
-	rom ( name "The Case of the Serrated Scalpel.scummvm" size 7 crc 1351a4bb )
-)
-
-game (
-	name "The Curse of Monkey Island"
-	description "The Curse of Monkey Island"
-	rom ( name "The Curse of Monkey Island.scummvm" size 4 crc af61c7fa )
-)
-
-game (
-	name "The Dig"
-	description "The Dig"
-	rom ( name "The Dig.scummvm" size 3 crc d7769efb )
-)
-
-game (
-	name "The Feeble Files"
-	description "The Feeble Files"
-	rom ( name "The Feeble Files.scummvm" size 6 crc 8d861cda )
-)
-
-game (
-	name "The Journeyman Project Pegasus Prime"
-	description "The Journeyman Project Pegasus Prime"
-	rom ( name "The Journeyman Project Pegasus Prime.scummvm" size 7 crc 4c46d1bb )
-)
-
-game (
-	name "The Legend of Kyrandia"
-	description "The Legend of Kyrandia"
-	rom ( name "The Legend of Kyrandia.scummvm" size 5 crc 44bab8b5 )
-)
-
-game (
-	name "The Legend of Kyrandia Malcolm's Revenge"
-	description "The Legend of Kyrandia Malcolm's Revenge"
-	rom ( name "The Legend of Kyrandia Malcolm's Revenge.scummvm" size 5 crc aab4d999 )
-)
-
-game (
-	name "The Legend of Kyrandia The Hand of Fate"
-	description "The Legend of Kyrandia The Hand of Fate"
-	rom ( name "The Legend of Kyrandia The Hand of Fate.scummvm" size 5 crc ddb3e90f )
-)
-
-game (
-	name "The Neverhood Chronicles"
-	description "The Neverhood Chronicles"
-	rom ( name "The Neverhood Chronicles.scummvm" size 9 crc ab93a9c8 )
-)
-
-game (
-	name "The Secret of Monkey Island"
-	description "The Secret of Monkey Island"
-	rom ( name "The Secret of Monkey Island.scummvm" size 6 crc b0e2af30 )
+	name "Big Thinkers Kindergarten"
+	description "Big Thinkers Kindergarten"
+	rom ( name "Big Thinkers Kindergarten.scummvm" size 8 crc 99ca0f52 )
 )
 
 game (
@@ -858,15 +838,21 @@ game (
 )
 
 game (
+	name "3 Skulls of the Toltecs"
+	description "3 Skulls of the Toltecs"
+	rom ( name "3 Skulls of the Toltecs.scummvm" size 7 crc db62a67 )
+)
+
+game (
 	name "Tony Tough and the Night of Roasted Moths"
 	description "Tony Tough and the Night of Roasted Moths"
 	rom ( name "Tony Tough and the Night of Roasted Moths.scummvm" size 4 crc 5435eb7b )
 )
 
 game (
-	name Toonstruck
+	name "Toonstruck"
 	description "Toonstruck"
-	rom ( name Toonstruck.scummvm size 4 crc cefd5ffd )
+	rom ( name "Toonstruck.scummvm" size 4 crc cefd5ffd )
 )
 
 game (
@@ -882,15 +868,27 @@ game (
 )
 
 game (
-	name Voyeur
-	description "Voyeur"
-	rom ( name Voyeur.scummvm size 6 crc c3b3d49d )
+	name "Bud Tucker in Double Trouble"
+	description "Bud Tucker in Double Trouble"
+	rom ( name "Bud Tucker in Double Trouble.scummvm" size 6 crc dbd37215 )
 )
 
 game (
-	name Waxworks
+	name "Voyeur"
+	description "Voyeur"
+	rom ( name "Voyeur.scummvm" size 6 crc c3b3d49d )
+)
+
+game (
+	name "Freddi Fish and Luther's Water Worries"
+	description "Freddi Fish and Luther's Water Worries"
+	rom ( name "Freddi Fish and Luther's Water Worries.scummvm" size 5 crc fb3314da )
+)
+
+game (
+	name "Waxworks"
 	description "Waxworks"
-	rom ( name Waxworks.scummvm size 8 crc 39c07a43 )
+	rom ( name "Waxworks.scummvm" size 8 crc 39c07a43 )
 )
 
 game (
@@ -900,9 +898,9 @@ game (
 )
 
 game (
-	name "Z-Vision Game"
-	description "Z-Vision Game"
-	rom ( name "Z-Vision Game.scummvm" size 7 crc eace6f11 )
+	name "Zak McKracken and the Alien Mindbenders"
+	description "Zak McKracken and the Alien Mindbenders"
+	rom ( name "Zak McKracken and the Alien Mindbenders.scummvm" size 3 crc a1d6a2 )
 )
 
 game (
@@ -912,8 +910,7 @@ game (
 )
 
 game (
-	name "Zak McKracken and the Alien Mindbenders"
-	description "Zak McKracken and the Alien Mindbenders"
-	rom ( name "Zak McKracken and the Alien Mindbenders.scummvm" size 3 crc 00a1d6a2 )
+	name "Z-Vision Game"
+	description "Z-Vision Game"
+	rom ( name "Z-Vision Game.scummvm" size 7 crc eace6f11 )
 )
-
