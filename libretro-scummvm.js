@@ -3,6 +3,7 @@ const fs = require('fs')
 const exec = require('child_process').execSync
 const crc = require('crc')
 const rimraf = require('rimraf')
+var sortObject = require('sort-object')
 const pkg = require('./package.json')
 
 // Clean the games directory.
@@ -21,6 +22,9 @@ var output = `clrmamepro (
 )
 `
 
+// Default set of unlisted games.
+var games = require('./games')
+
 // Build the .scummvm files.
 exec('scummvm --list-games')
 	// Port the Buffer to a string.
@@ -33,43 +37,60 @@ exec('scummvm --list-games')
 	.sort()
 	// Loop through each one an make the .scummvm file
 	.forEach(function (line) {
-		var name = line.substring(0, 20).trim()
-		var title = line.substring(20).replace('/', ' - ').replace('?', '').replace(new RegExp(':', 'g'), '').trim()
-		if (name.length > 0) {
-			// Begin the .DAT header
-			output += `
-game (
-	name "${title}"
-	description "${title}"
-`
-
-			// New lines can appear at the end of the .scummvm files, allow for this to happen.
-			var newlineOptions = {
-				'': '',
-				' Windows': '\r\n',
-				' Unix': '\n'
-			}
-			for (var newlineType in newlineOptions) {
-				// Construct the contents of the .scummvm file
-				var contents = name + newlineOptions[newlineType]
-
-				// Write the file
-				fs.writeFileSync(`games/${title}${newlineType}.scummvm`, contents, {
-					encoding: 'ascii'
-				})
-
-				// Calculate the CRC for the entry
-				var crcValue = crc.crc32(contents).toString(16)
-
-				// Diplay an output
-				console.log(title, newlineType, '-', name, '-', crcValue)
-
-				// Write the rom entry to the .DAT file.
-				output += `	rom ( name "${title}${newlineType}.scummvm" size ${contents.length} crc ${crcValue} )\n`
-			}
-			output += ')\n'
+		var id = line.substring(0, 20)
+			.trim()
+		if (id.length > 0) {
+			var title = line.substring(20)
+				.replace('/', ' - ')
+				.replace('?', '')
+				.replace(new RegExp(':', 'g'), '')
+				.trim()
+			games[id] = title
 		}
 	})
+
+// Sort the games by title
+games = sortObject(games, {
+	sort: function (a, b) {
+		return (games[a] < games[b]) ? -1 : 1;
+	}
+})
+
+// Output each game to the DAT file.
+for (var id in games) {
+	var name = games[id]
+	output += `
+game (
+	name "${name}"
+	description "${name}"
+`
+
+	// New lines can appear at the end of the .scummvm files, allow for this to happen.
+	var newlineOptions = {
+		'': '',
+		' Windows': '\r\n',
+		' Unix': '\n'
+	}
+	for (var newlineType in newlineOptions) {
+		// Construct the contents of the .scummvm file
+		var contents = id + newlineOptions[newlineType]
+
+		// Write the file
+		fs.writeFileSync(`games/${name}${newlineType}.scummvm`, contents, {
+			encoding: 'ascii'
+		})
+
+		// Calculate the CRC for the entry
+		var crcValue = crc.crc32(contents).toString(16)
+
+		// Diplay an output
+		console.log(name, newlineType, '-', name, '-', crcValue)
+
+		// Write the rom entry to the .DAT file.
+		output += `	rom ( name "${name}${newlineType}.scummvm" size ${contents.length} crc ${crcValue} )\n`
+	}
+	output += ')\n'
+}
 
 // Write the DAT file.
 fs.writeFileSync('ScummVM.dat', output, {

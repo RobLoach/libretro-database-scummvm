@@ -22,6 +22,7 @@
   "homepage": "https://github.com/RobLoach/libretro-scummvm.dat#readme",
   "dependencies": {
     "crc": "^3.4.0",
-    "rimraf": "^2.5.2"
+    "rimraf": "^2.5.2",
+    "sort-object": "^3.0.2"
   }
 }
