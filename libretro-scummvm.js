@@ -1,4 +1,5 @@
-const fs = require('fs');
+const assert = require('assert')
+const fs = require('fs')
 const exec = require('child_process').execSync
 const crc = require('crc')
 const rimraf = require('rimraf')
@@ -7,11 +8,6 @@ const pkg = require('./package.json')
 // Clean the games directory.
 rimraf.sync('games')
 fs.mkdirSync('games')
-
-function crc32(input) {
-	var contents = fs.readFileSync(`games/${input}.scummvm`, 'utf8')
-	return crc.crc32(contents).toString(16)
-}
 
 var output = `clrmamepro (
 	name "${pkg.title}"
@@ -40,19 +36,43 @@ exec('scummvm --list-games')
 		var name = line.substring(0, 20).trim()
 		var title = line.substring(20).replace('/', ' - ').replace('?', '').replace(new RegExp(':', 'g'), '').trim()
 		if (name.length > 0) {
-			console.log(title, '-', name)
-  			fs.writeFileSync(`games/${title}.scummvm`, name);
-
-  			// Write the ROM entry
-  			output += `
+			// Begin the .DAT header
+			output += `
 game (
 	name "${title}"
 	description "${title}"
-	rom ( name "${title}.scummvm" size ${name.length} crc ${crc32(title)} )
-)
 `
-  		}
+
+			// New lines can appear at the end of the .scummvm files, allow for this to happen.
+			var newlineOptions = {
+				'': '',
+				' Windows': '\r\n',
+				' Unix': '\n'
+			}
+			for (var newlineType in newlineOptions) {
+				// Construct the contents of the .scummvm file
+				var contents = name + newlineOptions[newlineType]
+
+				// Write the file
+				fs.writeFileSync(`games/${title}${newlineType}.scummvm`, contents, {
+					encoding: 'ascii'
+				})
+
+				// Calculate the CRC for the entry
+				var crcValue = crc.crc32(contents).toString(16)
+
+				// Diplay an output
+				console.log(title, newlineType, '-', name, '-', crcValue)
+
+				// Write the rom entry to the .DAT file.
+				output += `	rom ( name "${title}${newlineType}.scummvm" size ${contents.length} crc ${crcValue} )\n`
+			}
+			output += ')\n'
+		}
 	})
 
 // Write the DAT file.
-fs.writeFileSync('ScummVM.dat', output)
+fs.writeFileSync('ScummVM.dat', output, {
+	// Make sure to use the ASCII encoding.
+	'encoding': 'ascii'
+})
