@@ -624,6 +624,7 @@ game (
 	rom ( name "Maniac Mansion.scummvm" size 6 crc 9558f941 )
 	rom ( name "Maniac Mansion Windows.scummvm" size 8 crc 39a12408 )
 	rom ( name "Maniac Mansion Unix.scummvm" size 7 crc 33992f6c )
+	rom ( name "Maniac Mansion (V2 - DOS - Italian).scummvm" size 13 crc d958f338 )
 )
 
 game (
