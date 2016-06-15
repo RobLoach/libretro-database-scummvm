@@ -577,6 +577,7 @@ game (
 	rom ( name "Lands of Lore The Throne of Chaos.scummvm" size 3 crc 18edb14d )
 	rom ( name "Lands of Lore The Throne of Chaos Windows.scummvm" size 5 crc ed132f13 )
 	rom ( name "Lands of Lore The Throne of Chaos Unix.scummvm" size 4 crc 3aa2d60f )
+	rom ( name "Lands of Lore The Throne of Chaos (CD - DOS - English).scummvm" size 7 crc 8d979b0b )
 )
 
 game (
