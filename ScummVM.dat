@@ -1192,6 +1192,12 @@ game (
 )
 
 game (
+	name "The Bizarre Adventures of Woodruff and the Schnibble"
+	description "The Bizarre Adventures of Woodruff and the Schnibble"
+	rom ( name "The Bizarre Adventures of Woodruff and the Schnibble (DOS - Italian).scummvm" size 12 crc ef6a96d4 )
+	)
+
+game (
 	name "Waxworks"
 	description "Waxworks"
 	rom ( name "Waxworks.scummvm" size 8 crc 39c07a43 )
