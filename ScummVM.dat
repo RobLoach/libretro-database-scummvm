@@ -665,6 +665,7 @@ game (
 	rom ( name "Monkey Island 2 LeChuck's Revenge.scummvm" size 7 crc 3cbc6c0e )
 	rom ( name "Monkey Island 2 LeChuck's Revenge Windows.scummvm" size 9 crc ce25b9ed )
 	rom ( name "Monkey Island 2 LeChuck's Revenge Unix.scummvm" size 8 crc d55397f8 )
+	rom ( name "Monkey Island 2 LeChuck's Revenge (DOS - Italian).scummvm" size 11 crc 5991d5f8 )
 )
 
 game (
