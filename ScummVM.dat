@@ -915,6 +915,7 @@ game (
 	rom ( name "Simon the Sorcerer 1.scummvm" size 6 crc 88312e20 )
 	rom ( name "Simon the Sorcerer 1 Windows.scummvm" size 8 crc 5df024f0 )
 	rom ( name "Simon the Sorcerer 1 Unix.scummvm" size 7 crc 9311775 )
+	rom ( name "Simon the Sorcerer 1 (CD - DOS - Italian).scummvm" size 13 crc 29bbabc3 )
 )
 
 game (
