@@ -1087,6 +1087,7 @@ game (
 	rom ( name "Day of the Tentacle.scummvm" size 8 crc 97815f07 )
 	rom ( name "Day of the Tentacle Windows.scummvm" size 10 crc a037c88f )
 	rom ( name "Day of the Tentacle Unix.scummvm" size 9 crc ac24126f )
+	rom ( name "Day of the Tentacle (CD - Italian).scummvm" size 12 crc 2958f365 )
 )
 
 game (
