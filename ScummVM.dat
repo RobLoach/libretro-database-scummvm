@@ -239,6 +239,7 @@ game (
 	rom ( name "The Curse of Monkey Island.scummvm" size 4 crc af61c7fa )
 	rom ( name "The Curse of Monkey Island Windows.scummvm" size 6 crc fff174e9 )
 	rom ( name "The Curse of Monkey Island Unix.scummvm" size 5 crc 6f107c56 )
+	rom ( name "The Curse of Monkey Island (Windows - Italian).scummvm" size 8 crc d8289f25 )
 )
 
 game (
