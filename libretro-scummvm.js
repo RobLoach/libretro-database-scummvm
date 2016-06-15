@@ -24,6 +24,7 @@ var output = `clrmamepro (
 
 // Default set of unlisted games.
 var games = require('./games')
+var languages = require('./languages')
 
 // Build the .scummvm files.
 exec('scummvm --list-games')
@@ -72,22 +73,32 @@ game (
 		' Unix': '\n'
 	}
 	for (var newlineType in newlineOptions) {
-		// Construct the contents of the .scummvm file
-		var contents = id + newlineOptions[newlineType]
+		// Allow launching of specific languages
+		for (var lang in languages) {
+			// Cleanse both the language code and name
+			var langCode = ''
+			var langName = ''
+			if (languages[lang].length !== 0) {
+				langCode = '-' + lang
+				langName = ' ' + languages[lang]
+			}
+			// Construct the contents of the .scummvm file
+			var contents = id + langCode + newlineOptions[newlineType]
 
-		// Write the file
-		fs.writeFileSync(`games/${name}${newlineType}.scummvm`, contents, {
-			encoding: 'ascii'
-		})
+			// Write the file
+			fs.writeFileSync(`games/${name}${newlineType}${langName}.scummvm`, contents, {
+				encoding: 'ascii'
+			})
 
-		// Calculate the CRC for the entry
-		var crcValue = crc.crc32(contents).toString(16)
+			// Calculate the CRC for the entry
+			var crcValue = crc.crc32(contents).toString(16)
 
-		// Diplay an output
-		console.log(name, newlineType, '-', name, '-', crcValue)
+			// Diplay an output
+			console.log(name, newlineType, langName, '-', crcValue)
 
-		// Write the rom entry to the .DAT file.
-		output += `	rom ( name "${name}${newlineType}.scummvm" size ${contents.length} crc ${crcValue} )\n`
+			// Write the rom entry to the .DAT file.
+			output += `	rom ( name "${name}${newlineType}${langName}.scummvm" size ${contents.length} crc ${crcValue} )\n`
+		}
 	}
 	output += ')\n'
 }

@@ -9,6 +9,10 @@ A DAT file containing game files to run [ScummVM](http://scummvm.org) games in [
   - The contents of each `.scummvm` file should simply be the ScummVM game short name
 3. In RetroArch, scan the directory that you added all the `.scummvm` files
 
+### Unsupported Games
+
+If a game does not apear in the DAT, you can add it by editing the [`games.json`](games.json) file.
+
 ## Build
 
 1. Install [Node.js](https://nodejs.org/en/) >= 4
