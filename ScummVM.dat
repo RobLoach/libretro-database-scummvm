@@ -439,6 +439,7 @@ game (
 	rom ( name "Full Throttle.scummvm" size 2 crc 25166bfb )
 	rom ( name "Full Throttle Windows.scummvm" size 4 crc 398a201c )
 	rom ( name "Full Throttle Unix.scummvm" size 3 crc 189d3b6c )
+	rom ( name "Full Throttle (Italian).scummvm" size 6 crc dde5d94b )
 )
 
 game (
