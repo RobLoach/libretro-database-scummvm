@@ -547,6 +547,7 @@ game (
 	rom ( name "The Legend of Kyrandia.scummvm" size 5 crc 44bab8b5 )
 	rom ( name "The Legend of Kyrandia Windows.scummvm" size 7 crc 48aaa055 )
 	rom ( name "The Legend of Kyrandia Unix.scummvm" size 6 crc 8998fb28 )
+	rom ( name "The Legend of Kyrandia (CD - DOS - Italian).scummvm" size 12 crc a5d9d73b )
 )
 
 game (
