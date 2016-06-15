@@ -589,6 +589,12 @@ game (
 )
 
 game (
+	name "Lost in Time"
+	description "Lost in Time"
+	rom ( name "Lost in Time (DOS - Italian).scummvm" size 7 crc 4c0b33d2 )
+)
+
+game (
 	name "Pajama Sam's Lost & Found"
 	description "Pajama Sam's Lost & Found"
 	rom ( name "Pajama Sam's Lost & Found.scummvm" size 4 crc 404584aa )
