@@ -504,6 +504,7 @@ game (
 	rom ( name "Indiana Jones and the Last Crusade.scummvm" size 5 crc 870aa244 )
 	rom ( name "Indiana Jones and the Last Crusade Windows.scummvm" size 7 crc b86f4a63 )
 	rom ( name "Indiana Jones and the Last Crusade Unix.scummvm" size 6 crc 43e189b8 )
+	rom ( name "Indiana Jones and the Last Crusade (VGA - DOS - Italian)" size 13 crc 582cbff4 )
 )
 
 game (
