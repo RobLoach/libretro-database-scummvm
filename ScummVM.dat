@@ -882,6 +882,7 @@ game (
 	rom ( name "Sam & Max Hit the Road.scummvm" size 7 crc 5b280160 )
 	rom ( name "Sam & Max Hit the Road Windows.scummvm" size 9 crc 65885b5 )
 	rom ( name "Sam & Max Hit the Road Unix.scummvm" size 8 crc 7f3e4fca )
+	rom ( name "Sam & Max Hit the Road (CD - Italian).scummvm" size 11 crc 049cb65e )
 )
 
 game (
