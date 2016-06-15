@@ -660,6 +660,7 @@ game (
 	rom ( name "The Secret of Monkey Island.scummvm" size 6 crc b0e2af30 )
 	rom ( name "The Secret of Monkey Island Windows.scummvm" size 8 crc 8d8dbdc4 )
 	rom ( name "The Secret of Monkey Island Unix.scummvm" size 7 crc 14bed490 )
+	rom ( name "The Secret of Monkey Island (VGA - DOS - Italian).scummvm" size 14 crc f8f7bc27 )
 )
 
 game (
