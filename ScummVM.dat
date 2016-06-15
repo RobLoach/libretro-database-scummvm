@@ -264,6 +264,7 @@ game (
 	rom ( name "The Dig.scummvm" size 3 crc d7769efb )
 	rom ( name "The Dig Windows.scummvm" size 5 crc f45dd4ef )
 	rom ( name "The Dig Unix.scummvm" size 4 crc 186f5b99 )
+	rom ( name "The Dig (Italian).scummvm" size 7 crc 58a490e7 )
 )
 
 game (
