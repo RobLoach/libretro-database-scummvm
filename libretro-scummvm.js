@@ -60,11 +60,6 @@ games = sortObject(games, {
 // Output each game to the DAT file.
 for (var id in games) {
 	var name = games[id]
-	output += `
-game (
-	name "${name}"
-	description "${name}"
-`
 
 	// New lines can appear at the end of the .scummvm files, allow for this to happen.
 	var newlineOptions = {
@@ -97,10 +92,15 @@ game (
 			console.log(name, newlineType, langName, '-', crcValue)
 
 			// Write the rom entry to the .DAT file.
+			output += `
+game (
+	name "${name}"
+	description "${name}"
+`
 			output += `	rom ( name "${name}${newlineType}${langName}.scummvm" size ${contents.length} crc ${crcValue} )\n`
+			output += ')\n'
 		}
 	}
-	output += ')\n'
 }
 
 // Write the DAT file.

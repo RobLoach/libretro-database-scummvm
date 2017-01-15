@@ -4,10 +4,10 @@ A DAT file containing game files to run [ScummVM](http://scummvm.org) games in [
 
 ## Usage
 
-1. Run ScummVM in RetroArch, add each game in the ScummVM interface
-2. For each game that you added, copy the individual `.scummvm` file from the [`games`](games) directory to your libretro games folder.
+1. Run ScummVM core in RetroArch, add each game in the ScummVM interface
+1. For each game that you added, copy the individual `.scummvm` file from the [`games`](games) directory to your libretro games folder.
   - The contents of each `.scummvm` file should simply be the ScummVM game short name
-3. In RetroArch, scan the directory that you added all the `.scummvm` files
+1. In RetroArch, scan the directory that you added all the `.scummvm` files
 
 ### Unsupported Games
 
