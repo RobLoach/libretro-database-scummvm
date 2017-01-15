@@ -64,8 +64,9 @@ for (var id in games) {
 	// New lines can appear at the end of the .scummvm files, allow for this to happen.
 	var newlineOptions = {
 		'': '',
-		' Windows': '\r\n',
-		' Unix': '\n'
+		' CRLF': '\r\n',
+		' LF': '\n',
+		' CR': '\r'
 	}
 	for (var newlineType in newlineOptions) {
 		// Allow launching of specific languages
