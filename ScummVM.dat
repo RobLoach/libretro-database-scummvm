@@ -2,8 +2,8 @@ clrmamepro (
 	name "ScummVM"
 	description "ScummVM"
 	comment "DAT file containing game files to launch ScummVM games from RetroArch."
-	version 1.8.1
-	date "2016-06-11"
+	version 1.9.0
+	date "2017-07-05"
 	author "Rob Loach"
 	homepage https://github.com/libretro/scummvm
 	url https://github.com/RobLoach/libretro-scummvm.dat#readme
