@@ -17,13 +17,10 @@ A DAT file containing game files to run [ScummVM](http://scummvm.org) games in [
 
 5. Scan each game directory
 
-### Unsupported Games
-
-If a game does not apear in the DAT, you can add it by editing the [`games.json`](games.json) file.
-
 ## Build
 
 1. Install [Node.js](https://nodejs.org/en/) >= 4
 1. Install [ScummVM](http://scummvm.org)
 1. Run `npm install` to install dependendencies
 1. Run `npm test` to build the `games` directory and [`ScummVM.dat`](ScummVM.dat)
+1. If the game is not listed, you can add it by editing the [`games.json`](games.json) file
