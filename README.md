@@ -4,10 +4,10 @@ A DAT file containing game files to run [ScummVM](http://scummvm.org) games in [
 
 ## Usage
 
-1. Run ScummVM core in RetroArch, add each game in the ScummVM interface
 1. Make `.scummvm` files containing the [Game Short Name](https://www.scummvm.org/compatibility/) for each game you added
   - For Day of the Tentacle, `DayOfTheTentacle.scummvm` should contain `dott`
-1. In RetroArch, scan the directory that you added all the `.scummvm` files
+1. Move each .scummvm file into their own game directories
+1. In RetroArch, scan the directory each game directory
 
 ### Unsupported Games
 
