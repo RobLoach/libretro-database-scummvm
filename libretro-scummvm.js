@@ -41,7 +41,11 @@ exec('scummvm --list-games')
 		if (id.length > 0) {
 			var title = line.substring(20)
 				.replace('/', ' - ')
+				.replace(': ', ' - ')
 				.replace('?', '')
+				.replace('#', '')
+				.replace('!', '')
+				.replace('&', 'and')
 				.replace(new RegExp(':', 'g'), '')
 				.trim()
 			games[id] = title
