@@ -26,7 +26,7 @@ var output = `clrmamepro (
 var games = require('./games')
 
 // Build the .scummvm files.
-exec('scummvm --list-games')
+exec('/tmp/scummvm/scummvm --list-games')
 	// Port the Buffer to a string.
 	.toString()
 	// Split it into an array.
@@ -73,9 +73,20 @@ for (var id in games) {
 	for (var newlineType in newlineOptions) {
 		// Construct the contents of the .scummvm file
 		var contents = id + newlineOptions[newlineType]
+		var filename = `${name}${newlineType}`
+				.replace('/', ' - ')
+				.replace(': ', ' - ')
+				.replace(',', '')
+				.replace('\'', '')
+				.replace('"', '')
+				.replace('?', '')
+				.replace('#', '')
+				.replace('!', '')
+				.replace('&', 'and')
+				.replace(new RegExp(':', 'g'), '')
 
 		// Write the file
-		fs.writeFileSync(`games/${name}${newlineType}.scummvm`, contents, {
+		fs.writeFileSync(`games/${filename}.scummvm`, contents, {
 			encoding: 'ascii'
 		})
 
@@ -83,15 +94,16 @@ for (var id in games) {
 		var crcValue = crc.crc32(contents).toString(16)
 
 		// Diplay an output
-		console.log(name, newlineType, '-', crcValue)
+		console.log(filename, '-', crcValue)
 
 		// Write the rom entry to the .DAT file.
 		output += `
 game (
 	name "${name}"
 	description "${name}"
+	comment "${id}"
 `
-		output += `	rom ( name "${name}${newlineType}.scummvm" size ${contents.length} crc ${crcValue} )\n`
+		output += `	rom ( name "${filename}.scummvm" size ${contents.length} crc ${crcValue} )\n`
 		output += ')\n'
 	}
 }
