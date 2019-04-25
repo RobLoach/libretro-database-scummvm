@@ -26,7 +26,7 @@ var output = `clrmamepro (
 var games = require('./games')
 
 // Build the .scummvm files.
-exec('scummvm --list-games')
+exec('~/Documents/scummvm/scummvm --list-games')
 	// Port the Buffer to a string.
 	.toString()
 	// Split it into an array.
@@ -50,6 +50,9 @@ exec('scummvm --list-games')
 				.replace('"', '')
 				.replace('"', '')
 				.replace('"', '')
+				.replace('\'', '')
+				.replace('\'', '')
+				.replace('\'', '')
 				.replace('!', '')
 				.replace('&', 'and')
 				.replace(new RegExp(':', 'g'), '')
