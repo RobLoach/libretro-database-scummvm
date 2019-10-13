@@ -1,8 +1,8 @@
 {
   "name": "libretro-scummvm.dat",
   "title": "ScummVM",
-  "version": "2.0.8",
-  "date": "2018-12-30",
+  "version": "2.1.0",
+  "date": "2019-10-13",
   "description": "DAT file containing game files to launch ScummVM games from RetroArch.",
   "main": "libretro-scummvm.js",
   "private": true,
@@ -21,8 +21,8 @@
   "authorUrl": "https://github.com/libretro/scummvm",
   "homepage": "https://github.com/RobLoach/libretro-scummvm.dat#readme",
   "dependencies": {
-    "crc": "^3.4.0",
-    "rimraf": "^2.5.2",
-    "sort-object": "^3.0.2"
+    "crc": "^3.8.0",
+    "rimraf": "^3.0.0",
+    "sort-object": "^3.0.3"
   }
 }

@@ -26,7 +26,9 @@ var output = `clrmamepro (
 var games = require('./games')
 
 // Build the .scummvm files.
+// TODO: Make running scummvm discover path.
 exec('~/Documents/scummvm/scummvm --list-games')
+//exec('snap run scummvm --list-games')
 	// Port the Buffer to a string.
 	.toString()
 	// Split it into an array.
@@ -37,28 +39,35 @@ exec('~/Documents/scummvm/scummvm --list-games')
 	.sort()
 	// Loop through each one an make the .scummvm file
 	.forEach(function (line) {
-		var id = line.substring(0, 20).trim()
-		if (id.length > 0) {
-			var title = line.substring(20)
-				.replace('/', ' - ')
-				.replace(': ', ' - ')
-				.replace('?', '')
-				.replace('#', '')
-				.replace('"', '')
-				.replace('"', '')
-				.replace('"', '')
-				.replace('"', '')
-				.replace('"', '')
-				.replace('"', '')
-				.replace('\'', '')
-				.replace('\'', '')
-				.replace('\'', '')
-				.replace('!', '')
-				.replace('&', 'and')
-				.replace(new RegExp(':', 'g'), '')
-				.trim()
-			games[id] = title
+		line = line.trim()
+		if (line.length == 0) {
+			return
 		}
+		var parts = line.split(' ', 2)
+		var id = parts[0]
+		var title = line.substring(id.length)
+			.replace('/', ' - ')
+			.replace(': ', ' - ')
+			.replace('?', '')
+			.replace('#', '')
+			.replace('"', '')
+			.replace('"', '')
+			.replace('"', '')
+			.replace('"', '')
+			.replace('"', '')
+			.replace('"', '')
+			.replace('\'', '')
+			.replace('\'', '')
+			.replace('\'', '')
+			.replace('!', '')
+			.replace('&', 'and')
+			.replace(new RegExp(':', 'g'), '')
+			.trim()
+
+		if (title.length == 0) {
+			title = id
+		}
+		games[id] = title
 	})
 
 // Sort the games by title
@@ -118,7 +127,7 @@ game (
 }
 
 // Write the DAT file.
-fs.writeFileSync('ScummVM.dat', output, {
+fs.writeFileSync('libretro-database/dat/ScummVM.dat', output, {
 	// Make sure to use the ASCII encoding.
 	'encoding': 'ascii'
 })
