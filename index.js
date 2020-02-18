@@ -4,6 +4,9 @@ const fs = require('fs')
 const datfile = require('datfile')
 const pkg = require('./package')
 const sortObj = require('sort-object')
+const ignoreGames = [
+	'swampwitch-1'
+]
 
 // Find each ScummVM .DAT file.
 //glob("DATs/svm-scu*.dat", function (err, files) {
@@ -41,7 +44,7 @@ function writeExtensions(games) {
 		'scumm': true
 	}
 	for (let gameName in games) {
-		let game = games[gameName]
+		let game = games[gameName].rom
 		let ext = path.extname('testfile' + game.name).replace('.', '')
 		if (ext) {
 			extensions[ext] = true
@@ -61,20 +64,25 @@ function writeDAT(games) {
 	comment "${pkg.comment}"
 	category "${pkg.title}"
 	version "${pkg.version}"
-	author "${pkg.contributors[1].name}"
+	author "${pkg.contributors[0].name}"
 	homepage "${pkg.homepage}"
 )\n`
 
 	for (let gameName in games) {
 		let game = games[gameName]
-		let crc = game.crc ? `crc ${game.crc} ` : ''
-		let md5 = game.md5 ? `md5 ${game.md5} ` : ''
-		let size = game.size ? `size ${game.size} ` : ''
-		let filename = game.name ? `name "${game.name}" ` : ''
+		let description = game.description
+		let releaseyear = game.year ? `\n	releaseyear "${game.year}"`: ''
+		let developer = game.manufacturer ? `\n	developer "${game.manufacturer}"`: ''
+		let filename = game.rom.name ? `name "${game.rom.name}" ` : ''
+		let size = game.rom.size ? `size ${game.rom.size} ` : ''
+		let crc = game.rom.crc ? `crc ${game.rom.crc} ` : ''
+		let md5 = game.rom.md5 ? `md5 ${game.rom.md5} ` : ''
+		let sha1 = game.rom.sha1 ? `sha1 ${game.rom.sha1} ` : ''
 		output += `\ngame (
-	name "${gameName}"
-	description "${gameName}"
-	rom ( ${filename}${size}${crc}${md5})
+	name "${description}"
+	description "${description}"${releaseyear}${developer}
+	code "${gameName}"
+	rom ( ${filename}${size}${crc}${md5}${sha1})
 )\n`
 	}
 
@@ -85,9 +93,20 @@ function writeDAT(games) {
  * Check whether or not the given rom is unique.
  */
 function isRomUnique(games, currentGame, rom) {
+	// Require a CRC.
+	if (!rom.crc) {
+		return false
+	}
+
+	// Require a file extension.
+	if (!path.extname(rom.name).replace('.', '')) {
+		return false
+	}
+
+	// Check against other existing roms.
 	for (let gameName in games) {
 		if (gameName != currentGame) {
-			let roms = games[gameName]
+			let roms = games[gameName].roms
 
 			for (let romIndex in roms) {
 				let checkRom = roms[romIndex]
@@ -108,7 +127,7 @@ function getUniqueRoms(games) {
 	let uniqueGames = {}
 
 	for (let gameName in games) {
-		let roms = games[gameName]
+		let roms = games[gameName].roms
 		let uniqueRom = false
 
 		for (let romIndex in roms) {
@@ -120,7 +139,8 @@ function getUniqueRoms(games) {
 		}
 
 		if (uniqueRom) {
-			uniqueGames[gameName] = uniqueRom
+			uniqueGames[gameName] = games[gameName]
+			uniqueGames[gameName].rom = uniqueRom
 		}
 		else {
 			console.log("[WARN] No unique rom: " + gameName);
@@ -145,13 +165,31 @@ function getGamesFromFiles(files) {
 		var dat = datfile.parse(data)
 
 		// Clean up the name to match its description.
+		/*
 		for (var i in dat) {
 			dat[i].name = dat[i].description
 		}
+		*/
 
 		// Loop through each game in the DAT.
 		dat.forEach(function (game) {
-			games[game.name] = game.roms
+			// Ignore some games.
+			if (ignoreGames.includes(game.name)) {
+				return
+			}
+
+			// Ignore all [a] games.
+			if (game.name.includes('[a]')) {
+				return
+			}
+
+			// Do not consider resource files.
+			if (game.description && game.description.includes('ZZZ - ')) {
+				return
+			}
+
+			// Add the game to the dictionary.
+			games[game.name] = game
 		})
 	})
 
