@@ -5,7 +5,38 @@ const datfile = require('datfile')
 const pkg = require('./package')
 const sortObj = require('sort-object')
 const ignoreGames = [
-	'swampwitch-1'
+	'swampwitch-1',
+	'tentacle-cd-mep',
+	'worldofxeen-de-1',
+	'gob2-amiga-fr',
+	'gob3cd-1',
+	'kyra2-cd-pc98',
+	'guiltybastards-1',
+	'cruise-de-1',
+	'cruise-fr-1',
+	'simon1-1',
+	'findtheheart-1',
+	'findtheheart-2',
+	'fredrogersterrorist-1',
+	'karthofthejungle-1',
+	'monkey-ega-it-1',
+	'nippon-1',
+	'nippon-amiga-it',
+	'nippon-amiga',
+	'lol-cd-1',
+	'lol-cd-fr-1',
+	'lab-1',
+	'dig-1',
+	'sword1-1',
+	'sword1-2',
+	'sword1-3',
+	'sword1-ru-1',
+	'sword1-es-1',
+	'simon1-amiga-1',
+	'simon1-cz-1',
+	'gob3-gb-2',
+	'11h-mac',
+	'bra-1'
 ]
 
 // Find each ScummVM .DAT file.
@@ -103,6 +134,11 @@ function isRomUnique(games, currentGame, rom) {
 		return false
 	}
 
+	// Don't allow pathed files.
+	if (rom.name.includes('\\')) {
+		return false
+	}
+
 	// Check against other existing roms.
 	for (let gameName in games) {
 		if (gameName != currentGame) {
@@ -164,13 +200,6 @@ function getGamesFromFiles(files) {
 		var data = fs.readFileSync(file, 'utf8')
 		var dat = datfile.parse(data)
 
-		// Clean up the name to match its description.
-		/*
-		for (var i in dat) {
-			dat[i].name = dat[i].description
-		}
-		*/
-
 		// Loop through each game in the DAT.
 		dat.forEach(function (game) {
 			// Ignore some games.
@@ -179,7 +208,7 @@ function getGamesFromFiles(files) {
 			}
 
 			// Ignore all [a] games.
-			if (game.name.includes('[a]')) {
+			if (game.description.includes('[a]')) {
 				return
 			}
 
