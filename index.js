@@ -86,7 +86,7 @@ function writeDAT(games) {
 )\n`
 	}
 
-	fs.writeFileSync('ScummVM.dat', output)
+	fs.writeFileSync('libretro-database/dat/ScummVM.dat', output)
 }
 
 /**
