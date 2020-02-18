@@ -1,3 +1,5 @@
-[submodule "database"]
-	path = database
+[submodule "libretro-database"]
+	path = libretro-database
 	url = https://github.com/libretro/libretro-database.git
+	branch = master
+	ignore = dirty
