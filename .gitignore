@@ -1,3 +1,4 @@
+DATs/*.dat
 node_modules
 *.ini
 *.log

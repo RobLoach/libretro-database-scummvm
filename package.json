@@ -1,28 +1,31 @@
 {
-  "name": "libretro-scummvm.dat",
-  "title": "ScummVM",
-  "version": "2.1.0",
-  "date": "2019-10-13",
-  "description": "DAT file containing game files to launch ScummVM games from RetroArch.",
-  "main": "libretro-scummvm.js",
+  "name": "libretro-databse-scummvm",
   "private": true,
+  "title": "ScummVM",
+  "version": "2.0.0",
+  "description": "DAT file for libretro's ScummVM",
+  "comment": "DAT file containing game files to launch ScummVM games from RetroArch.",
   "scripts": {
-    "test": "node libretro-scummvm"
+    "test": "node ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RobLoach/libretro-scummvm.dat.git"
-  },
-  "author": "Rob Loach",
+  "homepage": "http://github.com/RobLoach/libretro-database-scummvm",
+  "author": "Rob Loach (http://robloach.net)",
+  "contributors": [
+    {
+      "name": "Rob Loach"
+    },
+    {
+      "name": "Gruby"
+    }
+  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RobLoach/libretro-scummvm.dat/issues"
+  "engines": {
+    "node": ">=6"
   },
-  "authorUrl": "https://github.com/libretro/scummvm",
-  "homepage": "https://github.com/RobLoach/libretro-scummvm.dat#readme",
   "dependencies": {
-    "crc": "^3.8.0",
-    "rimraf": "^3.0.0",
+    "datfile": "git://github.com/RobLoach/datfile.git#0.3.0",
+    "glob": "^7.1.6",
     "sort-object": "^3.0.3"
-  }
+  },
+  "repository": "github:RobLoach/libretro-scummvm.dat"
 }
