@@ -84,6 +84,11 @@ function writeExtensions(games) {
 	fs.writeFileSync('extensions.txt', Object.keys(extensions).join('|'))
 }
 
+function cleanName(name) {
+	let out = name.replace('[!]', '')
+	return out.trim()
+}
+
 /**
  * Given the games, write a DAT.
  */
@@ -101,7 +106,7 @@ function writeDAT(games) {
 
 	for (let gameName in games) {
 		let game = games[gameName]
-		let description = game.description
+		let description = cleanName(game.description)
 		let releaseyear = game.year ? `\n	releaseyear "${game.year}"`: ''
 		let developer = game.manufacturer ? `\n	developer "${game.manufacturer}"`: ''
 		let filename = game.rom.name ? `name "${game.rom.name}" ` : ''
