@@ -3,7 +3,9 @@ const path = require('path')
 const fs = require('fs')
 const datfile = require('datfile')
 const pkg = require('./package')
+const crc = require('crc')
 const sortObj = require('sort-object')
+const clone = require('clone')
 const ignoreGames = [
 	'swampwitch-1',
 	'tentacle-cd-mep',
@@ -179,12 +181,32 @@ function getUniqueRoms(games) {
 			}
 		}
 
+		// If there is a unique rom, use it.
 		if (uniqueRom) {
 			uniqueGames[gameName] = games[gameName]
 			uniqueGames[gameName].rom = uniqueRom
 		}
 		else {
-			console.log("[WARN] No unique rom: " + gameName);
+			// Since there isn't a unique rom, use a .scummvm file instead.
+			console.log("[WARN] No unique rom: " + gameName + '. Using .scummvm file instead.');
+
+			// Allow for newlines at the end of the .scummvm file.
+			let newlineOptions = {
+				'': '',
+				' CRLF': '\r\n',
+				' LF': '\n',
+				' CR': '\r'
+			}
+			for (let newlineType in newlineOptions) {
+				let gameCodeWithNewline = gameName + newlineOptions[newlineType]
+				let gameTitleWithNewline = gameName + newlineType
+				uniqueGames[gameTitleWithNewline] = clone(games[gameName])
+				uniqueGames[gameTitleWithNewline].rom = {
+					crc: crc.crc32(gameCodeWithNewline).toString(16),
+					size: gameCodeWithNewline.length,
+					name: games[gameName].description + newlineType + '.scummvm',
+				}
+			}
 		}
 	}
 
