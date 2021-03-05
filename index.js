@@ -188,24 +188,24 @@ function getUniqueRoms(games) {
 		}
 		else {
 			// Since there isn't a unique rom, use a .scummvm file instead.
-			console.log("[WARN] No unique rom: " + gameName + '. Using .scummvm file instead.');
+			console.log("[WARN] No unique rom: " + gameName + '. Use .scummvm file instead.');
+		}
 
-			// Allow for newlines at the end of the .scummvm file.
-			let newlineOptions = {
-				'': '',
-				' CRLF': '\r\n',
-				' LF': '\n',
-				' CR': '\r'
-			}
-			for (let newlineType in newlineOptions) {
-				let gameCodeWithNewline = gameName + newlineOptions[newlineType]
-				let gameTitleWithNewline = gameName + newlineType
-				uniqueGames[gameTitleWithNewline] = clone(games[gameName])
-				uniqueGames[gameTitleWithNewline].rom = {
-					crc: crc.crc32(gameCodeWithNewline).toString(16),
-					size: gameCodeWithNewline.length,
-					name: games[gameName].description + newlineType + '.scummvm',
-				}
+		// Allow for newlines at the end of the .scummvm file.
+		let newlineOptions = {
+			' ScummVM File': '',
+			' CRLF': '\r\n',
+			' LF': '\n',
+			' CR': '\r'
+		}
+		for (let newlineType in newlineOptions) {
+			let gameCodeWithNewline = gameName + newlineOptions[newlineType]
+			let gameTitleWithNewline = gameName + newlineType
+			uniqueGames[gameTitleWithNewline] = clone(games[gameName])
+			uniqueGames[gameTitleWithNewline].rom = {
+				crc: crc.crc32(gameCodeWithNewline).toString(16),
+				size: gameCodeWithNewline.length,
+				name: games[gameName].description + newlineType + '.scummvm',
 			}
 		}
 	}
