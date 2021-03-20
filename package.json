@@ -25,7 +25,7 @@
   "dependencies": {
     "clone": "^2.1.2",
     "crc": "^3.8.0",
-    "datfile": "git://github.com/RobLoach/datfile.git#0.3.0",
+    "datfile": "git://github.com/RobLoach/datfile.git#2.3.0",
     "glob": "^7.1.6",
     "sort-object": "^3.0.3"
   },
