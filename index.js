@@ -110,6 +110,10 @@ function isRomUnique(games, currentGame, rom) {
 	if (!path.extname(rom.name).replace('.', '')) {
 		return false
 	}
+    
+    if (rom.name == 'acsetup.cfg') {
+        return false
+    }
 
 	// Don't allow pathed files.
 	if (rom.name.includes('\\')) {
