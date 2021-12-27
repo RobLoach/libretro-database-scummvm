@@ -7,6 +7,7 @@ const crc = require('crc')
 const sortObj = require('sort-object')
 const clone = require('clone')
 const ignoreGames = require('./ignore-games.json')
+const manualGames = require('./manual-games.json')
 
 // Find each ScummVM .DAT file.
 //glob("DATs/svm-scu*.dat", function (err, files) {
@@ -17,6 +18,7 @@ glob("DATs/svm-*.dat", async function (err, files) {
 
 	let games = await getGamesFromFiles(files);
 	let roms = getUniqueRoms(games)
+	roms = Object.assign({}, roms, manualGames)
 	roms = sortObject(roms)
 	writeDAT(roms)
 	writeExtensions(roms)
@@ -110,7 +112,7 @@ function isRomUnique(games, currentGame, rom) {
 	if (!path.extname(rom.name).replace('.', '')) {
 		return false
 	}
-    
+
     if (rom.name == 'acsetup.cfg') {
         return false
     }
@@ -204,6 +206,11 @@ async function getGamesFromFiles(files) {
 		for (let game of allGames) {
 			// Ignore some games.
 			if (ignoreGames.includes(game.name)) {
+				continue
+			}
+
+			// Ignore all Demos
+			if (game.name.includes('-demo')) {
 				continue
 			}
 

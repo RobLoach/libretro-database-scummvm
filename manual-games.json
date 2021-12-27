@@ -1,0 +1,38 @@
+{
+    "comi": {
+        "name": "comi",
+        "description": "Curse of Monkey Island, The (Windows)[!]",
+        "year": "1997",
+        "manufacturer": "LucasArts",
+        "rom": {
+            "name": "COMI.LA0",
+            "size": "76791",
+            "crc": "bea04514",
+            "md5": "fe60d6b5ff51b0553ac59963123b5777",
+            "sha1": "b0160a63bffa951a4ef23ca57a35162cf6f87803"
+        }
+    },
+    "dig": {
+        "name": "dig",
+        "description": "Dig, The (Multi-OS)[!]",
+        "year": "1995",
+        "manufacturer": "LucasArts",
+        "rom": {
+            "name": "DIG.LA0",
+            "size": "16304",
+            "crc": "95af95ad",
+            "md5": "d8323015ecb8b10bf53474f6e6b0ae33",
+            "sha1": "5d1fe07a2679486e664df2e9302026e974d365b0"
+        }
+    },
+    "dw2": {
+        "name": "dw2",
+        "description": "Discworld II: Missing Presumed (DOS)",
+        "year": "1996",
+        "rom": {
+            "name": "DW2.BAT",
+            "size": "53",
+            "crc": "b089666d"
+        }
+    }
+}

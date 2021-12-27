@@ -1,9 +1,7 @@
 [WARN] No unique rom: ScummVM ACCESS. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM ADL. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM AGI. Use .scummvm file instead.
-[WARN] No unique rom: pq1-3. Use .scummvm file instead.
 [WARN] No unique rom: sq2-4. Use .scummvm file instead.
-[WARN] No unique rom: sq2-amiga. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM AGOS. Use .scummvm file instead.
 [WARN] No unique rom: dimp-win. Use .scummvm file instead.
 [WARN] No unique rom: elvira1-amiga-de. Use .scummvm file instead.
@@ -13,27 +11,12 @@
 [WARN] No unique rom: simon2-cd-win. Use .scummvm file instead.
 [WARN] No unique rom: swampy-win. Use .scummvm file instead.
 [WARN] No unique rom: waxworks. Use .scummvm file instead.
-[WARN] No unique rom: waxworks-amiga. Use .scummvm file instead.
-[WARN] No unique rom: waxworks-amiga-pl. Use .scummvm file instead.
 [WARN] No unique rom: waxworks-gog. Use .scummvm file instead.
-[WARN] No unique rom: ScummVM AGS. Use .scummvm file instead.
-[WARN] No unique rom: blackwell4-linux. Use .scummvm file instead.
-[WARN] No unique rom: bttf4. Use .scummvm file instead.
-[WARN] No unique rom: footballgame-1. Use .scummvm file instead.
-[WARN] No unique rom: metaphobia-1. Use .scummvm file instead.
-[WARN] No unique rom: metaphobia-mac. Use .scummvm file instead.
-[WARN] No unique rom: shivah-linux-1. Use .scummvm file instead.
-[WARN] No unique rom: ScummVM ASYLUM. Use .scummvm file instead.
-[WARN] No unique rom: asylum. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM AVALANCHE. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM BBVS. Use .scummvm file instead.
-[WARN] No unique rom: bbvs-demo. Use .scummvm file instead.
-[WARN] No unique rom: bbvs-demo-1. Use .scummvm file instead.
 [WARN] No unique rom: bbvs-win. Use .scummvm file instead.
-[WARN] No unique rom: bbvs-win-ru. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM BLADERUNNER. Use .scummvm file instead.
 [WARN] No unique rom: bladerunner-win-1. Use .scummvm file instead.
-[WARN] No unique rom: ScummVM BURIED. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM CGE. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM CGE2. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM CHEWY. Use .scummvm file instead.
@@ -54,28 +37,18 @@
 [WARN] No unique rom: littlesamurai-mac-he. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM CRUISE. Use .scummvm file instead.
 [WARN] No unique rom: cruise. Use .scummvm file instead.
-[WARN] No unique rom: cruise-amiga. Use .scummvm file instead.
-[WARN] No unique rom: cruise-amiga-de. Use .scummvm file instead.
 [WARN] No unique rom: cruise-gb. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM CRYO. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM CRYOMNI3D. Use .scummvm file instead.
 [WARN] No unique rom: versailles-mac. Use .scummvm file instead.
-[WARN] No unique rom: versailles-mac-de. Use .scummvm file instead.
-[WARN] No unique rom: versailles-mac-fr. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM DIRECTOR. Use .scummvm file instead.
-[WARN] No unique rom: jman-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: lzone-mac. Use .scummvm file instead.
 [WARN] No unique rom: lzone-mac-jp. Use .scummvm file instead.
 [WARN] No unique rom: madmac-mac-fr. Use .scummvm file instead.
 [WARN] No unique rom: mazedir-mac. Use .scummvm file instead.
 [WARN] No unique rom: mylk-mac. Use .scummvm file instead.
-[WARN] No unique rom: rodney-demo-mac. Use .scummvm file instead.
-[WARN] No unique rom: screamingmetal-demo-mac. Use .scummvm file instead.
-[WARN] No unique rom: warlock-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: warlock-mac. Use .scummvm file instead.
 [WARN] No unique rom: warlock-win. Use .scummvm file instead.
-[WARN] No unique rom: warlock-win-1. Use .scummvm file instead.
-[WARN] No unique rom: warlock-win-2. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM DM. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM DRACI. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM DRAGONS. Use .scummvm file instead.
@@ -95,15 +68,6 @@
 [WARN] No unique rom: ScummVM GLK-Hugo. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM GLK-Jacl. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM GLK-Level9. Use .scummvm file instead.
-[WARN] No unique rom: colossaladvjod. Use .scummvm file instead.
-[WARN] No unique rom: colossaladvjod-1. Use .scummvm file instead.
-[WARN] No unique rom: colossaladvjod-2. Use .scummvm file instead.
-[WARN] No unique rom: colossaladvjod-3. Use .scummvm file instead.
-[WARN] No unique rom: colossaladvjod-amiga. Use .scummvm file instead.
-[WARN] No unique rom: dungeonadvjod. Use .scummvm file instead.
-[WARN] No unique rom: dungeonadvjod-1. Use .scummvm file instead.
-[WARN] No unique rom: dungeonadvjod-2. Use .scummvm file instead.
-[WARN] No unique rom: dungeonadvjod-3. Use .scummvm file instead.
 [WARN] No unique rom: emeraldisle-atari8. Use .scummvm file instead.
 [WARN] No unique rom: lancelot-amiga. Use .scummvm file instead.
 [WARN] No unique rom: returntoedensd-sp3. Use .scummvm file instead.
@@ -112,10 +76,8 @@
 [WARN] No unique rom: ScummVM GLK-Magnetic. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM GLK-Quest. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM GLK-Scott. Use .scummvm file instead.
-git status[WARN] No unique rom: ScummVM GLK-TADS. Use .scummvm file instead.
-
-git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
- diff
+[WARN] No unique rom: ScummVM GLK-TADS. Use .scummvm file instead.
+[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM GNAP. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM GOB. Use .scummvm file instead.
 [WARN] No unique rom: bargon-de. Use .scummvm file instead.
@@ -143,8 +105,6 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM HDB. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM HOPKINS. Use .scummvm file instead.
 [WARN] No unique rom: hopkins-beos. Use .scummvm file instead.
-[WARN] No unique rom: hopkins-demo-linux. Use .scummvm file instead.
-[WARN] No unique rom: hopkins-demo-win-pl. Use .scummvm file instead.
 [WARN] No unique rom: hopkins-linux. Use .scummvm file instead.
 [WARN] No unique rom: hopkins-linux-fr. Use .scummvm file instead.
 [WARN] No unique rom: hopkins-os2. Use .scummvm file instead.
@@ -157,8 +117,6 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: hugo1-4. Use .scummvm file instead.
 [WARN] No unique rom: hugo3-2. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM ICB. Use .scummvm file instead.
-[WARN] No unique rom: icb-demo-win-gb. Use .scummvm file instead.
-[WARN] No unique rom: icb-demo-win-us. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM ILLUSIONS. Use .scummvm file instead.
 [WARN] No unique rom: bbdou. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM KINGDOM. Use .scummvm file instead.
@@ -179,75 +137,23 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: rtz-cd. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM MADS. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM MOHAWK. Use .scummvm file instead.
-[WARN] No unique rom: arthur-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: arthur-mac. Use .scummvm file instead.
-[WARN] No unique rom: arthurbday-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: arthurbday-mac. Use .scummvm file instead.
-[WARN] No unique rom: arthurbday-mac-1. Use .scummvm file instead.
-[WARN] No unique rom: arthurrace-mac. Use .scummvm file instead.
 [WARN] No unique rom: catinthehat-mac. Use .scummvm file instead.
-[WARN] No unique rom: grandma-demo-mac. Use .scummvm file instead.
-[WARN] No unique rom: grandma-demo-mac-it. Use .scummvm file instead.
-[WARN] No unique rom: grandma-mac. Use .scummvm file instead.
-[WARN] No unique rom: grandma-mac-1. Use .scummvm file instead.
-[WARN] No unique rom: grandma-mac-2. Use .scummvm file instead.
-[WARN] No unique rom: grandma-win-2. Use .scummvm file instead.
-[WARN] No unique rom: greeneggs-mac-1. Use .scummvm file instead.
 [WARN] No unique rom: harryhh-mac. Use .scummvm file instead.
 [WARN] No unique rom: lbsampler-mac. Use .scummvm file instead.
 [WARN] No unique rom: lbsampler-mac-1. Use .scummvm file instead.
 [WARN] No unique rom: lbsampler-win-2. Use .scummvm file instead.
 [WARN] No unique rom: lilmonster-mac. Use .scummvm file instead.
-[WARN] No unique rom: lilmonster-mac-de. Use .scummvm file instead.
-[WARN] No unique rom: lilmonster-mac-fr. Use .scummvm file instead.
-[WARN] No unique rom: lilmonster-mac-gb. Use .scummvm file instead.
-[WARN] No unique rom: makingofmyst-win. Use .scummvm file instead.
-[WARN] No unique rom: makingofmyst-win-de. Use .scummvm file instead.
-[WARN] No unique rom: makingofmyst-win-fr. Use .scummvm file instead.
 [WARN] No unique rom: myst-win-1. Use .scummvm file instead.
-[WARN] No unique rom: newkid-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: newkid-mac. Use .scummvm file instead.
 [WARN] No unique rom: riven-25th. Use .scummvm file instead.
-[WARN] No unique rom: ruff-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: ruff-mac. Use .scummvm file instead.
-[WARN] No unique rom: rugrats-win. Use .scummvm file instead.
-[WARN] No unique rom: seussabc-win. Use .scummvm file instead.
-[WARN] No unique rom: seussabc-win-1. Use .scummvm file instead.
-[WARN] No unique rom: tortoise-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: tortoise-mac-it. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM MORTEVIELLE. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM MUTATIONOFJB. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM MYST3. Use .scummvm file instead.
 [WARN] No unique rom: myst3-win. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-1. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-de-1. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-es-1. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-fr-1. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-it-1. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-nl-1. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-2. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-de-2. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-es-2. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-fr-2. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-it-2. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-nl-2. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-de. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-es. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-fr. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-il. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-it. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-jp. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-jp-1. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-nl. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-pl. Use .scummvm file instead.
-[WARN] No unique rom: myst3-win-ru. Use .scummvm file instead.
-[WARN] No unique rom: ScummVM NANCY. Use .scummvm file instead.
-[WARN] No unique rom: nancy1-win-ru. Use .scummvm file instead.
-[WARN] No unique rom: nancy3-win. Use .scummvm file instead.
-[WARN] No unique rom: nancy4-win. Use .scummvm file instead.
-[WARN] No unique rom: nancy5-win. Use .scummvm file instead.
-[WARN] No unique rom: nancy6-win. Use .scummvm file instead.
-[WARN] No unique rom: nancy1xres. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM NEVERHOOD. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM NGI. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM PARALLACTION. Use .scummvm file instead.
@@ -258,17 +164,6 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM PINK. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM PLUMBERS. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM PRINCE. Use .scummvm file instead.
-[WARN] No unique rom: ScummVM PRIVATE. Use .scummvm file instead.
-[WARN] No unique rom: private-eye-demo-mac-us-1. Use .scummvm file instead.
-[WARN] No unique rom: private-eye-demo-win-es. Use .scummvm file instead.
-[WARN] No unique rom: private-eye-demo-win-gb. Use .scummvm file instead.
-[WARN] No unique rom: private-eye-demo-win-us-1. Use .scummvm file instead.
-[WARN] No unique rom: private-eye-mac-us-1. Use .scummvm file instead.
-[WARN] No unique rom: private-eye-win-es. Use .scummvm file instead.
-[WARN] No unique rom: private-eye-win-fr. Use .scummvm file instead.
-[WARN] No unique rom: private-eye-win-gb. Use .scummvm file instead.
-[WARN] No unique rom: private-eye-win-ru. Use .scummvm file instead.
-[WARN] No unique rom: private-eye-win-us. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM QUEEN. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM SAGA. Use .scummvm file instead.
 [WARN] No unique rom: ihnm-1. Use .scummvm file instead.
@@ -281,8 +176,6 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: gk1-mac. Use .scummvm file instead.
 [WARN] No unique rom: gk2-hu. Use .scummvm file instead.
 [WARN] No unique rom: hoyle5-mac. Use .scummvm file instead.
-[WARN] No unique rom: kq6-cd. Use .scummvm file instead.
-[WARN] No unique rom: laurabow2-cd-fr. Use .scummvm file instead.
 [WARN] No unique rom: lighthouse-mac. Use .scummvm file instead.
 [WARN] No unique rom: lsl2-2. Use .scummvm file instead.
 [WARN] No unique rom: lsl3. Use .scummvm file instead.
@@ -292,9 +185,6 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: pq1sci-es. Use .scummvm file instead.
 [WARN] No unique rom: pq3-fr. Use .scummvm file instead.
 [WARN] No unique rom: pq4-mac. Use .scummvm file instead.
-[WARN] No unique rom: pqswat-demo. Use .scummvm file instead.
-[WARN] No unique rom: qfg1vga-he. Use .scummvm file instead.
-[WARN] No unique rom: qfg4-cd. Use .scummvm file instead.
 [WARN] No unique rom: rama-mac. Use .scummvm file instead.
 [WARN] No unique rom: shivers-mac. Use .scummvm file instead.
 [WARN] No unique rom: sq1sci-fr. Use .scummvm file instead.
@@ -305,13 +195,10 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: torin-cd-win-1. Use .scummvm file instead.
 [WARN] No unique rom: torin-cd-win-2. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM SCUMM-HE. Use .scummvm file instead.
-[WARN] No unique rom: airport-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: airport-mac. Use .scummvm file instead.
-[WARN] No unique rom: balloon-mac-nl. Use .scummvm file instead.
 [WARN] No unique rom: farm-mac. Use .scummvm file instead.
 [WARN] No unique rom: fbear-2. Use .scummvm file instead.
 [WARN] No unique rom: fbear-mac. Use .scummvm file instead.
-[WARN] No unique rom: freddi-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: freddi-mac. Use .scummvm file instead.
 [WARN] No unique rom: freddi-mac-fr. Use .scummvm file instead.
 [WARN] No unique rom: freddi-mac-nl. Use .scummvm file instead.
@@ -319,43 +206,21 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: freddi2-us. Use .scummvm file instead.
 [WARN] No unique rom: freddicove. Use .scummvm file instead.
 [WARN] No unique rom: jungle-mac. Use .scummvm file instead.
-[WARN] No unique rom: pajama-demo-mac-nl. Use .scummvm file instead.
-[WARN] No unique rom: puttmoon-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: puttmoon-mac. Use .scummvm file instead.
-[WARN] No unique rom: puttputt-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: puttputt-mac. Use .scummvm file instead.
-[WARN] No unique rom: puttzoo-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: puttzoo-mac. Use .scummvm file instead.
 [WARN] No unique rom: puttzoo-mac-nl. Use .scummvm file instead.
 [WARN] No unique rom: puttzoo-win. Use .scummvm file instead.
-[WARN] No unique rom: spyfox-demo-mac-nl. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM SCUMM. Use .scummvm file instead.
 [WARN] No unique rom: atlantis-amiga-2. Use .scummvm file instead.
 [WARN] No unique rom: comi. Use .scummvm file instead.
 [WARN] No unique rom: dig. Use .scummvm file instead.
-[WARN] No unique rom: ft-1. Use .scummvm file instead.
 [WARN] No unique rom: indy3-steam-mac. Use .scummvm file instead.
 [WARN] No unique rom: indy3-vga. Use .scummvm file instead.
 [WARN] No unique rom: loom-gog. Use .scummvm file instead.
-[WARN] No unique rom: maniac-v2-amiga. Use .scummvm file instead.
-[WARN] No unique rom: maniac-v2-es. Use .scummvm file instead.
-[WARN] No unique rom: maniac-v2-st-es. Use .scummvm file instead.
-[WARN] No unique rom: monkey-2nd. Use .scummvm file instead.
-[WARN] No unique rom: monkey-2nd-de. Use .scummvm file instead.
-[WARN] No unique rom: monkey-2nd-es. Use .scummvm file instead.
-[WARN] No unique rom: monkey-2nd-es-3. Use .scummvm file instead.
-[WARN] No unique rom: monkey-2nd-es-6. Use .scummvm file instead.
-[WARN] No unique rom: monkey-2nd-fr. Use .scummvm file instead.
-[WARN] No unique rom: monkey-2nd-il. Use .scummvm file instead.
-[WARN] No unique rom: monkey-2nd-it. Use .scummvm file instead.
 [WARN] No unique rom: monkey-vga-amiga-de. Use .scummvm file instead.
 [WARN] No unique rom: samnmax-cd-mac. Use .scummvm file instead.
-[WARN] No unique rom: samnmax-cd-mac-de. Use .scummvm file instead.
-[WARN] No unique rom: samnmax-cd-mac-fr. Use .scummvm file instead.
-[WARN] No unique rom: samnmax-cd-ru-1. Use .scummvm file instead.
-[WARN] No unique rom: samnmax-demo-mac. Use .scummvm file instead.
 [WARN] No unique rom: tentacle-1. Use .scummvm file instead.
-[WARN] No unique rom: tentacle-kr-1. Use .scummvm file instead.
 [WARN] No unique rom: zak-fm. Use .scummvm file instead.
 [WARN] No unique rom: zak-v2-gog. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM SHERLOCK. Use .scummvm file instead.
@@ -374,10 +239,7 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: robinsrescue-linux. Use .scummvm file instead.
 [WARN] No unique rom: tgttpoacs-win. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM STARK. Use .scummvm file instead.
-[WARN] No unique rom: tlj-demo-win-fr. Use .scummvm file instead.
-[WARN] No unique rom: tlj-demo-win-se. Use .scummvm file instead.
 [WARN] No unique rom: tlj-win-no. Use .scummvm file instead.
-[WARN] No unique rom: tlj-win-se. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM STARTREK. Use .scummvm file instead.
 [WARN] No unique rom: st25-mac. Use .scummvm file instead.
 [WARN] No unique rom: stjr-cd-es. Use .scummvm file instead.
@@ -400,34 +262,17 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM TITANIC. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM TOLTECS. Use .scummvm file instead.
 [WARN] No unique rom: toltecs. Use .scummvm file instead.
-[WARN] No unique rom: toltecs-cz. Use .scummvm file instead.
-[WARN] No unique rom: toltecs-de. Use .scummvm file instead.
-[WARN] No unique rom: toltecs-demo. Use .scummvm file instead.
-[WARN] No unique rom: toltecs-demo-de. Use .scummvm file instead.
-[WARN] No unique rom: toltecs-es. Use .scummvm file instead.
-[WARN] No unique rom: toltecs-fr. Use .scummvm file instead.
-[WARN] No unique rom: toltecs-hu. Use .scummvm file instead.
-[WARN] No unique rom: toltecs-pl. Use .scummvm file instead.
-[WARN] No unique rom: toltecs-ru. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM TONY. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM TOON. Use .scummvm file instead.
 [WARN] No unique rom: toon. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM TOUCHE. Use .scummvm file instead.
-[WARN] No unique rom: ScummVM TRECISION. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM TSAGE. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM TUCKER. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM TWINE. Use .scummvm file instead.
-[WARN] No unique rom: lba-cd. Use .scummvm file instead.
 [WARN] No unique rom: lba-cd-2. Use .scummvm file instead.
 [WARN] No unique rom: lba-cd-3. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM ULTIMA. Use .scummvm file instead.
 [WARN] No unique rom: ultima8. Use .scummvm file instead.
-[WARN] No unique rom: ultima8-1. Use .scummvm file instead.
-[WARN] No unique rom: ultima8-2. Use .scummvm file instead.
-[WARN] No unique rom: ultima8-de. Use .scummvm file instead.
-[WARN] No unique rom: ultima8-de-1. Use .scummvm file instead.
-[WARN] No unique rom: ultima8-es. Use .scummvm file instead.
-[WARN] No unique rom: ultima8-fr. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM VOYEUR. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM WAGE. Use .scummvm file instead.
 [WARN] No unique rom: 3rdfloor. Use .scummvm file instead.
@@ -437,7 +282,6 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: cantitoe. Use .scummvm file instead.
 [WARN] No unique rom: carboncopy. Use .scummvm file instead.
 [WARN] No unique rom: castleofert-1. Use .scummvm file instead.
-[WARN] No unique rom: deathmall-demo. Use .scummvm file instead.
 [WARN] No unique rom: deepangst. Use .scummvm file instead.
 [WARN] No unique rom: deepennui. Use .scummvm file instead.
 [WARN] No unique rom: doubletrouble. Use .scummvm file instead.
@@ -452,7 +296,6 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: escapefromschool. Use .scummvm file instead.
 [WARN] No unique rom: everyman1. Use .scummvm file instead.
 [WARN] No unique rom: explorationzeta. Use .scummvm file instead.
-[WARN] No unique rom: explorer-demo. Use .scummvm file instead.
 [WARN] No unique rom: fantasyquest. Use .scummvm file instead.
 [WARN] No unique rom: findtheheart. Use .scummvm file instead.
 [WARN] No unique rom: fredrogersterrorist. Use .scummvm file instead.
@@ -494,7 +337,6 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: strangedisappearance. Use .scummvm file instead.
 [WARN] No unique rom: swampwitch. Use .scummvm file instead.
 [WARN] No unique rom: sweetspacenow. Use .scummvm file instead.
-[WARN] No unique rom: theashlandrevolution-demo. Use .scummvm file instead.
 [WARN] No unique rom: theaxeorcist. Use .scummvm file instead.
 [WARN] No unique rom: thephoenix. Use .scummvm file instead.
 [WARN] No unique rom: thepuzzlepiecesearch. Use .scummvm file instead.
@@ -503,7 +345,6 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: thevillage. Use .scummvm file instead.
 [WARN] No unique rom: thewizardsapprentice. Use .scummvm file instead.
 [WARN] No unique rom: timebomb. Use .scummvm file instead.
-[WARN] No unique rom: tombworld-demo. Use .scummvm file instead.
 [WARN] No unique rom: volcanoii. Use .scummvm file instead.
 [WARN] No unique rom: wishingwell. Use .scummvm file instead.
 [WARN] No unique rom: wizardswarehouse. Use .scummvm file instead.
@@ -512,88 +353,21 @@ git[WARN] No unique rom: ScummVM GLK-Zcode. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM WINTERMUTE-3D. Use .scummvm file instead.
 [WARN] No unique rom: facenoir-win-es. Use .scummvm file instead.
 [WARN] No unique rom: facenoir-win-hu. Use .scummvm file instead.
+[WARN] No unique rom: juliastars-win-es. Use .scummvm file instead.
+[WARN] No unique rom: juliastars-win-es-1. Use .scummvm file instead.
+[WARN] No unique rom: juliastars-win-es-2. Use .scummvm file instead.
+[WARN] No unique rom: juliastars-win-es-3. Use .scummvm file instead.
 [WARN] No unique rom: sotv1-win-ru-7. Use .scummvm file instead.
 [WARN] No unique rom: sotv2-win-de-14. Use .scummvm file instead.
 [WARN] No unique rom: sotv2-win-de-15. Use .scummvm file instead.
 [WARN] No unique rom: sotv2-win-de-16. Use .scummvm file instead.
 [WARN] No unique rom: sotv2-win-de-17. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM WINTERMUTE. Use .scummvm file instead.
-[WARN] No unique rom: carolreed11-win-3. Use .scummvm file instead.
 [WARN] No unique rom: jamesperis-win-4. Use .scummvm file instead.
-[WARN] No unique rom: juliastars-win-es. Use .scummvm file instead.
-[WARN] No unique rom: juliastars-win-es-1. Use .scummvm file instead.
-[WARN] No unique rom: juliastars-win-es-2. Use .scummvm file instead.
-[WARN] No unique rom: juliastars-win-es-3. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-es. Use .scummvm file instead.
 [WARN] No unique rom: reversion1-linux. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-br. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-de. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-fr. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-it. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-lv. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-pl. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-ru. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-zh-cn. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-es-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-br-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-de-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-fr-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-it-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-lv-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-pl-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-pl-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-zh-cn-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-es-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-br-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-de-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-fr-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-it-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-lv-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-pl-3. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-ru-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-zh-cn-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-br-4. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-linux-pl-4. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-mac-es. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-mac-es-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-mac-es-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-mac-br-4. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-mac-pl-4. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-win-pl-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-win-6. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-win-br-5. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-win-de-4. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-win-fr-4. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-win-it-4. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-win-lv-3. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-win-pl-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-win-ru-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion1-win-zh-cn-5. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-linux-es. Use .scummvm file instead.
 [WARN] No unique rom: reversion2-linux. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-linux-it. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-linux-ru. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-linux-zh-cn. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-linux-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-linux-zh-cn-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-linux-es-2. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-mac-es. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-mac-es-1. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-win-zh-cn-3. Use .scummvm file instead.
 [WARN] No unique rom: reversion2-win-5. Use .scummvm file instead.
-[WARN] No unique rom: reversion2-win-zh-cn-5. Use .scummvm file instead.
-[WARN] No unique rom: shaban-demo-win-br. Use .scummvm file instead.
-[WARN] No unique rom: shaban-demo-win-de. Use .scummvm file instead.
-[WARN] No unique rom: shaban-demo-win-es. Use .scummvm file instead.
-[WARN] No unique rom: shaban-demo-win-fr. Use .scummvm file instead.
-[WARN] No unique rom: shaban-demo-win-it. Use .scummvm file instead.
-[WARN] No unique rom: shaban-demo-win-jp. Use .scummvm file instead.
-[WARN] No unique rom: shaban-demo-win-nl. Use .scummvm file instead.
 [WARN] No unique rom: shaban-win-ru. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM XEEN. Use .scummvm file instead.
 [WARN] No unique rom: worldofxeen. Use .scummvm file instead.
 [WARN] No unique rom: ScummVM ZVISION. Use .scummvm file instead.
-[WARN] No unique rom: znemesis. Use .scummvm file instead.
-[WARN] No unique rom: znemesis-kr. Use .scummvm file instead.

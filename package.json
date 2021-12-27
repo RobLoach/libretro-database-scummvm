@@ -2,7 +2,7 @@
   "name": "libretro-databse-scummvm",
   "private": true,
   "title": "ScummVM",
-  "version": "2021.6.26",
+  "version": "2021.12.23",
   "description": "DAT file for libretro's ScummVM",
   "comment": "DAT file containing game files to launch ScummVM games from RetroArch.",
   "scripts": {
@@ -25,7 +25,7 @@
   "dependencies": {
     "clone": "^2.1.2",
     "crc": "^3.8.0",
-    "glob": "^7.1.7",
+    "glob": "^7.2.0",
     "robloach-datfile": "^2.3.0",
     "sort-object": "^3.0.3"
   },
