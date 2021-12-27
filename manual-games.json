@@ -34,5 +34,70 @@
             "size": "53",
             "crc": "b089666d"
         }
+    },
+    "sq2-4": {
+        "name": "sq2-4",
+        "description": "Space Quest II: Vohaul's Revenge (DOS)",
+        "year": "1989",
+        "manufacturer": "Sierra On-Line",
+        "rom": {
+            "name": "HGC_GRAF.OVL",
+            "size": "1536",
+            "crc": "8ca5a1da",
+            "md5": "002a3655407292ffb799dbf6327668aa",
+            "sha1": "231919054edea9d4ef1ca2519ad315b8ea031ce4"
+        }
+    },
+    "simon2-cd-win": {
+        "name": "simon2-cd-win",
+        "description": "Simon the Sorcerer II (CD/Windows)[!]",
+        "year": "1995",
+        "manufacturer": "Adventure Soft",
+        "rom": {
+            "name": "SIMON2.GME",
+            "size": "20046789",
+            "crc": "f6d80af5",
+            "md5": "a03bd98fca6f60b30300ce56a4363d77",
+            "sha1": "9ade175af3910f1ad2b8acdbfb6a137893a28b72"
+        }
+    },
+    "lsl3": {
+        "name": "lsl3",
+        "description": "Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals! (DOS)",
+        "year": "1990",
+        "manufacturer": "Sierra On-Line",
+        "rom": {
+            "name": "LSL3.QA",
+            "size": "184",
+            "crc": "601c1929",
+            "md5": "0796fd07b7bebd65fc3bc6552309f57c",
+            "sha1": "ba5f296acc1864748c986c892f65bb8ece562421"
+        }
+    },
+    "tentacle-1": {
+        "name": "tentacle-1",
+        "description": "Maniac Mansion: Day of the Tentacle (Floppy/DOS)",
+        "year": "1993",
+        "manufacturer": "LucasArts",
+        "rom": {
+            "name": "TENTACLE.000",
+            "size": "7932",
+            "crc": "560deaf2",
+            "md5": "2723fea3dae0cb47768c424b145ae0e7",
+            "sha1": "1ac9780a52584615b1af39c275b8a35d3f5f941d"
+        }
+    },
+    "loom-gog": {
+        "name": "loom-gog",
+        "description": "Loom (DOS/VGA)[!]",
+        "year": "1990",
+        "manufacturer": "LucasArts",
+        "rom": {
+            "name": "000.LFL",
+            "size": "8307",
+            "crc": "3ef3e225",
+            "md5": "5d88b9d6a88e6f8e90cded9d01b7f082",
+            "sha1": "366ce8bb2c7876a445c870f6b19f8d56cbf91f47"
+        }
     }
 }
