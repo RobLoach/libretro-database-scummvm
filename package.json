@@ -27,6 +27,7 @@
     "crc": "^3.8.0",
     "glob": "^7.2.0",
     "robloach-datfile": "^2.3.0",
+    "sanitize-filename": "^1.6.3",
     "sort-object": "^3.0.3"
   },
   "repository": "github:RobLoach/libretro-scummvm.dat"
