@@ -8,6 +8,7 @@ const sortObj = require('sort-object')
 const clone = require('clone')
 const ignoreGames = require('./ignore-games.json')
 const manualGames = require('./manual-games.json')
+const sanitizefilename = require('sanitize-filename')
 
 // Find each ScummVM .DAT file.
 //glob("DATs/svm-scu*.dat", function (err, files) {
@@ -23,6 +24,12 @@ glob("DATs/svm-*.dat", async function (err, files) {
 	writeDAT(roms)
 	writeExtensions(roms)
 })
+
+function cleanFilename(filename) {
+	return sanitizefilename(filename, {
+		replacement: '_'
+	})
+}
 
 /**
  * Sort the given object by name.
@@ -83,7 +90,7 @@ function writeDAT(games) {
 		let description = cleanName(game.description)
 		let releaseyear = game.year ? `\n	releaseyear "${game.year}"`: ''
 		let developer = game.manufacturer ? `\n	developer "${game.manufacturer}"`: ''
-		let filename = game.rom.name ? `name "${game.rom.name}" ` : ''
+		let filename = game.rom.name ? `name "${cleanFilename(game.rom.name)}" ` : ''
 		let size = game.rom.size ? `size ${game.rom.size} ` : ''
 		let crc = game.rom.crc ? `crc ${game.rom.crc} ` : ''
 		let md5 = game.rom.md5 ? `md5 ${game.rom.md5} ` : ''
