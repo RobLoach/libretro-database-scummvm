@@ -99,5 +99,187 @@
             "md5": "5d88b9d6a88e6f8e90cded9d01b7f082",
             "sha1": "366ce8bb2c7876a445c870f6b19f8d56cbf91f47"
         }
+    },
+    "toltecs": {
+        "name": "toltecs",
+        "description": "3 Skulls of the Toltecs (DOS/English)",
+        "year": "1996",
+        "manufacturer": "Revistronic",
+        "rom": {
+            "name": "SAMPLE.AD",
+            "size": "3242",
+            "crc": "11cde28d",
+            "md5": "904b04063ff4e04c8fc33576e41c68a9",
+            "sha1": "a99a70134fde20ef0c5dbf170a037f37a32cb425"
+        }
+    },
+    "bargon": {
+        "name": "bargon",
+        "description": "Bargon Attack (DOS)",
+        "year": "1992",
+        "manufacturer": "Coktel Vision",
+        "rom": {
+            "name": "TRADUC.CAT",
+            "size": "8000",
+            "crc": "577e65a3",
+            "md5": "a0ce4a4edd40fe93636f41c07a239e22",
+            "sha1": "737beed5cc11233f2006187c155582eabc46ab2b"
+        }
+    },
+    "sword1": {
+        "name": "sword1",
+        "description": "Broken Sword: Shadow of the Templars",
+        "year": "1996",
+        "manufacturer": "Revolution Software",
+        "rom": {
+            "name": "SWORDRES.RIF",
+            "size": "59788",
+            "crc": "c1b07ca2",
+            "md5": "003f4dc09692592d3a8347bc84ded39f",
+            "sha1": "baddca4dc1d6e7cfba6dde2ab22a99a2e439ebb3"
+        }
+    },
+    "cruise": {
+        "name": "cruise",
+        "description": "Cruise for a Corpse (256 colors/DOS/English)",
+        "year": "1991",
+        "manufacturer": "Delphine Software",
+        "rom": {
+            "name": "DELPHINE.LNG",
+            "size": "498",
+            "crc": "59f9e3c8",
+            "md5": "6946c4e1b45349165d0a6b324f773405",
+            "sha1": "c31de6beed6f824464e1e9a49d473b6862b16e1e"
+        }
+    },
+    "ecoquest": {
+        "name": "ecoquest",
+        "description": "EcoQuest: The Search for Cetus (Floppy/DOS/English)",
+        "year": "1991",
+        "manufacturer": "Sierra",
+        "rom": {
+            "name": "RESOURCE.000",
+            "size": "858490",
+            "crc": "0561c336",
+            "md5": "f22138355b7ac3e9932a316ebf6423fa",
+            "sha1": "4d0613fdd0d16fa6e8c9104fb3fddef4be331806"
+        }
+    },
+    "queen": {
+        "name": "queen",
+        "description": "Flight of the Amazon Queen (Talkie/DOS/English)",
+        "year": "1995",
+        "manufacturer": "Interactive Binary Illusions",
+        "rom": {
+            "name": "queen.1c",
+            "size": "93460456",
+            "crc": "466831ae",
+            "md5": "d220f8215d973bc0139431c43149c378",
+            "sha1": "86eed6386dd7a098be833f529e68effd26399148"
+        }
+    },
+    "ihnm": {
+        "name": "ihnm",
+        "description": "I Have No Mouth, and I Must Scream (DOS/English)",
+        "year": "1995",
+        "manufacturer": "The Dreamers Guild",
+        "rom": {
+            "name": "MUSICFM.RES",
+            "size": "302676",
+            "crc": "7f13e61a",
+            "md5": "fe63a88b8c49baa69a814fc15659b1df",
+            "sha1": "cd970ebb15befed10dab9c3d251ffd09c793c15d"
+        }
+    },
+    "indy3": {
+        "name": "indy3",
+        "description": "Indiana Jones and the Last Crusade: The Graphic Adventure (VGA/DOS/English)",
+        "year": "1989",
+        "manufacturer": "Lucasfilm Games",
+        "rom": {
+            "name": "00.LFL",
+            "size": "6295",
+            "crc": "4f179478",
+            "md5": "1875b90fade138c9253a8e967007031a",
+            "sha1": "69172bb3e565c26be32cbe53787eaea8fe842113"
+        }
+    },
+    "lol": {
+        "name": "lol",
+        "description": "Lands of Lore: The Throne of Chaos (CD/DOS/English)",
+        "year": "1993",
+        "manufacturer": "Westwood Studios",
+        "rom": {
+            "name": "FILEDATA.FDT",
+            "size": "39941",
+            "crc": "82c09617",
+            "md5": "02f276f7a69487a058ba56844bdf2298",
+            "sha1": "574c614d3cbcc04c60f9bd8898ac2143922ba443"
+        }
+    },
+    "lsl7": {
+        "name": "lsl7",
+        "description": "Leisure Suit Larry: Love for Sail! (DOS/English)",
+        "year": "1996",
+        "manufacturer": "Sierra",
+        "rom": {
+            "name": "RESMAP.000",
+            "size": "8188",
+            "crc": "9136f82e",
+            "md5": "682f820746f385ba3c63f1dbb974e32c",
+            "sha1": "ab322b1cfb13c326224b56f374ddbfb70bdc5ff4"
+        }
+    },
+    "nippon": {
+        "name": "nippon",
+        "description": "Nippon Safes Inc. (Multi-lingual/DOS)",
+        "year": "1992",
+        "manufacturer": "Dynabyte",
+        "rom": {
+            "name": "BOOGIE2.MID",
+            "size": "7507",
+            "crc": "d93fda9b",
+            "md5": "a186b917efeadfb252f06e5d10949c34",
+            "sha1": "d738e37dc0ff9108a1dafb7a14c57333e0f57719"
+        }
+    },
+    "pq4": {
+        "name": "pq4",
+        "description": "Police Quest IV: Open Season (DOS/English)",
+        "year": "1993",
+        "manufacturer": "Sierra",
+        "rom": {
+            "name": "resource.000",
+            "size": "15141718",
+            "crc": "52f8890a",
+            "md5": "d28a5e99b547180f6bb761b014858b22",
+            "sha1": "0f6de0da7593784afe1cac689cb60f88362b167d"
+        }
+    },
+    "woodruff": {
+        "name": "woodruff",
+        "description": "The Bizarre Adventures of Woodruff and the Schnibble (DOS/English(GB))",
+        "year": "1994",
+        "manufacturer": "Coktel Vision",
+        "rom": {
+            "name": "INTRO.STK",
+            "size": "20296676",
+            "crc": "651ad418",
+            "md5": "5efe802eb0dcf926eeb71ac3b87c997b",
+            "sha1": "d77daf92373de6150e5081b1830ed6bb5cea5c89"
+        }
+    },
+    "scalpel": {
+        "name": "scalpel",
+        "description": "The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel (DOS/English)",
+        "year": "1992",
+        "manufacturer": "Mythos Software",
+        "rom": {
+            "name": "chess.pth",
+            "size": "6593",
+            "crc": "170c1c6d",
+            "md5": "a30e550ecb26f2e89bc85d9d82a739d6",
+            "sha1": "2ad940c0fe8dca2b5fa205823f33bffdb69b601f"
+        }
     }
 }
