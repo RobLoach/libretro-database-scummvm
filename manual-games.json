@@ -1,3 +1,16 @@
+    },
+    "sq2": {
+        "name": "sq2",
+        "description": "Space Quest II: Vohaul's Revenge (DOS)",
+        "year": "1987",
+        "manufacturer": "Sierra",
+        "rom": {
+            "name": "VOL.0",
+            "size": "70313",
+            "crc": "fd471c99",
+            "md5": "3e09c8580506212cd3494b5df8ea6cbc",
+            "sha1": "5f9cba6dced32737c5a80f7cf2e805541c9fa422"
+        }
 {
     "comi": {
         "name": "comi",
