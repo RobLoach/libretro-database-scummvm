@@ -2,7 +2,7 @@
   "name": "libretro-databse-scummvm",
   "private": true,
   "title": "ScummVM",
-  "version": "2021.12.23",
+  "version": "2022.9.8",
   "description": "DAT file for libretro's ScummVM",
   "comment": "DAT file containing game files to launch ScummVM games from RetroArch.",
   "scripts": {
