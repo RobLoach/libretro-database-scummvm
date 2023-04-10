@@ -61,6 +61,19 @@
             "sha1": "231919054edea9d4ef1ca2519ad315b8ea031ce4"
         }
     },
+    "simon1-de": {
+        "name": "simon1-de",
+        "description": "Simon the Sorcerer(CD/DOS/German)",
+        "year": "1993",
+        "manufacturer": "Adventure Soft",
+        "rom": {
+            "name": "SIMON.GME",
+            "size": "6945964",
+            "crc": "dbf7dff6",
+            "md5": "dbebdb982930c158964125355119955d",
+            "sha1": "9dea9d5ab9c3e2281ca82965b4a1a1daffe99eca"
+        }
+    },
     "simon2-cd-win": {
         "name": "simon2-cd-win",
         "description": "Simon the Sorcerer II (CD/Windows)[!]",
@@ -98,6 +111,19 @@
             "crc": "560deaf2",
             "md5": "2723fea3dae0cb47768c424b145ae0e7",
             "sha1": "1ac9780a52584615b1af39c275b8a35d3f5f941d"
+        }
+    },
+    "tentacle-de": {
+        "name": "tentacle-de",
+        "description": "Maniac Mansion: Day of the Tentacle {Der Tag des Tentakels}(CD/German)",
+        "year": "1993",
+        "manufacturer": "LucasArts",
+        "rom": {
+            "name": "TENTACLE.000",
+            "size": "7932",
+            "crc": "f4dacfd7",
+            "md5": "6e959d65358eedf9b68b81e304b97fa4",
+            "sha1": "a774de9ad35fdc54f037f8c616862ab8b6638183"
         }
     },
     "loom-gog": {
