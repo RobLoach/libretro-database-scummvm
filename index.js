@@ -67,6 +67,7 @@ function cleanName(name) {
 	out = out.replace('|Demo|', '')
 	//out = out.replace(/ *\([^)]*\) */g, "") // Remove ()
 	out = out.replace(/ *\[[^\]]*\] */g, "") // Remove []
+    out = out.replace('"', '').replace('"', '') // Remove any extra quotes
 	return out.trim()
 }
 
