@@ -93,9 +93,9 @@ function writeDAT(games) {
 		let developer = game.manufacturer ? `\n	developer "${game.manufacturer}"`: ''
 		let filename = game.rom.name ? `name "${cleanFilename(game.rom.name)}" ` : ''
 		let size = game.rom.size ? `size ${game.rom.size} ` : ''
-		let crc = game.rom.crc ? `crc ${game.rom.crc} ` : ''
-		let md5 = game.rom.md5 ? `md5 ${game.rom.md5} ` : ''
-		let sha1 = game.rom.sha1 ? `sha1 ${game.rom.sha1} ` : ''
+		let crc = game.rom.crc ? `crc ${game.rom.crc.toUpperCase()} ` : ''
+		let md5 = game.rom.md5 ? `md5 ${game.rom.md5.toUpperCase()} ` : ''
+		let sha1 = game.rom.sha1 ? `sha1 ${game.rom.sha1.toUpperCase()} ` : ''
 		output += `\ngame (
 	name "${description}"
 	description "${description}"${releaseyear}${developer}
@@ -187,7 +187,7 @@ function getUniqueRoms(games) {
 			let gameTitleWithNewline = gameName + newlineType
 			uniqueGames[gameTitleWithNewline] = clone(games[gameName])
 			uniqueGames[gameTitleWithNewline].rom = {
-				crc: crc.crc32(gameCodeWithNewline).toString(16),
+				crc: crc.crc32(gameCodeWithNewline).toString(16).toUpperCase(),
 				size: gameCodeWithNewline.length,
 				name: games[gameName].description + newlineType + '.scummvm',
 			}
