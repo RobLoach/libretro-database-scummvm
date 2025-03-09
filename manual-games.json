@@ -17,7 +17,7 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "003773-A.C4",
-            "crc": "0x5DDC49B6"
+            "crc": "5ddc49b6"
         }
     }
 }
