@@ -1,6 +1,6 @@
 # libretro-dice.dat
 
-Builds dice.dat for libretro.
+Builds DICE.dat for libretro.
 
 ## Build
 

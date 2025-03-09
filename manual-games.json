@@ -1,11 +1,190 @@
 {
+    "antiaircraft": {
+        "name": "Anti-Aircraft",
+        "description": "Anti-Aircraft",
+        "year": "1975",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "aa.k1",
+            "crc": "9de772d5"
+        }
+    },
+    "attack": {
+        "name": "Attack",
+        "description": "Attack",
+        "year": "1977",
+        "manufacturer": "Exidy",
+        "rom": {
+            "name": "attack.a1",
+            "crc": "d9b116b8"
+        }
+    },
+    "attack-1": {
+        "name": "Attack",
+        "description": "Attack",
+        "year": "1977",
+        "manufacturer": "Exity",
+        "rom": {
+            "name": "attack.a1",
+            "crc": "5afd5aff"
+        }
+    },
+    "breakout": {
+        "name": "Breakout",
+        "description": "Breakout",
+        "year": "1976",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "breakout.dmy",
+            "size": "0",
+            "crc": "00000000"
+        }
+    },
+    "cleansweep": {
+        "name": "Clean Sweep",
+        "description": "Clean Sweep",
+        "year": "1974",
+        "manufacturer": "Ramtek",
+        "rom": {
+            "name": "clean.6c",
+            "crc": "be02b5f5"
+        }
+    },
+    "crashnscore": {
+        "name": "Crash 'N Score",
+        "description": "Crash 'N Score",
+        "year": "1975",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "cns.d2",
+            "crc": "683b203b"
+        }
+    },
+    "crossfire": {
+        "name": "Crossfire",
+        "description": "Crossfire",
+        "year": "1975",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "crossfire.dmy",
+            "size": "0",
+            "crc": "00000000"
+        }
+    },
+    "gotcha": {
+        "name": "Gotcha",
+        "description": "Gotcha",
+        "year": "1973",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "gotcha.dmy",
+            "size": "0",
+            "crc": "00000000"
+        }
+    },
+    "hiway": {
+        "name": "Hi-Way",
+        "description": "Hi-Way",
+        "year": "1975",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "hiway.dmy",
+            "size": "0",
+            "crc": "00000000"
+        }
+    },
+    "indy4": {
+        "name": "Indy 4",
+        "description": "Indy 4",
+        "year": "1976",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "indy.s1",
+            "crc": "1aafbe72"
+        }
+    },
+    "jetfighter": {
+        "name": "Jetfighter",
+        "description": "Jetfighter",
+        "year": "1975",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "jet1.a4",
+            "crc": "08a0b011"
+        }
+    },
+    "pinpong": {
+        "name": "Pin Pong",
+        "description": "Pin Pong",
+        "year": "1974",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "pinpong.dmy",
+            "size": "0",
+            "crc": "00000000"
+        }
+    },
     "pong": {
-        "name": "pong",
+        "name": "Pong",
         "description": "Pong",
         "year": "1972",
         "manufacturer": "Atari",
         "rom": {
             "name": "pong.dmy",
+            "size": "0",
+            "crc": "00000000"
+        }
+    },
+    "pongdoubles": {
+        "name": "Pong Doubles",
+        "description": "Pong Doubles",
+        "year": "1973",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "pongdoubles.dmy",
+            "size": "0",
+            "crc": "00000000"
+        }
+    },
+    "quadrapong": {
+        "name": "Quadrapong",
+        "description": "Quadrapong",
+        "year": "1974",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "quadrapong.dmy",
+            "size": "0",
+            "crc": "00000000"
+        }
+    },
+    "rebound": {
+        "name": "Rebound",
+        "description": "Rebound",
+        "year": "1974",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "rebound.dmy",
+            "size": "0",
+            "crc": "00000000"
+        }
+    },
+    "sharkjaws": {
+        "name": "Shark Jaws",
+        "description": "Shark Jaws",
+        "year": "1975",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "004182.1da",
+            "crc": "05242912"
+        }
+    },
+    "spacerace": {
+        "name": "Space Race",
+        "description": "Space Race",
+        "year": "1973",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "spacerace.dmy",
             "size": "0",
             "crc": "00000000"
         }
@@ -18,6 +197,37 @@
         "rom": {
             "name": "003773-A.C4",
             "crc": "5ddc49b6"
+        }
+    },
+    "stuntcycle": {
+        "name": "Stunt Cycle",
+        "description": "Stunt Cycle",
+        "year": "1976",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "82s123.4d",
+            "crc": "31a09efb"
+        }
+    },
+    "tvbasketball": {
+        "name": "TV Basketball",
+        "description": "TV Basketball",
+        "year": "1974",
+        "manufacturer": "Atari",
+        "rom": {
+            "name": "tvbasketball.dmy",
+            "size": "0",
+            "crc": "00000000"
+        }
+    },
+    "wipeout": {
+        "name": "Wipe Out",
+        "description": "Wipe Out",
+        "year": "1974",
+        "manufacturer": "Ramtek",
+        "rom": {
+            "name": "wipeout.d4",
+            "crc": "205bf9a1"
         }
     }
 }

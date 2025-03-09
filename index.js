@@ -104,7 +104,7 @@ function writeDAT(games) {
 )\n`
 	}
 
-	fs.writeFileSync('libretro-database/dat/dice.dat', output)
+	fs.writeFileSync('libretro-database/dat/DICE.dat', output)
 }
 
 /**
