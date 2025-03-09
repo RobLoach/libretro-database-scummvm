@@ -1,9 +1,8 @@
-# libretro-scummvm.dat
+# libretro-dice.dat
 
-Builds ScummVM.dat for libretro.
+Builds dice.dat for libretro.
 
 ## Build
 
-1. Place all of Gruby's DAT files in the `DATs` folder
-2. `npm install`
-3. `npm test`
+1. `npm install`
+2. `npm test`

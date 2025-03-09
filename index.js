@@ -10,7 +10,7 @@ const ignoreGames = require('./ignore-games.json')
 const manualGames = require('./manual-games.json')
 const sanitizefilename = require('sanitize-filename')
 
-// Find each ScummVM .DAT file.
+// Find each DICE .DAT file.
 //glob("DATs/svm-scu*.dat", function (err, files) {
 glob("DATs/svm-*.dat", async function (err, files) {
 	if (err) {
@@ -49,8 +49,8 @@ function sortObject(objectToSort) {
  */
 function writeExtensions(games) {
 	let extensions = {
-		'scummvm': true,
-		'scumm': true
+		'zip': true,
+		'dmy': true
 	}
 	for (let gameName in games) {
 		let game = games[gameName].rom
@@ -104,7 +104,7 @@ function writeDAT(games) {
 )\n`
 	}
 
-	fs.writeFileSync('libretro-database/dat/ScummVM.dat', output)
+	fs.writeFileSync('libretro-database/dat/dice.dat', output)
 }
 
 /**
@@ -171,13 +171,14 @@ function getUniqueRoms(games) {
 			uniqueGames[gameName].rom = uniqueRom
 		}
 		else {
-			// Since there isn't a unique rom, use a .scummvm file instead.
-			console.log("[WARN] No unique rom: " + gameName + '. Use .scummvm file instead.');
+			// Since there isn't a unique rom, warn.
+			console.log("[WARN] No unique rom: " + gameName + '.');
 		}
 
 		// Allow for newlines at the end of the .scummvm file.
+      // TODO (mittonk): No scummvm for dice.
 		let newlineOptions = {
-			' ScummVM File': '',
+			' dice File': '',
 			//' CRLF': '\r\n',
 			//' LF': '\n',
 			//' CR': '\r'

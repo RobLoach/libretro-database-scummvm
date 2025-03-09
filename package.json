@@ -1,21 +1,21 @@
 {
-  "name": "libretro-databse-scummvm",
+  "name": "libretro-database-dice",
   "private": true,
-  "title": "ScummVM",
-  "version": "2022.9.8",
-  "description": "DAT file for libretro's ScummVM",
-  "comment": "DAT file containing game files to launch ScummVM games from RetroArch.",
+  "title": "DICE",
+  "version": "2025.3.8",
+  "description": "DAT file for libretro's DICE",
+  "comment": "DAT file containing game files to launch DICE games from RetroArch.",
   "scripts": {
     "test": "node --stack-size=9999999 ."
   },
-  "homepage": "http://github.com/RobLoach/libretro-database-scummvm",
-  "author": "Rob Loach (http://robloach.net)",
+  "homepage": "http://github.com/mittonk/libretro-database-dice",
+  "author": "Ken Mitton",
   "contributors": [
     {
       "name": "Rob Loach"
     },
     {
-      "name": "Gruby"
+      "name": "Ken Mitton"
     }
   ],
   "license": "MIT",
@@ -30,5 +30,5 @@
     "sanitize-filename": "^1.6.3",
     "sort-object": "^3.0.3"
   },
-  "repository": "github:RobLoach/libretro-scummvm.dat"
+  "repository": "github:mittonk/libretro-database-dice.dat"
 }
