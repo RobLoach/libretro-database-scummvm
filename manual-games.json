@@ -50,8 +50,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "breakout.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "9",
+            "crc": "14d4ca82"
         }
     },
     "cleansweep": {
@@ -105,8 +105,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "crossfire.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "10",
+            "crc": "a184cb3e"
         }
     },
     "gotcha": {
@@ -116,8 +116,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "gotcha.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "7",
+            "crc": "d5e92718"
         }
     },
     "hiway": {
@@ -127,8 +127,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "hiway.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "6",
+            "crc": "60922b3b"
         }
     },
     "indy4": {
@@ -182,8 +182,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "pinpong.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "8",
+            "crc": "f715dc2b"
         }
     },
     "pong": {
@@ -193,8 +193,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "pong.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "5",
+            "crc": "d49502d3"
         }
     },
     "pongdoubles": {
@@ -204,8 +204,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "pongdoubles.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "12",
+            "crc": "21f65582"
         }
     },
     "quadrapong": {
@@ -215,8 +215,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "quadrapong.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "11",
+            "crc": "f11aa196"
         }
     },
     "rebound": {
@@ -226,8 +226,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "rebound.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "8",
+            "crc": "f36b9532"
         }
     },
     "sharkjaws": {
@@ -259,8 +259,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "spacerace.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "10",
+            "crc": "4237ddc0"
         }
     },
     "steeplechase": {
@@ -314,8 +314,8 @@
         "manufacturer": "Atari",
         "rom": {
             "name": "tvbasketball.dmy",
-            "size": "0",
-            "crc": "00000000"
+            "size": "13",
+            "crc": "8d7910e1"
         }
     },
     "wipeout": {
