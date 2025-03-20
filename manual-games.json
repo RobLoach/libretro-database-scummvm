@@ -5,18 +5,6 @@
         "year": "1975",
         "manufacturer": "Atari",
         "rom": {
-            "name": "aa.k1",
-            "size": "32",
-            "crc": "9de772d5"
-        }
-    },
-    "antiaircraft-1": {
-        "name": "Anti-Aircraft",
-        "description": "Anti-Aircraft",
-        "year": "1975",
-        "manufacturer": "Atari",
-        "rom": {
-            "name": "003127.k1",
             "size": "32",
             "crc": "9de772d5"
         }
@@ -27,20 +15,8 @@
         "year": "1977",
         "manufacturer": "Exidy",
         "rom": {
-            "name": "attack.a1",
             "size": "256",
             "crc": "d9b116b8"
-        }
-    },
-    "attack-1": {
-        "name": "Attack",
-        "description": "Attack",
-        "year": "1977",
-        "manufacturer": "Exity",
-        "rom": {
-            "name": "attack.a1",
-            "size": "256",
-            "crc": "5afd5aff"
         }
     },
     "breakout": {
@@ -60,18 +36,6 @@
         "year": "1974",
         "manufacturer": "Ramtek",
         "rom": {
-            "name": "clean.6c",
-            "size": "32",
-            "crc": "be02b5f5"
-        }
-    },
-    "cleansweep-1": {
-        "name": "Clean Sweep",
-        "description": "Clean Sweep",
-        "year": "1974",
-        "manufacturer": "Ramtek",
-        "rom": {
-            "name": "501075.c6",
             "size": "32",
             "crc": "be02b5f5"
         }
@@ -82,18 +46,6 @@
         "year": "1975",
         "manufacturer": "Atari",
         "rom": {
-            "name": "cns.d2",
-            "size": "512",
-            "crc": "683b203b"
-        }
-    },
-    "crashnscore-1": {
-        "name": "Crash 'N Score",
-        "description": "Crash 'N Score",
-        "year": "1975",
-        "manufacturer": "Atari",
-        "rom": {
-            "name": "004248.d2",
             "size": "512",
             "crc": "683b203b"
         }
@@ -137,18 +89,6 @@
         "year": "1976",
         "manufacturer": "Atari",
         "rom": {
-            "name": "indy.s1",
-            "size": "512",
-            "crc": "1aafbe72"
-        }
-    },
-    "indy4-1": {
-        "name": "Indy 4",
-        "description": "Indy 4",
-        "year": "1976",
-        "manufacturer": "Atari",
-        "rom": {
-            "name": "005503.f4",
             "size": "512",
             "crc": "1aafbe72"
         }
@@ -159,18 +99,6 @@
         "year": "1975",
         "manufacturer": "Atari",
         "rom": {
-            "name": "jet1.a4",
-            "size": "256",
-            "crc": "08a0b011"
-        }
-    },
-    "jetfighter-1": {
-        "name": "Jetfighter",
-        "description": "Jetfighter",
-        "year": "1975",
-        "manufacturer": "Atari",
-        "rom": {
-            "name": "004252.a4",
             "size": "256",
             "crc": "08a0b011"
         }
@@ -236,18 +164,6 @@
         "year": "1975",
         "manufacturer": "Atari",
         "rom": {
-            "name": "004182.1da",
-            "size": "256",
-            "crc": "05242912"
-        }
-    },
-    "sharkjaws-1": {
-        "name": "Shark Jaws",
-        "description": "Shark Jaws",
-        "year": "1975",
-        "manufacturer": "Atari",
-        "rom": {
-            "name": "004182.da1",
             "size": "256",
             "crc": "05242912"
         }
@@ -269,18 +185,6 @@
         "year": "1975",
         "manufacturer": "Atari",
         "rom": {
-            "name": "003773-A.C4",
-            "size": "256",
-            "crc": "5ddc49b6"
-        }
-    },
-    "steeplechase-1": {
-        "name": "steeplechase",
-        "description": "Steeplechase",
-        "year": "1975",
-        "manufacturer": "Atari",
-        "rom": {
-            "name": "003773-a.4c",
             "size": "256",
             "crc": "5ddc49b6"
         }
@@ -291,18 +195,6 @@
         "year": "1976",
         "manufacturer": "Atari",
         "rom": {
-            "name": "82s123.4d",
-            "size": "32",
-            "crc": "31a09efb"
-        }
-    },
-    "stuntcycle-1": {
-        "name": "Stunt Cycle",
-        "description": "Stunt Cycle",
-        "year": "1976",
-        "manufacturer": "Atari",
-        "rom": {
-            "name": "004811.d7",
             "size": "32",
             "crc": "31a09efb"
         }
@@ -324,18 +216,6 @@
         "year": "1974",
         "manufacturer": "Ramtek",
         "rom": {
-            "name": "wipeout.d4",
-            "size": "32",
-            "crc": "205bf9a1"
-        }
-    },
-    "wipeout-1": {
-        "name": "Wipe Out",
-        "description": "Wipe Out",
-        "year": "1974",
-        "manufacturer": "Ramtek",
-        "rom": {
-            "name": "ramtek6.a4",
             "size": "32",
             "crc": "205bf9a1"
         }
