@@ -90,6 +90,7 @@ function writeDAT(games) {
 		let game = games[gameName]
 		let description = cleanName(game.description)
 		let releaseyear = game.year ? `\n	releaseyear "${game.year}"`: ''
+		releaseyear = releaseyear.replace('xx', '00')
 		let developer = game.manufacturer ? `\n	developer "${game.manufacturer}"`: ''
 		let filename = game.rom.name ? `name "${cleanFilename(game.rom.name)}" ` : ''
 		let size = game.rom.size ? `size ${game.rom.size} ` : ''

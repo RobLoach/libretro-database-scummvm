@@ -320,5 +320,31 @@
             "md5": "a30e550ecb26f2e89bc85d9d82a739d6",
             "sha1": "2ad940c0fe8dca2b5fa205823f33bffdb69b601f"
         }
+    },
+    "kq1": {
+        "name": "King's Quest I: Quest for the Crown (AGI/DOS)",
+        "description": "King's Quest I: Quest for the Crown (AGI/DOS)",
+        "releaseyear": "1987",
+        "developer": "Sierra On-Line",
+        "rom": {
+            "name": "VOL.0",
+            "size": 48472,
+            "crc": "D337FBFD",
+            "md5": "8EC91EFFAC02BA476F823F065CA10172",
+            "sha1": "6F22B3471749E6F334DEA0ED4B5AB7197F10F3DC"
+        }
+    },
+    "lsl3-4": {
+        "name": "Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals! (DOS/EGA)",
+        "description": "Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals! (DOS/EGA)",
+        "releaseyear": "1989",
+        "developer": "Sierra On-Line",
+        "rom": {
+            "name": "RESOURCE.001",
+            "size": 456722,
+            "crc": "7FA5E23E",
+            "md5": "3437C56F0CB7F4A3DF5F5BC21008A786",
+            "sha1": "1618C31ADA641790A3E52D9F8CD3686D69EFBF87"
+        }
     }
 }
