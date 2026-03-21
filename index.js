@@ -109,7 +109,8 @@ function parseXmlGames(xmlFiles) {
         description: game.Notes
           ? toAscii(String(game.Notes).replace(/\r?\n/g, ' ')).replace(/"/g, "'").trim()
           : '',
-        releaseyear: game.ReleaseYear ? String(game.ReleaseYear) : '',
+        releaseyear: game.ReleaseYear ? String(game.ReleaseYear)
+          : game.ReleaseDate ? String(parseInt(String(game.ReleaseDate).split('-')[0], 10) || '') : '',
         releasemonth: game.ReleaseDate ? String(parseInt(String(game.ReleaseDate).split('-')[1], 10) || '') : '',
         releaseday: game.ReleaseDate ? String(parseInt(String(game.ReleaseDate).split('-')[2], 10) || '') : '',
         developer: game.Developer ? String(game.Developer) : '',
