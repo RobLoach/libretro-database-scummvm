@@ -119,8 +119,9 @@ function parseXmlGames(xmlFiles) {
 
       const entry = {
         name: title,
+        // Limit the description to one paragraph of ASCII.
         description: game.Notes
-          ? toAscii(String(game.Notes).replace(/\r?\n/g, ' ')).replace(/"/g, "'").trim()
+          ? toAscii(String(game.Notes).split(/\r?\n\r?\n/)[0].replace(/\r?\n/g, ' ')).replace(/"/g, "'").trim()
           : '',
         releaseyear: game.ReleaseYear ? String(game.ReleaseYear)
           : game.ReleaseDate ? String(parseInt(String(game.ReleaseDate).split('-')[0], 10) || '') : '',
