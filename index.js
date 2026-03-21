@@ -4,6 +4,12 @@ import { createHash } from 'crypto'
 import CRC32 from 'crc-32'
 import { XMLParser } from 'fast-xml-parser'
 
+/**
+ * Builds out the size, CRC, MD5, and SHA of the given ScummVM ID.
+ *
+ * @param {string} code The ID of the game.
+ * @returns
+ */
 function fileHashes(code) {
   const buf = Buffer.from(code, 'utf8')
   return {
@@ -23,11 +29,16 @@ const OUTPUT_EXT = 'extensions.txt'
  * Returns array of { id, title }.
  */
 function getScummVMGames() {
-  let output
+  let output = ''
+
+  // Grab all the supported games.
   try {
     output = execSync('scummvm --list-all-games 2>/dev/null', { encoding: 'utf8' })
   } catch {
     output = execSync('flatpak run org.scummvm.ScummVM --list-all-games 2>/dev/null', { encoding: 'utf8' })
+  }
+  if (!output.trim()) {
+    throw new Error('No output from scummvm --list-all-games. Is ScummVM installed?');
   }
 
   const lines = output.split('\n')
@@ -49,7 +60,7 @@ function getScummVMGames() {
   }
 
   return games
-}
+}7
 
 /**
  * Normalize a title for fuzzy matching.
@@ -67,6 +78,8 @@ const STOP_WORDS = new Set(['the', 'a', 'an', 'of', 'in', 'to', 'and', 'or', 'fo
 
 /**
  * Jaccard similarity between two normalized title strings, ignoring stop words.
+ *
+ * https://en.wikipedia.org/wiki/Jaccard_index
  */
 function jaccardSimilarity(a, b) {
   const wordsA = new Set(a.split(' ').filter(w => w.length > 1 && !STOP_WORDS.has(w)))
@@ -280,10 +293,10 @@ function writeDat(entries, outputPath) {
   let dat = `clrmamepro (\n`
   dat += `\tname "ScummVM"\n`
   dat += `\tdescription "ScummVM"\n`
-  dat += `\tcomment "DAT file containing game files to launch ScummVM games from RetroArch."\n`
+  dat += `\tcomment "DAT file containing .scummvm files to launch ScummVM games from RetroArch."\n`
   dat += `\tcategory "ScummVM"\n`
   dat += `\tversion "${version}"\n`
-  dat += `\tauthor "Rob Loach"\n`
+  dat += `\tauthor "libretro"\n`
   dat += `\thomepage "http://github.com/RobLoach/libretro-database-scummvm"\n`
   dat += `)\n`
 
