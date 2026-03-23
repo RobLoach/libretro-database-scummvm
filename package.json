@@ -2,33 +2,27 @@
   "name": "libretro-databse-scummvm",
   "private": true,
   "title": "ScummVM",
-  "version": "2022.9.8",
+  "version": "2026.03.20",
   "description": "DAT file for libretro's ScummVM",
   "comment": "DAT file containing game files to launch ScummVM games from RetroArch.",
   "scripts": {
-    "test": "node --stack-size=9999999 ."
+    "test": "node ."
   },
   "homepage": "http://github.com/RobLoach/libretro-database-scummvm",
   "author": "Rob Loach (http://robloach.net)",
   "contributors": [
     {
       "name": "Rob Loach"
-    },
-    {
-      "name": "Gruby"
     }
   ],
   "license": "MIT",
+  "type": "module",
   "engines": {
-    "node": ">=6"
+    "node": ">=20"
   },
   "dependencies": {
-    "clone": "^2.1.2",
-    "crc": "^3.8.0",
-    "glob": "^7.2.0",
-    "robloach-datfile": "^2.3.0",
-    "sanitize-filename": "^1.6.3",
-    "sort-object": "^3.0.3"
+    "crc-32": "^1.2.2",
+    "fast-xml-parser": "^4.0.0"
   },
   "repository": "github:RobLoach/libretro-scummvm.dat"
 }
