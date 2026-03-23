@@ -303,8 +303,9 @@ function writeDat(entries, outputPath) {
 
   for (const entry of entries) {
     const meta = [
-      `\tname "${entry.name}"\n`,
-      entry.description ? `\tdescription "${entry.description}"\n` : '',
+      // TODO: Escape double quotes while still having it build correctly in libretro-database.
+      `\tname "${entry.name.replaceAll('"', '')}"\n`,
+      entry.description ? `\tdescription "${entry.description.replaceAll('"', '')}"\n` : '',
       entry.releaseyear ? `\treleaseyear "${entry.releaseyear}"\n` : '',
       entry.releasemonth ? `\treleasemonth "${entry.releasemonth}"\n` : '',
       entry.releaseday ? `\treleaseday "${entry.releaseday}"\n` : '',
@@ -320,7 +321,7 @@ function writeDat(entries, outputPath) {
       const h = fileHashes(content)
       dat += `\ngame (\n`
       dat += meta
-      dat += `\trom ( name "${entry.rom}" size ${h.size} crc32 ${h.crc32} md5 ${h.md5} sha1 ${h.sha1} )\n`
+      dat += `\trom ( name "${entry.rom}" size ${h.size} crc ${h.crc32} md5 ${h.md5} sha1 ${h.sha1} )\n`
       dat += `)\n`
     }
   }
