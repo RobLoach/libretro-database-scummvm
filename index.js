@@ -23,6 +23,7 @@ function fileHashes(code) {
 const XML_FILES = ['ScummVM.xml', 'ScummVM SVN.xml']
 const OUTPUT_DAT = 'libretro-database/dat/ScummVM.dat'
 const OUTPUT_EXT = 'extensions.txt'
+const SCUMMVM_ICONS_URL = 'https://raw.githubusercontent.com/scummvm/scummvm-icons/master/default'
 
 /**
  * Run scummvm --list-all-games, falling back to flatpak.
@@ -52,15 +53,65 @@ function getScummVMGames() {
     }
     if (!pastHeader || !line.trim()) continue
 
-    const id = line.slice(0, 24).trim()
-    const title = line.slice(25).trim()
-    if (id && title) {
-      games.push({ id, title })
+    // Game IDs never contain spaces, so split on the first run of whitespace rather than a fixed column width.
+    const match = line.trim().match(/^(\S+)\s+(.+)$/)
+    if (match) {
+      games.push({ id: match[1], title: match[2].trim() })
     }
   }
 
   return games
-}7
+}
+
+/**
+ * Fetch and parse an XML file from scummvm-icons, returning the list of child elements.
+ *
+ * @param {string} file The XML file name, e.g. "games.xml".
+ * @param {string} root The root element name, e.g. "games".
+ * @param {string} child The child element name, e.g. "game".
+ * @returns {Promise<object[]>}
+ */
+async function fetchIconsXml(file, root, child) {
+  const response = await fetch(`${SCUMMVM_ICONS_URL}/${file}`)
+  if (!response.ok) {
+    throw new Error(`${file}: HTTP ${response.status}`)
+  }
+  const parser = new XMLParser({
+    ignoreAttributes: false,
+    attributeNamePrefix: '',
+    parseAttributeValue: false,
+    isArray: (name) => name === child,
+  })
+  return parser.parse(await response.text())?.[root]?.[child] ?? []
+}
+
+/**
+ * Load game metadata from scummvm-icons (year, company, series).
+ *
+ * https://github.com/scummvm/scummvm-icons
+ *
+ * @returns {Promise<Map<string, object>>} Map of "engine:gameid" -> { releaseyear, developer, franchise }.
+ */
+async function loadIconsMetadata() {
+  const [games, companies, series] = await Promise.all([
+    fetchIconsXml('games.xml', 'games', 'game'),
+    fetchIconsXml('companies.xml', 'companies', 'company'),
+    fetchIconsXml('series.xml', 'series', 'serie'),
+  ])
+  const companyNames = new Map(companies.map(c => [c.id, c.name]))
+  const seriesNames = new Map(series.map(s => [s.id, s.name]))
+
+  const metadata = new Map()
+  for (const game of games) {
+    if (!game.id || !game.engine_id) continue
+    metadata.set(`${game.engine_id}:${game.id}`, {
+      releaseyear: /^\d{4}$/.test(game.year ?? '') ? game.year : '',
+      developer: companyNames.get(game.company_id) ?? '',
+      franchise: seriesNames.get(game.series_id) ?? '',
+    })
+  }
+  return metadata
+}
 
 /**
  * Normalize a title for fuzzy matching.
@@ -177,7 +228,7 @@ function findXmlMatch(title, { byTitle, byTitleLower, byTitleNorm, allEntries })
 }
 
 /**
- * Format today's date as YYYY.MM.DD.
+ * Convert a string to a lowercase, dash-separated ASCII slug.
  */
 function slugify(str) {
   return str
@@ -278,6 +329,9 @@ function consolidateGenre(raw) {
   return [...tags].join(' / ')
 }
 
+/**
+ * Format today's date as YYYY.MM.DD.
+ */
 function todayVersion() {
   const d = new Date()
   const y = d.getFullYear()
@@ -298,23 +352,26 @@ function writeDat(entries, outputPath) {
   dat += `\tcategory "ScummVM"\n`
   dat += `\tversion "${version}"\n`
   dat += `\tauthor "libretro"\n`
-  dat += `\thomepage "http://github.com/RobLoach/libretro-database-scummvm"\n`
+  dat += `\thomepage "https://github.com/RobLoach/libretro-database-scummvm"\n`
   dat += `)\n`
+
+  // TODO: Escape double quotes while still having it build correctly in libretro-database.
+  const field = (key, value) => value ? `\t${key} "${String(value).replaceAll('"', '')}"\n` : ''
 
   for (const entry of entries) {
     const meta = [
-      // TODO: Escape double quotes while still having it build correctly in libretro-database.
-      `\tname "${entry.name.replaceAll('"', '')}"\n`,
-      entry.description ? `\tdescription "${entry.description.replaceAll('"', '')}"\n` : '',
-      entry.releaseyear ? `\treleaseyear "${entry.releaseyear}"\n` : '',
-      entry.releasemonth ? `\treleasemonth "${entry.releasemonth}"\n` : '',
-      entry.releaseday ? `\treleaseday "${entry.releaseday}"\n` : '',
-      entry.developer ? `\tdeveloper "${entry.developer}"\n` : '',
-      entry.genre ? `\tgenre "${entry.genre}"\n` : '',
-      entry.users ? `\tusers "${entry.users}"\n` : '',
-      entry.publisher ? `\tpublisher "${entry.publisher}"\n` : '',
-      entry.esrb_rating ? `\tesrb_rating "${entry.esrb_rating}"\n` : '',
-      `\tcode "${entry.code}"\n`,
+      field('name', entry.name),
+      field('description', entry.description),
+      field('releaseyear', entry.releaseyear),
+      field('releasemonth', entry.releasemonth),
+      field('releaseday', entry.releaseday),
+      field('developer', entry.developer),
+      field('publisher', entry.publisher),
+      field('franchise', entry.franchise),
+      field('genre', entry.genre),
+      field('users', entry.users),
+      field('esrb_rating', entry.esrb_rating),
+      field('code', entry.code),
     ].join('')
 
     for (const content of [entry.code + '\n', entry.code]) {
@@ -338,21 +395,39 @@ console.log('Parsing XML metadata...')
 const xmlData = parseXmlGames(XML_FILES)
 console.log(`Loaded ${xmlData.allEntries.length} XML entries`)
 
+console.log('Fetching scummvm-icons metadata...')
+let iconsData = new Map()
+try {
+  iconsData = await loadIconsMetadata()
+  console.log(`Loaded ${iconsData.size} scummvm-icons entries`)
+} catch (err) {
+  console.warn(`Warning: Could not load scummvm-icons metadata, continuing without it. ${err.message}`)
+}
+
 const entries = []
 let matched = 0
+let iconsMatched = 0
 
 for (const { id, title } of scummvmGames) {
   const xml = findXmlMatch(title, xmlData)
   if (xml) matched++
+  const icons = iconsData.get(id)
+  if (icons) iconsMatched++
+
+  // scummvm-icons is keyed by the exact game ID, so prefer its year over the fuzzy-matched one.
+  // Only keep the month and day when they belong to the same year.
+  const releaseyear = icons?.releaseyear || xml?.releaseyear || ''
+  const sameYear = releaseyear === xml?.releaseyear
 
   const code = id.replace(/^[^:]+:/, '') || slugify(title)
   entries.push({
     name: xml?.name ?? title,
     description: xml?.description ?? '',
-    releaseyear: xml?.releaseyear ?? '',
-    releasemonth: xml?.releasemonth ?? '',
-    releaseday: xml?.releaseday ?? '',
-    developer: xml?.developer ?? '',
+    releaseyear,
+    releasemonth: sameYear ? xml.releasemonth : '',
+    releaseday: sameYear ? xml.releaseday : '',
+    developer: xml?.developer || icons?.developer || '',
+    franchise: icons?.franchise ?? '',
     genre: xml?.genre ?? '',
     users: xml?.users ?? '',
     publisher: xml?.publisher ?? '',
@@ -364,6 +439,7 @@ for (const { id, title } of scummvmGames) {
 
 entries.sort((a, b) => a.name.localeCompare(b.name))
 console.log(`Matched ${matched}/${scummvmGames.length} games to XML metadata`)
+console.log(`Matched ${iconsMatched}/${scummvmGames.length} games to scummvm-icons metadata`)
 
 writeDat(entries, OUTPUT_DAT)
 writeFileSync(OUTPUT_EXT, 'scummvm\n')
