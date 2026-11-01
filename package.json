@@ -6,7 +6,9 @@
   "description": "DAT file for libretro's ScummVM",
   "comment": "DAT file containing game files to launch ScummVM games from RetroArch.",
   "scripts": {
-    "test": "node ."
+    "build": "node .",
+    "pretest": "npm run build",
+    "test": "node --test test.js"
   },
   "homepage": "https://github.com/RobLoach/libretro-database-scummvm",
   "author": "Rob Loach (http://robloach.net)",
