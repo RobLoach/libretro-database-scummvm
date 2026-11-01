@@ -11,8 +11,8 @@ Builds libretro-database's [ScummVM.dat](https://github.com/libretro/libretro-da
    ```
 
 1. Put `ScummVM.xml` and `ScummVM SVN.xml` in the root
-1. Have network access to fetch release year, developer, and franchise metadata from [scummvm-icons](https://github.com/scummvm/scummvm-icons). If it can't be reached, the build continues without it.
+1. Run `git submodule update --init` to get release year, developer, and franchise metadata from [scummvm-icons](https://github.com/scummvm/scummvm-icons).
 1. Run Node.js to build
    ```
-   npm it
+   npm install && npm run build
    ```

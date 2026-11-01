@@ -3,3 +3,8 @@
 	url = https://github.com/libretro/libretro-database.git
 	branch = master
 	ignore = dirty
+[submodule "scummvm-icons"]
+	path = scummvm-icons
+	url = https://github.com/scummvm/scummvm-icons.git
+	branch = master
+	shallow = true
